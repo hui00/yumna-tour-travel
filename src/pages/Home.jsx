@@ -174,11 +174,13 @@ function About({ lang }) {
 
   return (
     <section className="section" id="about">
-      <div className="wrap grid gap-12 lg:grid-cols-[1fr_1.1fr] lg:items-center">
+      <div className="wrap grid gap-12 lg:grid-cols-[1.15fr_1fr] lg:items-center">
         <Figure
           image={images.about}
           lang={lang}
-          className="aspect-[5/4] w-full rounded-4xl border border-forest-900/10"
+          // Wide crop: the photo is a panorama, and a tall frame throws away
+          // the mountain on one side and the mosques on the other.
+          className="aspect-[16/10] w-full rounded-4xl border border-forest-900/10"
           patternClass="pattern-field-3"
         />
         <div>

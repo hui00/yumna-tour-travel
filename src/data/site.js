@@ -43,12 +43,38 @@ export const images = {
       id: 'Seorang perempuan berkerudung dan seorang anak duduk di tepi kolam saat matahari terbenam, memandang laut di Lombok.',
     },
   },
-  // No photo yet — the about section and every service page fall back to the
-  // geometric placeholder. Adding one is a single entry here:
-  //   about: { src: '/img/foo.jpg', alt: { en: '...', id: '...' } }
-  //   services: { 'daily-tours': { src: ..., alt: ... } }
-  about: null,
-  services: {},
+  about: {
+    src: '/img/lombok-village-sunrise.jpg',
+    alt: {
+      en: 'A Lombok village at sunrise, mosque domes among the rooftops and Mount Rinjani rising through the cloud behind it.',
+      id: 'Sebuah desa di Lombok saat matahari terbit, kubah masjid di antara atap rumah dan Gunung Rinjani menjulang di balik awan.',
+    },
+  },
+  // Keyed by service slug. Services without an entry fall back to the
+  // geometric placeholder, so adding a photo is a single entry here.
+  services: {
+    'daily-tours': {
+      src: '/img/south-coast-bay.jpg',
+      alt: {
+        en: 'A bay on the south coast of Lombok seen from a headland, reef visible through clear water and green hills beyond.',
+        id: 'Teluk di pesisir selatan Lombok dilihat dari tanjung, terumbu tampak melalui air jernih dengan perbukitan hijau di kejauhan.',
+      },
+    },
+    'ferry-fast-boat-tickets': {
+      src: '/img/south-coast-boats.jpg',
+      alt: {
+        en: 'Turquoise water over a rocky shore on Lombok, with boats moored off a green headland in the distance.',
+        id: 'Air biru kehijauan di atas pantai berbatu di Lombok, dengan perahu bersandar di dekat tanjung hijau di kejauhan.',
+      },
+    },
+    'villa-hotel-booking': {
+      src: '/img/valley-sea-view.jpg',
+      alt: {
+        en: 'The view from a balcony on Lombok across coconut palms and rice fields to the sea and the hills.',
+        id: 'Pemandangan dari balkon di Lombok melintasi pohon kelapa dan sawah menuju laut dan perbukitan.',
+      },
+    },
+  },
 };
 
 export const waLink = (message) =>

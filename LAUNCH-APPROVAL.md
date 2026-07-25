@@ -24,11 +24,14 @@ That is deliberate and does not need approval.
 - [ ] **Add the GOOGLE_MAPS_API_KEY repository secret**
       Without it, the weekly review workflow cannot run and the reviews section stays empty. Optionally also set the GOOGLE_PLACE_ID repository variable so the lookup does not depend on the listing name.
 
-- [ ] **Confirm the hero photograph may be published**
-      The home page uses one real photograph: a woman in a headscarf and a child by a pool at sunset, both seen from behind. Nobody is identifiable, but it still needs to be an image Yumna is allowed to use commercially. Photographs in which people ARE identifiable need their consent, and for children their guardians' — which is why none are used.
+- [ ] **Confirm the five photographs may be published**
+      In use: the hero (woman and child by a pool at sunset, seen from behind), the about section (village at sunrise below Rinjani), Daily Tours (south coast bay), Ferry & Fast Boat (rocky shore with boats), Villa & Hotel Booking (view from a balcony). No individual is identifiable in any of them — deliberately so: publishing a recognisable person needs their consent, and for a child their guardian's. All five still need to be images Yumna is allowed to use commercially.
+
+- [ ] **A photograph for the Islamic Heritage Tour is the biggest gap**
+      This is the page that differentiates Yumna from every other operator on Lombok, and it currently shows a geometric pattern. It needs a photograph of an actual mosque — the Islamic Center in Mataram, or one of the historic village mosques. Higher priority than the other missing images.
 
 - [ ] **Replace the remaining placeholder artwork**
-      The about section and all ten service pages render a geometric pattern instead of a photograph. Real photos from Muhajir would beat stock in every respect — he has years of them. Needed: one wide image for the about section and one per service. Adding one is a single entry in `images` in src/data/site.js.
+      Seven service pages still render a geometric pattern: airport transfer, Islamic heritage, scooter and car rental, Rinjani trekking, jet ski, multi-day packages, tailor-made itineraries. Real photos from Muhajir would beat stock in every respect — he has years of them. Adding one is a single entry in `images.services` in src/data/site.js.
 
 - [ ] **Confirm the contact channel**
       The site offers WhatsApp only, on +62 819-1721-6873. No email address appears anywhere. Confirm that is intended and that the number is correct.
@@ -141,4 +144,4 @@ That is deliberate and does not need approval.
 
 ---
 
-60 items in total.
+61 items in total.
