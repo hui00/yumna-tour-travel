@@ -121,6 +121,33 @@ export const images = {
         modified: 'resized',
       },
     },
+    // Unsplash License — free for commercial use, attribution not required
+    // (unlike the two Wikimedia photos above, which is why these carry no
+    // `credit` block). Photographers, for the record: filipe-freitas
+    // (sembalun-valley), anca (rinjani-valley-view), fransisca-zagita
+    // (gili-boats).
+    'multi-day-packages': {
+      src: '/img/sembalun-valley.jpg',
+      alt: {
+        en: 'Steep green volcanic ridges falling to a patchwork of rice and vegetable fields near Rinjani, Lombok.',
+        id: 'Punggungan vulkanik hijau yang curam menurun ke petak-petak sawah dan ladang sayur dekat Rinjani, Lombok.',
+      },
+    },
+    'tailor-made-itinerary': {
+      src: '/img/rinjani-valley-view.jpg',
+      alt: {
+        en: 'A grass-covered volcanic peak above a valley of rice terraces on Lombok, a small field shelter in the foreground.',
+        id: 'Puncak vulkanik berumput di atas lembah sawah berundak di Lombok, dengan gubuk ladang kecil di latar depan.',
+      },
+    },
+    'jet-ski-rental': {
+      // Placeholder, not a literal jet ski — see LAUNCH-APPROVAL.md.
+      src: '/img/gili-boats.jpg',
+      alt: {
+        en: 'Small wooden boats anchored in the clear turquoise water off the Gili islands, Lombok\'s coastline in the distance.',
+        id: 'Perahu-perahu kayu kecil berlabuh di air jernih kehijauan lepas pantai Gili, dengan garis pantai Lombok di kejauhan.',
+      },
+    },
     'villa-hotel-booking': {
       src: '/img/valley-sea-view.jpg',
       alt: {

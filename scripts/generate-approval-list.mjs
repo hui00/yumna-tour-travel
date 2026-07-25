@@ -42,7 +42,7 @@ const blocking = [
   },
   {
     title: 'Replace the remaining placeholder artwork',
-    body: 'Three service pages still render a geometric pattern: jet ski, multi-day packages, tailor-made itineraries. These are the hardest to source a generic photo for — they are about Muhajir\'s own service rather than a fixed place, so only his own photos will really fit. Real photos from Muhajir would beat stock in every respect. Adding one is a single entry in `images.services` in src/data/site.js.',
+    body: 'Every service page now has a photo. Two of the last three are landscape stock (Unsplash, no attribution required) standing in for a place rather than the actual service: Multi-Day Packages and Tailor-Made Itinerary show Rinjani-area valley views because those pages are about the whole island, not one fixed spot. The Jet Ski Rental photo is the weakest fit — it shows Gili boats, not a jet ski at all, because no such photo exists yet. Replace it first when Muhajir has one.',
   },
   {
     title: 'Confirm the "For Muslim guests" note on every service page',
