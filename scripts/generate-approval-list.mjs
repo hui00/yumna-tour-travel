@@ -29,16 +29,16 @@ const blocking = [
     body: 'Without it, the weekly review workflow cannot run and the reviews section stays empty. Optionally also set the GOOGLE_PLACE_ID repository variable so the lookup does not depend on the listing name.',
   },
   {
-    title: 'Confirm the five photographs may be published',
+    title: 'Confirm Yumna\'s own five photographs may be published',
     body: 'In use: the hero (woman and child by a pool at sunset, seen from behind), the about section (village at sunrise below Rinjani), Daily Tours (south coast bay), Ferry & Fast Boat (rocky shore with boats), Villa & Hotel Booking (view from a balcony). No individual is identifiable in any of them — deliberately so: publishing a recognisable person needs their consent, and for a child their guardian\'s. All five still need to be images Yumna is allowed to use commercially.',
   },
   {
-    title: 'A photograph for the Islamic Heritage Tour is the biggest gap',
-    body: 'This is the page that differentiates Yumna from every other operator on Lombok, and it currently shows a geometric pattern. It needs a photograph of an actual mosque — the Islamic Center in Mataram, or one of the historic village mosques. Higher priority than the other missing images.',
+    title: 'Do not strip the credit under the Islamic Heritage Tour photo',
+    body: 'That one image is not Yumna\'s. It is "Islamic Center Mataram, Lombok" by Si Gam from Wikimedia Commons, used under CC BY 4.0. The licence permits commercial use and costs nothing, but only as long as the credit line stays visible next to the image: title, author, licence, and the note that it was resized. Removing that caption turns a legal use into an infringement. Replacing it with a photo of Muhajir\'s own would remove the obligation entirely.',
   },
   {
     title: 'Replace the remaining placeholder artwork',
-    body: 'Seven service pages still render a geometric pattern: airport transfer, Islamic heritage, scooter and car rental, Rinjani trekking, jet ski, multi-day packages, tailor-made itineraries. Real photos from Muhajir would beat stock in every respect — he has years of them. Adding one is a single entry in `images.services` in src/data/site.js.',
+    body: 'Six service pages still render a geometric pattern: airport transfer, scooter and car rental, Rinjani trekking, jet ski, multi-day packages, tailor-made itineraries. Real photos from Muhajir would beat stock in every respect — he has years of them. Adding one is a single entry in `images.services` in src/data/site.js.',
   },
   {
     title: 'Confirm the "For Muslim guests" note on every service page',

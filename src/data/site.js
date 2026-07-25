@@ -67,6 +67,26 @@ export const images = {
         id: 'Air biru kehijauan di atas pantai berbatu di Lombok, dengan perahu bersandar di dekat tanjung hijau di kejauhan.',
       },
     },
+    // The only image on the site that is not Yumna's own. CC BY 4.0 requires
+    // creator, title, source, licence and a note that it was changed — all of
+    // which the `credit` block renders next to the image. Do not drop it.
+    'islamic-heritage-tour': {
+      src: '/img/islamic-center-mataram.jpg',
+      alt: {
+        en: 'The Islamic Center in Mataram, Lombok: a patterned dome flanked by tall minarets against a cloudy sky.',
+        id: 'Islamic Center di Mataram, Lombok: kubah bermotif diapit menara tinggi dengan langit berawan.',
+      },
+      credit: {
+        title: 'Islamic Center Mataram, Lombok',
+        sourceUrl:
+          'https://commons.wikimedia.org/wiki/File:Islamic_Center_Mataram,_Lombok.jpg',
+        author: 'Si Gam',
+        authorUrl: 'https://commons.wikimedia.org/wiki/User:Si_Gam',
+        license: 'CC BY 4.0',
+        licenseUrl: 'https://creativecommons.org/licenses/by/4.0/',
+        modified: 'resized',
+      },
+    },
     'villa-hotel-booking': {
       src: '/img/valley-sea-view.jpg',
       alt: {
