@@ -4,8 +4,9 @@
  * once.
  */
 
-// GitHub Pages project site. Change to '/' when a custom domain is set up.
-export const BASE = '/yumna-tour-travel/';
+// Served from the custom domain yumnalombok.com, so the site lives at the
+// root. (Was '/yumna-tour-travel/' while on the github.io project URL.)
+export const BASE = '/';
 
 export const homeUrl = (lang) => (lang === 'en' ? BASE : `${BASE}${lang}/`);
 

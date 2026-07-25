@@ -21,9 +21,9 @@ export const site = {
     postalCode: '83362',
     country: 'Indonesia',
   },
-  // Set once the repo is renamed and Pages is live. `origin` plus the paths
-  // from src/lib/urls.js make up every absolute URL on the site.
-  origin: 'https://hui00.github.io',
+  // `origin` plus the paths from src/lib/urls.js make up every absolute URL
+  // on the site.
+  origin: 'https://yumnalombok.com',
   googleMapsUri:
     'https://www.google.com/maps/search/?api=1&query=Lampak-Lampak+Lombok+Tour+and+Travel+Ombe+Baru+Kediri',
 };

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hui00.github.io/yumna-tour-travel/sitemap.xml
+Sitemap: https://yumnalombok.com/sitemap.xml

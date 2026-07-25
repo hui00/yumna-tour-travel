@@ -22,7 +22,7 @@ const blocking = [
   },
   {
     title: 'Add the website to the Google listing',
-    body: 'The listing has no website set — the "Add website" prompt is still empty. Google Maps is currently the only way anyone finds this business, so the site is close to invisible until the URL is filled in.',
+    body: 'The listing has no website set — the "Add website" prompt is still empty. Google Maps is currently the only way anyone finds this business, so the site is close to invisible until the URL is filled in. Use https://yumnalombok.com — not the github.io address.',
   },
   {
     title: 'Add the GOOGLE_MAPS_API_KEY repository secret',

@@ -50,15 +50,17 @@ npm run approval   # regenerate LAUNCH-APPROVAL.md from the service data
 Pushing to `main` (or `master`) builds and publishes to GitHub Pages via
 `.github/workflows/deploy-pages.yml`.
 
-One-time setup in the repository settings:
+The site is served at **https://yumnalombok.com** (Cloudflare Registrar →
+GitHub Pages). The pieces that make that work:
 
-1. Rename the repository to `yumna-tour-travel`. The base path in
-   `src/lib/urls.js` assumes that name.
-2. Settings → Pages → set **Build and deployment** to **GitHub Actions**.
-
-For a custom domain later: set `BASE` in `src/lib/urls.js` to `/`, update
-`site.origin` in `src/data/site.js` and the `Sitemap:` line in
-`public/robots.txt`, and add a `public/CNAME` file.
+- `public/CNAME` tells GitHub Pages which domain to answer for.
+- `BASE = '/'` in `src/lib/urls.js` and `origin` in `src/data/site.js` — all
+  URLs are built from these two values.
+- DNS at Cloudflare: apex `A` records to GitHub Pages
+  (185.199.108.153/.109/.110/.111) and `www` CNAME to `hui00.github.io`,
+  both **DNS only** (grey cloud) so GitHub can issue the TLS certificate.
+- The old `hui00.github.io/yumna-tour-travel` URL redirects to the domain
+  automatically once the custom domain is active.
 
 ## Google reviews
 
