@@ -7,7 +7,20 @@ import React from 'react';
  * itself, in dev and in the build. Do not prepend BASE here — it gets applied
  * twice.
  */
-export default function Figure({ image, lang, className, patternClass, priority = false }) {
+/**
+ * `insideLink` MUST be set when the Figure sits inside an <a> (e.g. a card):
+ * the credit is then rendered as plain text, because nesting an <a> inside an
+ * <a> is invalid HTML — the parser splits the outer anchor and scrambles the
+ * surrounding layout.
+ */
+export default function Figure({
+  image,
+  lang,
+  className,
+  patternClass,
+  priority = false,
+  insideLink = false,
+}) {
   if (!image) {
     return <div className={`${className} ${patternClass}`} />;
   }
@@ -31,6 +44,18 @@ export default function Figure({ image, lang, className, patternClass, priority 
   // Licences like CC BY require the credit to travel with the image, so it is
   // rendered next to it rather than hidden away on a separate page.
   const { author, authorUrl, title, sourceUrl, license, licenseUrl, modified } = image.credit;
+
+  if (insideLink) {
+    return (
+      <figure className="w-full">
+        {img}
+        <figcaption className="px-6 pt-2 text-[0.65rem] leading-relaxed text-forest-800/45">
+          {title} · {author} · {license}
+          {modified ? ` · ${modified}` : null}
+        </figcaption>
+      </figure>
+    );
+  }
 
   return (
     <figure className="w-full">

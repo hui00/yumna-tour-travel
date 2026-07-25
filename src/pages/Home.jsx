@@ -110,6 +110,7 @@ function Services({ lang }) {
                   <Figure
                     image={images.services[service.slug]}
                     lang={lang}
+                    insideLink
                     className="h-32 w-full"
                     patternClass={service.order % 2 ? 'pattern-field' : 'pattern-field-3'}
                   />
