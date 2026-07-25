@@ -37,12 +37,12 @@ const blocking = [
     body: 'Rinjani Trekking (village at sunrise below the mountain), Daily Tours (south coast bay), Ferry & Fast Boat (rocky shore with boats), Villa & Hotel Booking (view from a balcony), Scooter & Car Rental (rental scooter with a surfboard rack, licence plate pixelated). No individual is identifiable in any of these. All still need to be images Yumna is allowed to use commercially.',
   },
   {
-    title: 'Do not strip the credit under the Islamic Heritage Tour photo',
-    body: 'That one image is not Yumna\'s. It is "Islamic Center Mataram, Lombok" by Si Gam from Wikimedia Commons, used under CC BY 4.0. The licence permits commercial use and costs nothing, but only as long as the credit line stays visible next to the image: title, author, licence, and the note that it was resized. Removing that caption turns a legal use into an infringement. Replacing it with a photo of Muhajir\'s own would remove the obligation entirely.',
+    title: 'Do not strip the credit under the Islamic Heritage Tour or Airport Transfer photos',
+    body: 'Two images are not Yumna\'s own: "Islamic Center Mataram, Lombok" by Si Gam (CC BY 4.0) and "Lombok International Airport" by Ezagren (Wikimedia\'s Attribution licence). Both licences permit commercial use and cost nothing, but only as long as the credit line stays visible next to each image: title, author, licence, and the note that it was resized. Removing either caption turns a legal use into an infringement. Replacing either with a photo of Muhajir\'s own would remove the obligation entirely — the airport photo is also a decade old (2012) and shows dated ground equipment, so a current photo of the actual arrivals area would be a real improvement, not just a licensing nicety.',
   },
   {
     title: 'Replace the remaining placeholder artwork',
-    body: 'Six service pages still render a geometric pattern: airport transfer, scooter and car rental, Rinjani trekking, jet ski, multi-day packages, tailor-made itineraries. Real photos from Muhajir would beat stock in every respect — he has years of them. Adding one is a single entry in `images.services` in src/data/site.js.',
+    body: 'Three service pages still render a geometric pattern: jet ski, multi-day packages, tailor-made itineraries. These are the hardest to source a generic photo for — they are about Muhajir\'s own service rather than a fixed place, so only his own photos will really fit. Real photos from Muhajir would beat stock in every respect. Adding one is a single entry in `images.services` in src/data/site.js.',
   },
   {
     title: 'Confirm the "For Muslim guests" note on every service page',

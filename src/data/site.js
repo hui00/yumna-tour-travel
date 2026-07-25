@@ -53,6 +53,25 @@ export const images = {
   // Keyed by service slug. Services without an entry fall back to the
   // geometric placeholder, so adding a photo is a single entry here.
   services: {
+    // The second image on the site that is not Yumna's own — see the credit
+    // block below and the note on islamic-heritage-tour for why the caption
+    // matters legally, not just stylistically.
+    'airport-harbour-transfer': {
+      src: '/img/lombok-airport-terminal.jpg',
+      alt: {
+        en: 'The terminal building of Lombok International Airport, its name lettered across the glass facade.',
+        id: 'Gedung terminal Bandara Internasional Lombok, dengan nama bandara terpampang di fasad kaca.',
+      },
+      credit: {
+        title: 'Lombok International Airport',
+        sourceUrl: 'https://commons.wikimedia.org/wiki/File:Lombok_International_Airport.jpg',
+        author: 'Ezagren',
+        authorUrl: 'https://commons.wikimedia.org/wiki/User:Ezagren',
+        license: 'Wikimedia Attribution license',
+        licenseUrl: 'https://commons.wikimedia.org/wiki/Template:Attribution',
+        modified: 'resized',
+      },
+    },
     'rinjani-trekking': {
       src: '/img/lombok-village-sunrise.jpg',
       alt: {
