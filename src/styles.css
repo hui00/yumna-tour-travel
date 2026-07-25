@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    @apply bg-sand-50 text-forest-900 antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+    letter-spacing: -0.015em;
+  }
+
+  /* Keyboard focus must stay visible — the whole site is links and buttons. */
+  :focus-visible {
+    @apply outline-none ring-2 ring-clay-600 ring-offset-2 ring-offset-sand-50;
+  }
+}
+
+@layer components {
+  .wrap {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+  }
+
+  .section {
+    @apply py-16 sm:py-24;
+  }
+
+  .eyebrow {
+    @apply mb-3 inline-block text-xs font-semibold uppercase tracking-[0.18em] text-clay-700;
+  }
+
+  .prose-body p {
+    @apply mb-4 last:mb-0;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold
+           transition-colors duration-200;
+  }
+
+  .btn-primary {
+    @apply btn bg-forest-700 text-sand-50 hover:bg-forest-800;
+  }
+
+  .btn-secondary {
+    @apply btn border border-forest-700/25 bg-transparent text-forest-800 hover:bg-forest-700/5;
+  }
+
+  .link-underline {
+    @apply underline decoration-clay-500/40 underline-offset-4 transition-colors hover:decoration-clay-600;
+  }
+
+  .card {
+    @apply flex h-full flex-col overflow-hidden rounded-3xl border border-forest-900/10 bg-white
+           transition-shadow duration-200 hover:shadow-lg hover:shadow-forest-900/5;
+  }
+}
+
+/*
+ * Placeholder artwork. Every photo slot on the site renders this geometric
+ * field instead of a stock image — see LAUNCH-APPROVAL.md. It is deliberately
+ * decorative rather than a grey box, so the layout reads as finished while the
+ * real photography is still missing.
+ */
+.pattern-field {
+  background-color: theme('colors.sand.100');
+  background-image:
+    radial-gradient(circle at 50% 50%, theme('colors.clay.200') 0, transparent 55%),
+    conic-gradient(
+      from 45deg at 50% 50%,
+      theme('colors.forest.200') 0deg 90deg,
+      transparent 90deg 180deg,
+      theme('colors.forest.200') 180deg 270deg,
+      transparent 270deg 360deg
+    );
+  background-size:
+    100% 100%,
+    56px 56px;
+}
+
+.pattern-field-2 {
+  background-color: theme('colors.forest.50');
+  background-image:
+    linear-gradient(135deg, theme('colors.forest.200') 25%, transparent 25%),
+    linear-gradient(225deg, theme('colors.forest.200') 25%, transparent 25%),
+    linear-gradient(45deg, theme('colors.sand.200') 25%, transparent 25%),
+    linear-gradient(315deg, theme('colors.sand.200') 25%, transparent 25%);
+  background-position:
+    24px 0,
+    24px 0,
+    0 0,
+    0 0;
+  background-size: 48px 48px;
+}
+
+.pattern-field-3 {
+  background-color: theme('colors.sand.100');
+  background-image:
+    repeating-linear-gradient(
+      60deg,
+      theme('colors.clay.200') 0 2px,
+      transparent 2px 26px
+    ),
+    repeating-linear-gradient(
+      -60deg,
+      theme('colors.clay.200') 0 2px,
+      transparent 2px 26px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      theme('colors.forest.200') 0 2px,
+      transparent 2px 26px
+    );
+}

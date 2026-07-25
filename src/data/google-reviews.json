@@ -1,0 +1,10 @@
+{
+  "source": "Google Maps",
+  "placeId": null,
+  "googleMapsUri": "https://www.google.com/maps/search/?api=1&query=Lampak-Lampak+Lombok+Tour+and+Travel+Ombe+Baru+Kediri",
+  "rating": 5,
+  "reviewCount": 6,
+  "updatedAt": null,
+  "reviews": [],
+  "_note": "Rating and review count are taken from the live Google listing. The reviews array is intentionally empty: guest review texts are written by real people and are not invented here. Run `npm run reviews:update` with GOOGLE_MAPS_API_KEY set, or let the weekly workflow fill it in."
+}
