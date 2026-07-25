@@ -67,6 +67,14 @@ export const images = {
         id: 'Air biru kehijauan di atas pantai berbatu di Lombok, dengan perahu bersandar di dekat tanjung hijau di kejauhan.',
       },
     },
+    'scooter-car-rental': {
+      // Licence plate pixelated before publishing.
+      src: '/img/scooter-surf-rack.jpg',
+      alt: {
+        en: 'A rental scooter with a surfboard strapped to a side rack, parked on a paved street on Lombok.',
+        id: 'Motor sewaan dengan papan selancar terpasang di rak samping, parkir di jalan berpaving di Lombok.',
+      },
+    },
     // The only image on the site that is not Yumna's own. CC BY 4.0 requires
     // creator, title, source, licence and a note that it was changed — all of
     // which the `credit` block renders next to the image. Do not drop it.
