@@ -29,8 +29,12 @@ const blocking = [
     body: 'Without it, the weekly review workflow cannot run and the reviews section stays empty. Optionally also set the GOOGLE_PLACE_ID repository variable so the lookup does not depend on the listing name.',
   },
   {
-    title: 'Confirm Yumna\'s own five photographs may be published',
-    body: 'In use: the hero (woman and child by a pool at sunset, seen from behind), the about section (village at sunrise below Rinjani), Daily Tours (south coast bay), Ferry & Fast Boat (rocky shore with boats), Villa & Hotel Booking (view from a balcony). No individual is identifiable in any of them — deliberately so: publishing a recognisable person needs their consent, and for a child their guardian\'s. All five still need to be images Yumna is allowed to use commercially.',
+    title: 'CONSENT — the about-section photo shows four identifiable children',
+    body: 'The about section now uses a photo of Muhajir laughing in a pool with four children, all clearly recognisable, in swimwear. This was a deliberate decision by the site owner to publish it without prior consent — a crop that removed the children was tried and did not work, since they are physically draped on Muhajir on both sides. Publishing an identifiable minor on a commercial website needs their guardian\'s consent. Get that in writing from all four children\'s parents, or replace the photo with one of Muhajir alone or with adults only, before this page is treated as final. This is the single highest-priority item on this list.',
+  },
+  {
+    title: 'Confirm the remaining photographs may be published',
+    body: 'Rinjani Trekking (village at sunrise below the mountain), Daily Tours (south coast bay), Ferry & Fast Boat (rocky shore with boats), Villa & Hotel Booking (view from a balcony), Scooter & Car Rental (rental scooter with a surfboard rack, licence plate pixelated). No individual is identifiable in any of these. All still need to be images Yumna is allowed to use commercially.',
   },
   {
     title: 'Do not strip the credit under the Islamic Heritage Tour photo',

@@ -44,15 +44,22 @@ export const images = {
     },
   },
   about: {
-    src: '/img/lombok-village-sunrise.jpg',
+    src: '/img/muhajir-with-guests.jpg',
     alt: {
-      en: 'A Lombok village at sunrise, mosque domes among the rooftops and Mount Rinjani rising through the cloud behind it.',
-      id: 'Sebuah desa di Lombok saat matahari terbit, kubah masjid di antara atap rumah dan Gunung Rinjani menjulang di balik awan.',
+      en: 'Muhajir laughing in the water with a group of children during a family outing on Lombok.',
+      id: 'Muhajir tertawa di air bersama sekelompok anak saat berlibur keluarga di Lombok.',
     },
   },
   // Keyed by service slug. Services without an entry fall back to the
   // geometric placeholder, so adding a photo is a single entry here.
   services: {
+    'rinjani-trekking': {
+      src: '/img/lombok-village-sunrise.jpg',
+      alt: {
+        en: 'A Lombok village at sunrise, mosque domes among the rooftops and Mount Rinjani rising through the cloud behind it.',
+        id: 'Sebuah desa di Lombok saat matahari terbit, kubah masjid di antara atap rumah dan Gunung Rinjani menjulang di balik awan.',
+      },
+    },
     'daily-tours': {
       src: '/img/south-coast-bay.jpg',
       alt: {

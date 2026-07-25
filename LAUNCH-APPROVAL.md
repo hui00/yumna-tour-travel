@@ -24,8 +24,11 @@ That is deliberate and does not need approval.
 - [ ] **Add the GOOGLE_MAPS_API_KEY repository secret**
       Without it, the weekly review workflow cannot run and the reviews section stays empty. Optionally also set the GOOGLE_PLACE_ID repository variable so the lookup does not depend on the listing name.
 
-- [ ] **Confirm Yumna's own five photographs may be published**
-      In use: the hero (woman and child by a pool at sunset, seen from behind), the about section (village at sunrise below Rinjani), Daily Tours (south coast bay), Ferry & Fast Boat (rocky shore with boats), Villa & Hotel Booking (view from a balcony). No individual is identifiable in any of them — deliberately so: publishing a recognisable person needs their consent, and for a child their guardian's. All five still need to be images Yumna is allowed to use commercially.
+- [ ] **CONSENT — the about-section photo shows four identifiable children**
+      The about section now uses a photo of Muhajir laughing in a pool with four children, all clearly recognisable, in swimwear. This was a deliberate decision by the site owner to publish it without prior consent — a crop that removed the children was tried and did not work, since they are physically draped on Muhajir on both sides. Publishing an identifiable minor on a commercial website needs their guardian's consent. Get that in writing from all four children's parents, or replace the photo with one of Muhajir alone or with adults only, before this page is treated as final. This is the single highest-priority item on this list.
+
+- [ ] **Confirm the remaining photographs may be published**
+      Rinjani Trekking (village at sunrise below the mountain), Daily Tours (south coast bay), Ferry & Fast Boat (rocky shore with boats), Villa & Hotel Booking (view from a balcony), Scooter & Car Rental (rental scooter with a surfboard rack, licence plate pixelated). No individual is identifiable in any of these. All still need to be images Yumna is allowed to use commercially.
 
 - [ ] **Do not strip the credit under the Islamic Heritage Tour photo**
       That one image is not Yumna's. It is "Islamic Center Mataram, Lombok" by Si Gam from Wikimedia Commons, used under CC BY 4.0. The licence permits commercial use and costs nothing, but only as long as the credit line stays visible next to the image: title, author, licence, and the note that it was resized. Removing that caption turns a legal use into an infringement. Replacing it with a photo of Muhajir's own would remove the obligation entirely.
@@ -147,4 +150,4 @@ That is deliberate and does not need approval.
 
 ---
 
-62 items in total.
+63 items in total.
