@@ -3,7 +3,8 @@ import Layout, { CtaBand } from '../components/Layout.jsx';
 import { ArrowIcon, CheckIcon, StarIcon, WhatsAppIcon } from '../components/Icons.jsx';
 import reviewData from '../data/google-reviews.json';
 import { services } from '../data/services.js';
-import { site, ui, waLink } from '../data/site.js';
+import Figure from '../components/Figure.jsx';
+import { images, site, ui, waLink } from '../data/site.js';
 import { serviceUrl } from '../lib/urls.js';
 
 function Hero({ lang }) {
@@ -44,7 +45,13 @@ function Hero({ lang }) {
           </div>
         </div>
 
-        <div className="pattern-field-2 aspect-[4/3] rounded-4xl border border-forest-900/10 lg:aspect-square" />
+        <Figure
+          image={images.hero}
+          lang={lang}
+          priority
+          className="aspect-[4/3] w-full rounded-4xl border border-forest-900/10 lg:aspect-square"
+          patternClass="pattern-field-2"
+        />
       </div>
     </section>
   );
@@ -100,8 +107,11 @@ function Services({ lang }) {
             return (
               <li key={service.slug}>
                 <a href={serviceUrl(lang, service.slug)} className="card group">
-                  <div
-                    className={`h-32 ${service.order % 2 ? 'pattern-field' : 'pattern-field-3'}`}
+                  <Figure
+                    image={images.services[service.slug]}
+                    lang={lang}
+                    className="h-32 w-full"
+                    patternClass={service.order % 2 ? 'pattern-field' : 'pattern-field-3'}
                   />
                   <div className="flex flex-1 flex-col p-6">
                     <h3 className="font-display text-lg font-semibold text-forest-900">
@@ -165,7 +175,12 @@ function About({ lang }) {
   return (
     <section className="section" id="about">
       <div className="wrap grid gap-12 lg:grid-cols-[1fr_1.1fr] lg:items-center">
-        <div className="pattern-field-3 aspect-[5/4] rounded-4xl border border-forest-900/10" />
+        <Figure
+          image={images.about}
+          lang={lang}
+          className="aspect-[5/4] w-full rounded-4xl border border-forest-900/10"
+          patternClass="pattern-field-3"
+        />
         <div>
           <span className="eyebrow">{t.about.eyebrow}</span>
           <h2 className="font-display text-3xl font-semibold text-forest-900 sm:text-4xl">

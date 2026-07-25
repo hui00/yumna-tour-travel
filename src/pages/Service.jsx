@@ -1,8 +1,9 @@
 import React from 'react';
 import Layout, { CtaBand } from '../components/Layout.jsx';
+import Figure from '../components/Figure.jsx';
 import { ArrowIcon, CheckIcon, WhatsAppIcon } from '../components/Icons.jsx';
 import { services } from '../data/services.js';
-import { ui, waLink } from '../data/site.js';
+import { images, ui, waLink } from '../data/site.js';
 import { homeUrl, serviceUrl } from '../lib/urls.js';
 
 export default function Service({ lang, slug }) {
@@ -44,10 +45,12 @@ export default function Service({ lang, slug }) {
                 </div>
               </div>
 
-              <div
-                className={`aspect-[4/3] rounded-4xl border border-forest-900/10 ${
-                  service.order % 2 ? 'pattern-field-2' : 'pattern-field'
-                }`}
+              <Figure
+                image={images.services[slug]}
+                lang={lang}
+                priority
+                className="aspect-[4/3] w-full rounded-4xl border border-forest-900/10"
+                patternClass={service.order % 2 ? 'pattern-field-2' : 'pattern-field'}
               />
             </div>
           </div>

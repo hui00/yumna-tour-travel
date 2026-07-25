@@ -28,6 +28,29 @@ export const site = {
     'https://www.google.com/maps/search/?api=1&query=Lampak-Lampak+Lombok+Tour+and+Travel+Ombe+Baru+Kediri',
 };
 
+/**
+ * Real photographs. Slots without an entry here fall back to the geometric
+ * pattern placeholder — see LAUNCH-APPROVAL.md.
+ *
+ * Paths are root-relative; Vite prepends the base path. `services` is keyed by
+ * service slug, so adding a photo for a service is a one-line change.
+ */
+export const images = {
+  hero: {
+    src: '/img/hero-sunset.jpg',
+    alt: {
+      en: 'A woman in a headscarf and a child sitting by a pool at sunset, looking out over the sea on Lombok.',
+      id: 'Seorang perempuan berkerudung dan seorang anak duduk di tepi kolam saat matahari terbenam, memandang laut di Lombok.',
+    },
+  },
+  // No photo yet — the about section and every service page fall back to the
+  // geometric placeholder. Adding one is a single entry here:
+  //   about: { src: '/img/foo.jpg', alt: { en: '...', id: '...' } }
+  //   services: { 'daily-tours': { src: ..., alt: ... } }
+  about: null,
+  services: {},
+};
+
 export const waLink = (message) =>
   `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(message)}`;
 

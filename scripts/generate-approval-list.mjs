@@ -29,8 +29,12 @@ const blocking = [
     body: 'Without it, the weekly review workflow cannot run and the reviews section stays empty. Optionally also set the GOOGLE_PLACE_ID repository variable so the lookup does not depend on the listing name.',
   },
   {
-    title: 'Replace the placeholder artwork',
-    body: 'Every photo slot on the site currently renders a geometric pattern rather than a photograph. Real photos from Muhajir would be better than stock in every respect — he has years of them. Needed: one wide image for the home page hero, one for the about section, and one per service page (ten in total).',
+    title: 'Confirm the hero photograph may be published',
+    body: 'The home page uses one real photograph: a woman in a headscarf and a child by a pool at sunset, both seen from behind. Nobody is identifiable, but it still needs to be an image Yumna is allowed to use commercially. Photographs in which people ARE identifiable need their consent, and for children their guardians\' — which is why none are used.',
+  },
+  {
+    title: 'Replace the remaining placeholder artwork',
+    body: 'The about section and all ten service pages render a geometric pattern instead of a photograph. Real photos from Muhajir would beat stock in every respect — he has years of them. Needed: one wide image for the about section and one per service. Adding one is a single entry in `images` in src/data/site.js.',
   },
   {
     title: 'Confirm the contact channel',
