@@ -45,7 +45,7 @@ export const services = [
         },
       ],
       muslimNote:
-        'Landing at prayer time is normal and it is not a problem. Send us your flight number and we will either wait while you pray at the airport musholla or plan a stop at a mosque on the way — whichever you prefer.',
+        'If you land at prayer time, pray — the musholla is inside the terminal and the driver waits without being asked. And after a long flight, say the word and the first stop is a proper halal meal instead of a hotel minibar.',
       whatsapp:
         "Hi Yumna, I'd like to arrange an airport transfer. My flight arrives on [date] at [time], we are [number] people.",
       seo: {
@@ -79,7 +79,7 @@ export const services = [
         },
       ],
       muslimNote:
-        'Mendarat saat waktu salat itu biasa dan bukan masalah. Kirim nomor penerbangan Anda, dan kami akan menunggu selama Anda salat di musala bandara atau merencanakan singgah di masjid dalam perjalanan — sesuai keinginan Anda.',
+        'Bila Anda mendarat saat waktu salat, salatlah — musala ada di dalam terminal dan sopir menunggu tanpa perlu diminta. Dan setelah penerbangan panjang, bilang saja: pemberhentian pertama bisa berupa makanan halal yang layak, bukan minibar hotel.',
       whatsapp:
         'Halo Yumna, saya ingin memesan transfer bandara. Penerbangan saya tiba tanggal [tanggal] pukul [jam], kami [jumlah] orang.',
       seo: {
@@ -135,7 +135,7 @@ export const services = [
         },
       ],
       muslimNote:
-        'Every route is planned so that prayer times fall near a mosque, and the lunch stop is somewhere we would eat ourselves. If you would rather pray at a particular mosque or skip a stop, say so and the route changes.',
+        'Lombok is a Muslim-majority island, so halal is the default here, not a special request. What we add is judgement: the warungs locals actually queue at, ayam taliwang made the way it should be, and honest advice when a tourist restaurant is better skipped.',
       whatsapp:
         "Hi Yumna, I'm interested in a day tour on [date]. We are [number] people. We'd like to see [Sasak villages / waterfalls / the city / the Gili islands].",
       seo: {
@@ -177,7 +177,7 @@ export const services = [
         },
       ],
       muslimNote:
-        'Setiap rute disusun agar waktu salat jatuh di dekat masjid, dan tempat makan siangnya adalah tempat yang kami sendiri makan di sana. Bila Anda ingin salat di masjid tertentu atau melewati satu titik, rute kami ubah.',
+        'Lombok adalah pulau berpenduduk mayoritas Muslim, jadi halal di sini adalah hal yang lumrah, bukan permintaan khusus. Yang kami tambahkan adalah pertimbangan: warung yang benar-benar diantre warga lokal, ayam taliwang yang dimasak semestinya, dan saran jujur bila sebuah restoran turis lebih baik dilewati.',
       whatsapp:
         'Halo Yumna, saya tertarik tur harian tanggal [tanggal]. Kami [jumlah] orang. Kami ingin ke [desa Sasak / air terjun / kota / Gili].',
       seo: {
@@ -306,7 +306,7 @@ export const services = [
         },
       ],
       muslimNote:
-        'Renting with a driver means prayer stops are simply part of the day. Tell him the times that matter to you at the start and he will plan the route around them.',
+        'One thing worth knowing if you are driving yourself: on Friday around midday the roads near any larger mosque fill up and then empty again. Nothing to worry about — just do not plan a tight schedule through a town at that hour.',
       whatsapp:
         "Hi Yumna, I'd like to rent a [scooter / car] from [date] to [date]. [With / without] a driver.",
       seo: {
@@ -340,7 +340,7 @@ export const services = [
         },
       ],
       muslimNote:
-        'Menyewa dengan sopir berarti waktu salat otomatis menjadi bagian dari hari Anda. Sampaikan jam-jam yang penting bagi Anda sejak awal, dan rutenya akan disesuaikan.',
+        'Satu hal yang perlu diketahui bila Anda menyetir sendiri: pada Jumat menjelang tengah hari, jalan di sekitar masjid besar akan padat lalu lengang kembali. Bukan masalah — hanya jangan menyusun jadwal yang mepet melewati kota pada jam itu.',
       whatsapp:
         'Halo Yumna, saya ingin menyewa [motor / mobil] dari tanggal [tanggal] sampai [tanggal]. [Dengan / tanpa] sopir.',
       seo: {
@@ -387,7 +387,7 @@ export const services = [
         },
       ],
       muslimNote:
-        'Harbours are busy places and departure times move. If a crossing overlaps a prayer time we will tell you before you book, and where the musholla is at both ends.',
+        'Crossings are the one part of a trip you cannot pause. We will tell you before you book if a departure runs through a prayer time, so you can take the sailing before or after it instead of praying on a moving boat.',
       whatsapp:
         "Hi Yumna, I'd like to book a boat from [origin] to [destination] on [date], for [number] people.",
       seo: {
@@ -421,7 +421,7 @@ export const services = [
         },
       ],
       muslimNote:
-        'Pelabuhan selalu ramai dan jadwal bisa bergeser. Bila penyeberangan bertepatan dengan waktu salat, kami beri tahu sebelum Anda memesan, sekaligus letak musala di kedua sisi.',
+        'Penyeberangan adalah satu-satunya bagian perjalanan yang tidak bisa dijeda. Kami beri tahu sebelum Anda memesan bila jadwal keberangkatan melewati waktu salat, sehingga Anda bisa memilih jadwal sebelum atau sesudahnya daripada salat di atas kapal yang bergoyang.',
       whatsapp:
         'Halo Yumna, saya ingin memesan kapal dari [asal] ke [tujuan] tanggal [tanggal], untuk [jumlah] orang.',
       seo: {
@@ -468,7 +468,7 @@ export const services = [
         },
       ],
       muslimNote:
-        'For Muslim guests we look at the specifics: prayer direction marked in the room, halal breakfast, a musholla on site or a mosque within walking distance, and how visible alcohol is around the pool and restaurant. We report what we find rather than what sells the booking.',
+        'This is where the details actually decide whether a stay works: is the kiblat marked in the room, is breakfast halal or just egg and toast, how present is the pool bar, and can women swim without an audience. We report what we find, not what sells the booking.',
       whatsapp:
         "Hi Yumna, I'm looking for accommodation on Lombok from [date] to [date], for [number] people, near [area].",
       seo: {
@@ -502,7 +502,7 @@ export const services = [
         },
       ],
       muslimNote:
-        'Untuk tamu Muslim kami memeriksa hal yang spesifik: tanda arah kiblat di kamar, sarapan halal, musala di lokasi atau masjid dalam jarak jalan kaki, dan seberapa mencolok alkohol di area kolam dan restoran. Kami laporkan apa adanya, bukan yang membuat pesanan cepat laku.',
+        'Di sinilah detail benar-benar menentukan nyaman atau tidaknya menginap: apakah arah kiblat ditandai di kamar, apakah sarapannya halal atau sekadar telur dan roti, seberapa menonjol bar kolam, dan apakah perempuan bisa berenang tanpa jadi tontonan. Kami laporkan apa adanya, bukan yang membuat pesanan cepat laku.',
       whatsapp:
         'Halo Yumna, saya mencari penginapan di Lombok dari tanggal [tanggal] sampai [tanggal], untuk [jumlah] orang, di daerah [daerah].',
       seo: {
@@ -641,8 +641,8 @@ export const services = [
           body: 'Lombok looks small and drives large. The road between the north coast and the south takes most of a morning, and a plan that ignores that turns a holiday into a series of car journeys. We build the route so you sleep in the right places.',
         },
       ],
-      muslimNote:
-        'Over several days the small things add up: where you eat, where you stop to pray, whether the hotel is somewhere your family is comfortable. Those are planned in from the first draft rather than fixed afterwards.',
+        muslimNote:
+        'Over several days the pattern matters more than any single stop. We keep Friday light enough for Jumu\'ah, avoid putting a long drive across the middle of a fasting day, and place the overnight stops where your family is comfortable — decided in the first draft, not patched in afterwards.',
       whatsapp:
         "Hi Yumna, I'd like a multi-day package. We arrive on [date] for [number] days, [number] people. We'd really like to see [ ... ].",
       seo: {
@@ -676,7 +676,7 @@ export const services = [
         },
       ],
       muslimNote:
-        'Selama beberapa hari, hal-hal kecil menumpuk: di mana Anda makan, di mana berhenti salat, apakah hotelnya nyaman untuk keluarga Anda. Semua itu sudah masuk sejak rancangan pertama, bukan ditambal belakangan.',
+        'Dalam perjalanan beberapa hari, polanya lebih penting daripada satu titik pemberhentian. Kami menjaga hari Jumat tetap longgar untuk salat Jumat, menghindari perjalanan jauh di tengah hari saat berpuasa, dan menempatkan lokasi menginap di tempat yang nyaman bagi keluarga Anda — ditentukan sejak rancangan pertama, bukan ditambal belakangan.',
       whatsapp:
         'Halo Yumna, saya ingin paket beberapa hari. Kami tiba tanggal [tanggal] selama [jumlah] hari, [jumlah] orang. Kami ingin sekali mengunjungi [ ... ].',
       seo: {
@@ -717,7 +717,7 @@ export const services = [
         },
       ],
       muslimNote:
-        'Beaches vary a lot in how busy and how modest they are. If you would prefer a quieter stretch of coast, tell us and we will point you to one.',
+        'Beaches differ a lot in how crowded and how relaxed they are. If you would rather ride somewhere quieter, or want the women in your group to have the water to themselves for half an hour, say so — that is a matter of picking the right beach and the right time of day, and we know both.',
       whatsapp:
         "Hi Yumna, I'd like to ask about jet ski rental around [date], for [number] people.",
       seo: {
@@ -746,7 +746,7 @@ export const services = [
         },
       ],
       muslimNote:
-        'Setiap pantai berbeda tingkat keramaian dan kesopanannya. Bila Anda lebih suka bagian pesisir yang lebih tenang, sampaikan saja dan kami tunjukkan.',
+        'Setiap pantai berbeda tingkat keramaian dan suasananya. Bila Anda lebih suka bermain di tempat yang lebih tenang, atau ingin anggota perempuan dalam rombongan punya waktu sendiri di air selama setengah jam, sampaikan saja — itu soal memilih pantai dan jam yang tepat, dan kami tahu keduanya.',
       whatsapp:
         'Halo Yumna, saya ingin bertanya tentang sewa jet ski sekitar tanggal [tanggal], untuk [jumlah] orang.',
       seo: {

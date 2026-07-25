@@ -41,6 +41,10 @@ const blocking = [
     body: 'Seven service pages still render a geometric pattern: airport transfer, Islamic heritage, scooter and car rental, Rinjani trekking, jet ski, multi-day packages, tailor-made itineraries. Real photos from Muhajir would beat stock in every respect — he has years of them. Adding one is a single entry in `images.services` in src/data/site.js.',
   },
   {
+    title: 'Confirm the "For Muslim guests" note on every service page',
+    body: 'Each service page ends with a specific promise rather than a generic one — that the driver waits at the airport musholla, that Friday midday traffic is planned around, that a sailing overlapping a prayer time is flagged before booking, that the kiblat marking and pool-bar situation are checked before recommending a hotel, that a quieter beach and a quieter hour can be arranged, that Friday and fasting days shape a multi-day route. Each is a commitment Muhajir has to be willing to keep.',
+  },
+  {
     title: 'Confirm the contact channel',
     body: 'The site offers WhatsApp only, on +62 819-1721-6873. No email address appears anywhere. Confirm that is intended and that the number is correct.',
   },
