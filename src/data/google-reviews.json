@@ -1,10 +1,31 @@
 {
   "source": "Google Maps",
-  "placeId": null,
-  "googleMapsUri": "https://www.google.com/maps/search/?api=1&query=Lampak-Lampak+Lombok+Tour+and+Travel+Ombe+Baru+Kediri",
+  "placeId": "ChIJeU9y9kK5zS0RXeKl5IS1_E8",
+  "googleMapsUri": "https://maps.google.com/?cid=5763681205503779421&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
   "rating": 5,
   "reviewCount": 6,
-  "updatedAt": null,
-  "reviews": [],
-  "_note": "Rating and review count are taken from the live Google listing. The reviews array is intentionally empty: guest review texts are written by real people and are not invented here. Run `npm run reviews:update` with GOOGLE_MAPS_API_KEY set, or let the weekly workflow fill it in."
+  "updatedAt": "2026-07-27T06:59:07.988Z",
+  "reviews": [
+    {
+      "author": "Tyrian 1997",
+      "rating": 5,
+      "date": "6 months ago",
+      "text": "Recommended to anyone visiting Lombok. Amazing service with Aji who looked after my family and made our holiday seemless and enjoyable! An honest, trustworthy person who I now consider a family friend. Cannot thank you enough for your kindess. Looking forward to seeing you again ❤️",
+      "uri": "https://www.google.com/maps/contrib/104637964192796728893/reviews"
+    },
+    {
+      "author": "ahmad sulwana",
+      "rating": 5,
+      "date": "6 months ago",
+      "text": "Great",
+      "uri": "https://www.google.com/maps/contrib/108766195018087589828/reviews"
+    },
+    {
+      "author": "Laluyuss Copperr",
+      "rating": 5,
+      "date": "6 months ago",
+      "text": "Pioneers who God willing will develop",
+      "uri": "https://www.google.com/maps/contrib/102287306262992535152/reviews"
+    }
+  ]
 }
