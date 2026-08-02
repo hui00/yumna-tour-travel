@@ -96,6 +96,7 @@ export const images = {
     'scooter-car-rental': {
       // Licence plate pixelated before publishing.
       src: '/img/scooter-surf-rack.jpg',
+      position: '50% 65%',
       alt: {
         en: 'A rental scooter with a surfboard strapped to a side rack, parked on a paved street on Lombok.',
         id: 'Motor sewaan dengan papan selancar terpasang di rak samping, parkir di jalan berpaving di Lombok.',
@@ -128,6 +129,7 @@ export const images = {
     // (gili-boats).
     'multi-day-packages': {
       src: '/img/sembalun-valley.jpg',
+      position: '50% 78%',
       alt: {
         en: 'Steep green volcanic ridges falling to a patchwork of rice and vegetable fields near Rinjani, Lombok.',
         id: 'Punggungan vulkanik hijau yang curam menurun ke petak-petak sawah dan ladang sayur dekat Rinjani, Lombok.',
@@ -135,6 +137,7 @@ export const images = {
     },
     'tailor-made-itinerary': {
       src: '/img/rinjani-valley-view.jpg',
+      position: '50% 32%',
       alt: {
         en: 'A grass-covered volcanic peak above a valley of rice terraces on Lombok, a small field shelter in the foreground.',
         id: 'Puncak vulkanik berumput di atas lembah sawah berundak di Lombok, dengan gubuk ladang kecil di latar depan.',

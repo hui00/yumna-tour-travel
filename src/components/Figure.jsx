@@ -36,6 +36,7 @@ export default function Figure({
       {...(priority ? { fetchpriority: 'high' } : {})}
       decoding="async"
       className={`${className} object-cover`}
+      style={image.position ? { objectPosition: image.position } : undefined}
     />
   );
 
