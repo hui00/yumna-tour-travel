@@ -94,10 +94,7 @@ export default function Service({ lang, slug }) {
               </div>
 
               <div className="mt-10 rounded-3xl border border-forest-900/10 bg-forest-50 p-7">
-                <h3 className="font-display text-lg font-semibold text-forest-900">
-                  {t.serviceMeta.muslimNote}
-                </h3>
-                <p className="mt-3 max-w-prose leading-relaxed text-forest-800/85">
+                <p className="max-w-prose leading-relaxed text-forest-800/85">
                   {c.muslimNote}
                 </p>
               </div>

@@ -273,7 +273,6 @@ export const ui = {
     serviceMeta: {
       highlights: 'What is included',
       details: 'Good to know',
-      muslimNote: 'For Muslim guests',
       otherServices: 'Other services',
     },
     notFound: {
@@ -390,7 +389,6 @@ export const ui = {
     serviceMeta: {
       highlights: 'Yang termasuk',
       details: 'Perlu diketahui',
-      muslimNote: 'Untuk tamu Muslim',
       otherServices: 'Layanan lainnya',
     },
     notFound: {
