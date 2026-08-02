@@ -181,7 +181,7 @@ export const ui = {
       primary: 'Message us on WhatsApp',
       short: 'WhatsApp',
       whatsappMessage:
-        "Hi Muhajir, I'm planning a trip to Lombok and would like your help. My travel dates are [dates], we are [number] people, and we're interested in [service or places]. Could you please send me a suggestion and price? Thank you!",
+        "Hi Muhajir, I'm planning a trip to Lombok from [dates] for [number] people. We're interested in [service or places]. Could you send us a suggestion and price?",
       ask: 'Ask about this service',
       allServices: 'All services',
       back: 'Back to all services',
@@ -298,7 +298,7 @@ export const ui = {
       primary: 'Hubungi kami di WhatsApp',
       short: 'WhatsApp',
       whatsappMessage:
-        'Halo Muhajir, saya sedang merencanakan perjalanan ke Lombok dan ingin meminta bantuan. Tanggal perjalanan saya [tanggal], kami [jumlah] orang, dan tertarik dengan [layanan atau tempat]. Bisa kirim rekomendasi dan harganya? Terima kasih!',
+        'Halo Muhajir, saya merencanakan perjalanan ke Lombok tanggal [tanggal] untuk [jumlah] orang. Kami tertarik dengan [layanan atau tempat]. Bisa kirim rekomendasi dan harganya?',
       ask: 'Tanya tentang layanan ini',
       allServices: 'Semua layanan',
       back: 'Kembali ke semua layanan',
