@@ -54,7 +54,7 @@ function Header({ lang, page }) {
           </a>
 
           <a
-            href={waLink(t.cta.primary)}
+            href={waLink(t.cta.whatsappMessage)}
             className="btn-primary hidden !px-5 !py-2.5 lg:inline-flex"
             rel="noopener"
           >
@@ -105,7 +105,7 @@ function Footer({ lang }) {
             {t.footer.tagline}
           </p>
           <a
-            href={waLink(t.cta.primary)}
+            href={waLink(t.cta.whatsappMessage)}
             className="btn mt-6 bg-clay-500 text-white hover:bg-clay-600"
             rel="noopener"
           >
@@ -140,7 +140,7 @@ function Footer({ lang }) {
             <li>{site.contactPerson}</li>
             <li>
               <a
-                href={waLink(t.cta.primary)}
+                href={waLink(t.cta.whatsappMessage)}
                 className="transition-colors hover:text-white"
                 rel="noopener"
               >
@@ -185,7 +185,7 @@ function FloatingWhatsApp({ lang }) {
   const t = ui[lang];
   return (
     <a
-      href={waLink(t.cta.primary)}
+      href={waLink(t.cta.whatsappMessage)}
       className="fixed bottom-5 right-5 z-40 inline-flex items-center gap-2 rounded-full bg-clay-600 px-5 py-3.5 text-sm font-semibold text-white shadow-lg shadow-clay-900/20 transition-colors hover:bg-clay-700 lg:hidden"
       rel="noopener"
     >
@@ -207,7 +207,7 @@ export function CtaBand({ lang, message }) {
           </h2>
           <p className="mx-auto mt-4 max-w-prose text-sand-200/85">{t.contact.lead}</p>
           <a
-            href={waLink(message || t.cta.primary)}
+            href={waLink(message || t.cta.whatsappMessage)}
             className="btn mt-8 bg-clay-500 text-white hover:bg-clay-600"
             rel="noopener"
           >

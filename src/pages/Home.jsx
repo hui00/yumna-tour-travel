@@ -34,7 +34,7 @@ function Hero({ lang }) {
           </ul>
 
           <div className="mt-10 flex flex-wrap gap-3">
-            <a href={waLink(t.cta.primary)} className="btn-primary" rel="noopener">
+            <a href={waLink(t.cta.whatsappMessage)} className="btn-primary" rel="noopener">
               <WhatsAppIcon className="h-5 w-5" />
               {t.cta.primary}
             </a>
