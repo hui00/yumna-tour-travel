@@ -198,6 +198,7 @@ export const ui = {
     trust: {
       ratingLabel: 'on Google',
       reviewsLabel: 'reviews',
+      reviewCta: 'Read reviews',
       localLabel: 'Based in West Lombok',
       localValue: 'Local operator, not a booking platform',
       contactLabel: 'You talk to',
@@ -312,6 +313,7 @@ export const ui = {
     trust: {
       ratingLabel: 'di Google',
       reviewsLabel: 'ulasan',
+      reviewCta: 'Baca ulasan',
       localLabel: 'Berbasis di Lombok Barat',
       localValue: 'Operator lokal, bukan platform pemesanan',
       contactLabel: 'Anda berbicara dengan',

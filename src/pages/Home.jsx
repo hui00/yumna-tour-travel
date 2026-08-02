@@ -63,13 +63,24 @@ function TrustBar({ lang }) {
   const cells = [
     {
       key: 'rating',
+      href: '#reviews',
       value: (
         <span className="flex items-center gap-1.5">
           {reviewData.rating.toFixed(1)}
           <StarIcon className="h-5 w-5 text-clay-500" />
         </span>
       ),
-      label: `${reviewData.reviewCount} ${t.trust.reviewsLabel} ${t.trust.ratingLabel}`,
+      label: (
+        <span className="flex flex-wrap items-center gap-x-2 gap-y-1">
+          <span>
+            {reviewData.reviewCount} {t.trust.reviewsLabel} {t.trust.ratingLabel}
+          </span>
+          <span className="inline-flex items-center gap-1 font-semibold text-clay-700 group-hover:underline">
+            {t.trust.reviewCta}
+            <ArrowIcon className="h-3 w-3 transition-transform group-hover:translate-x-0.5" />
+          </span>
+        </span>
+      ),
     },
     { key: 'local', value: t.trust.localValue, label: t.trust.localLabel },
     { key: 'contact', value: t.trust.contactValue, label: t.trust.contactLabel },
@@ -80,8 +91,22 @@ function TrustBar({ lang }) {
       <div className="wrap grid gap-8 py-10 sm:grid-cols-3">
         {cells.map((cell) => (
           <div key={cell.key}>
-            <div className="font-display text-xl font-semibold text-forest-900">{cell.value}</div>
-            <div className="mt-1 text-sm text-forest-800/60">{cell.label}</div>
+            {cell.href ? (
+              <a
+                href={cell.href}
+                className="group block rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-clay-500 focus-visible:ring-offset-4"
+              >
+                <div className="font-display text-xl font-semibold text-forest-900">
+                  {cell.value}
+                </div>
+                <div className="mt-1 text-sm text-forest-800/60">{cell.label}</div>
+              </a>
+            ) : (
+              <>
+                <div className="font-display text-xl font-semibold text-forest-900">{cell.value}</div>
+                <div className="mt-1 text-sm text-forest-800/60">{cell.label}</div>
+              </>
+            )}
           </div>
         ))}
       </div>
