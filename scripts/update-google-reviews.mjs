@@ -17,12 +17,13 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const apiKey = process.env.GOOGLE_MAPS_API_KEY;
-// Pinned listing: LAMPAK-LAMPAK LOMBOK TOUR AND TRAVEL (Ombe Baru, Kediri, Lombok).
+// Pinned listing: Yumna Tour and Travel (formerly LAMPAK-LAMPAK LOMBOK TOUR AND
+// TRAVEL), Ombe Baru, Kediri, Lombok.
 const DEFAULT_PLACE_ID = 'ChIJeU9y9kK5zS0RXeKl5IS1_E8';
 const configuredPlaceId = process.env.GOOGLE_PLACE_ID || DEFAULT_PLACE_ID;
 const query =
   process.env.GOOGLE_PLACE_QUERY ||
-  'LAMPAK-LAMPAK LOMBOK TOUR AND TRAVEL Ombe Baru Kediri Lombok';
+  'Yumna Tour and Travel Lombok Ombe Baru Kediri';
 const outputPath = process.env.GOOGLE_REVIEWS_OUTPUT || 'src/data/google-reviews.json';
 
 if (!apiKey) {
