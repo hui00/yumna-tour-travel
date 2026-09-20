@@ -688,71 +688,103 @@ export const services = [
   },
 
   {
-    slug: 'jet-ski-rental',
+    slug: 'beach-hopping-water-sports',
     order: 9,
     pattern: 9,
     approval: [
-      'Where is the jet ski available — which beach or operator?',
-      'Rental by the session, or by the hour?',
-      'Is an instructor or safety briefing included? Life jacket?',
-      'Minimum age or licence requirement?',
-      'Is it available year round, or weather dependent?',
+      'Which beaches does Muhajir actually run this on — Pink Beach, Tanjung Aan, Selong Belanak, Sekotong, Senggigi?',
+      'Is Pink Beach reached by road or by boat, and how long is the drive from the usual hotels?',
+      'Which snorkelling spots and which boat operator? Gili Nanggu / Sudak / Kedis, or the three Gilis?',
+      'Is snorkelling gear (mask, fins, life jacket) included, and are child sizes available?',
+      'Which surf beach and which instructor or surf school does Yumna work with? Board hire included?',
+      'Can jet ski, banana boat or paddleboard still be added on request, and where?',
+      'Is lunch on a beach day arranged, and is it halal by default?',
+      'Which months suit which coast — is this year round?',
     ],
     en: {
-      name: 'Jet Ski Rental',
-      tagline: 'Half an hour that the children will talk about all week.',
-      summary: 'Jet ski hire on the coast, with safety equipment and a briefing before you go out.',
+      name: 'Beaches & Water Sports',
+      tagline: 'A day spent finding the good beaches, not the busy ones.',
+      summary:
+        'A driver-led beach day along the coast, with snorkelling, surfing and other water sports added wherever the sea is right.',
       intro:
-        'Not every part of a trip has to be cultural. Jet ski sessions are the easiest thing to add onto a beach day, they need no experience, and they are usually the part of the holiday the teenagers rate highest. Equipment, briefing and supervision are arranged with the rental.',
+        'Lombok has more good beaches than any guest has days, and the famous ones are rarely the best ones on the day you happen to visit. This is a beach day with a driver who knows which coast the wind is on: pink sand in the south-east, long empty bays in the south, calm clear islands in the south-west. Snorkelling, surfing and the rest are added where they make sense, rather than booked blind in advance.',
       highlights: [
-        'No experience needed — a briefing comes first',
-        'Life jacket and safety equipment provided',
-        'Easy to combine with a beach day or a tour',
-        'Weather dependent — we will tell you honestly if the sea is not right',
+        'Several beaches in one day, chosen for the weather rather than the guidebook',
+        'Snorkelling by boat to the calm islands, gear and life jackets provided',
+        'Beginner surf lessons with a local instructor, board included',
+        'Jet ski, banana boat and paddleboard added on request where available',
+        'Towels, shade and a halal lunch stop planned into the day',
+        'We say honestly when the sea is not right and suggest the other coast',
       ],
       details: [
         {
-          title: 'Combining it with a tour day',
-          body: 'Most guests add this to a day that is already planned, rather than travelling out for it alone. Tell us which day you are near the coast and we will fit it in where it makes sense.',
+          title: 'Which beaches',
+          body: 'Pink Beach in the south-east for the colour and the quiet, Tanjung Aan and Selong Belanak in the south for long sand and gentle water, the small islands off Sekotong in the south-west for snorkelling, Senggigi in the west for a sunset at the end. Which of them fit into one day depends on where you are staying, and we will say so plainly rather than promise all of them.',
+        },
+        {
+          title: 'Snorkelling',
+          body: 'Gili Nanggu, Gili Sudak and Gili Kedis are the calm option: small, close together, shallow and clear, which suits families and anyone who has never worn a mask. The three better-known Gilis in the north-west are busier, with turtles as the draw. We will tell you which fits your group rather than selling the famous name.',
+        },
+        {
+          title: 'Surfing',
+          body: 'The south coast works with one wind direction and the west coast with another, so the right beach changes through the year. For a first lesson we pick a forgiving sandy break and a quiet hour, not the busiest peak, with an instructor who teaches beginners for a living.',
+        },
+        {
+          title: 'Fitting it into a trip',
+          body: 'Most guests add a beach day to a plan that already exists rather than travelling out for one thing alone. Tell us which day is free and we will build the coast around it.',
         },
       ],
       muslimNote:
-        'Beaches differ a lot in how crowded and how relaxed they are. If you would rather ride somewhere quieter, or want the women in your group to have the water to themselves for half an hour, say so — that is a matter of picking the right beach and the right time of day, and we know both.',
+        'Beaches differ a lot in how crowded and how relaxed they are, and that is exactly what this day is for. If you would rather swim somewhere quieter, or want the women in your group to have the water to themselves for an hour, say so — it is a matter of picking the right beach and the right hour, and we know both. Modest swimwear is entirely normal here, and lunch is at a halal warung unless you ask for something else.',
       whatsapp:
-        "Hi Yumna, I'd like to ask about jet ski rental around [date], for [number] people.",
+        "Hi Yumna, I'd like to ask about a beach day with snorkeling or surfing around [date], for [number] people.",
       seo: {
-        title: 'Jet Ski Rental Lombok | Yumna Tour and Travel',
+        title: 'Lombok Beach Tour — Snorkeling, Surfing & Water Sports | Yumna Tour and Travel',
         description:
-          'Jet ski hire on Lombok with safety briefing and equipment included. Easy to combine with a beach day or a tour. Book through a local operator.',
+          'A guided beach day on Lombok: Pink Beach, Tanjung Aan, Selong Belanak and the calm snorkelling islands, with surfing and water sports added. Muslim-friendly, booked with a local operator.',
       },
     },
     id: {
-      name: 'Sewa Jet Ski',
-      tagline: 'Setengah jam yang akan diceritakan anak-anak seminggu penuh.',
+      name: 'Wisata Pantai & Olahraga Air',
+      tagline: 'Sehari mencari pantai yang bagus, bukan yang ramai.',
       summary:
-        'Sewa jet ski di pesisir, lengkap dengan perlengkapan keselamatan dan pengarahan sebelum turun.',
+        'Hari pantai bersama sopir yang paham pesisir, dengan snorkeling, surfing dan olahraga air sesuai kondisi laut.',
       intro:
-        'Tidak semua bagian perjalanan harus soal budaya. Jet ski adalah tambahan paling mudah untuk hari bermain di pantai, tidak butuh pengalaman, dan biasanya jadi bagian favorit anak remaja. Perlengkapan, pengarahan dan pengawasan sudah termasuk dalam penyewaan.',
+        'Lombok punya lebih banyak pantai bagus daripada hari yang dimiliki tamu, dan yang terkenal belum tentu yang terbaik pada hari Anda datang. Ini adalah hari pantai bersama sopir yang tahu angin sedang di sisi mana: pasir merah muda di tenggara, teluk panjang yang sepi di selatan, gili-gili jernih dan tenang di barat daya. Snorkeling, surfing dan lainnya ditambahkan di tempat yang memang cocok, bukan dipesan buta dari jauh hari.',
       highlights: [
-        'Tanpa pengalaman — ada pengarahan lebih dulu',
-        'Pelampung dan perlengkapan keselamatan disediakan',
-        'Mudah digabung dengan hari pantai atau tur',
-        'Tergantung cuaca — kami akan berterus terang bila laut sedang tidak bersahabat',
+        'Beberapa pantai dalam sehari, dipilih menurut cuaca, bukan menurut buku panduan',
+        'Snorkeling dengan perahu ke gili-gili tenang, alat dan pelampung disediakan',
+        'Les surfing untuk pemula bersama instruktur lokal, papan sudah termasuk',
+        'Jet ski, banana boat dan paddleboard bisa ditambah sesuai permintaan',
+        'Handuk, tempat berteduh dan makan siang halal masuk dalam rencana hari itu',
+        'Kami berterus terang bila laut tidak bersahabat dan menyarankan pesisir lain',
       ],
       details: [
         {
-          title: 'Digabung dengan hari tur',
-          body: 'Sebagian besar tamu menambahkannya ke hari yang sudah direncanakan, bukan datang khusus untuk itu. Sampaikan hari apa Anda berada dekat pantai, dan kami sisipkan pada waktu yang pas.',
+          title: 'Pantai mana saja',
+          body: 'Pink Beach di tenggara untuk warna dan ketenangannya, Tanjung Aan dan Selong Belanak di selatan untuk pasir panjang dan air yang landai, gili-gili kecil di Sekotong untuk snorkeling, Senggigi di barat untuk matahari terbenam di penghujung hari. Berapa yang muat dalam satu hari tergantung lokasi menginap Anda, dan kami akan mengatakannya apa adanya alih-alih menjanjikan semuanya.',
+        },
+        {
+          title: 'Snorkeling',
+          body: 'Gili Nanggu, Gili Sudak dan Gili Kedis adalah pilihan paling tenang: kecil, berdekatan, dangkal dan jernih, cocok untuk keluarga dan siapa pun yang belum pernah memakai masker. Tiga Gili yang lebih terkenal di barat laut lebih ramai, dengan penyu sebagai daya tarik. Kami sarankan yang paling cocok untuk rombongan Anda, bukan sekadar nama terkenal.',
+        },
+        {
+          title: 'Surfing',
+          body: 'Pantai selatan bekerja dengan satu arah angin dan pantai barat dengan arah lain, sehingga pantai yang tepat berubah sepanjang tahun. Untuk les pertama kami memilih ombak berdasar pasir yang ramah dan jam yang sepi, bersama instruktur yang memang biasa mengajar pemula.',
+        },
+        {
+          title: 'Menyisipkan ke dalam perjalanan',
+          body: 'Sebagian besar tamu menambahkan hari pantai ke rencana yang sudah ada, bukan datang khusus untuk satu kegiatan. Sampaikan hari mana yang kosong, dan kami susun rute pesisirnya.',
         },
       ],
       muslimNote:
-        'Setiap pantai berbeda tingkat keramaian dan suasananya. Bila Anda lebih suka bermain di tempat yang lebih tenang, atau ingin anggota perempuan dalam rombongan punya waktu sendiri di air selama setengah jam, sampaikan saja — itu soal memilih pantai dan jam yang tepat, dan kami tahu keduanya.',
+        'Setiap pantai berbeda tingkat keramaian dan suasananya — justru itu gunanya hari ini. Bila Anda lebih suka berenang di tempat yang lebih tenang, atau ingin anggota perempuan dalam rombongan punya waktu sendiri di air selama sejam, sampaikan saja: itu soal memilih pantai dan jam yang tepat, dan kami tahu keduanya. Pakaian renang tertutup adalah hal biasa di sini, dan makan siang di warung halal kecuali Anda minta lain.',
       whatsapp:
-        'Halo Yumna, saya ingin bertanya tentang sewa jet ski sekitar tanggal [tanggal], untuk [jumlah] orang.',
+        'Halo Yumna, saya ingin bertanya tentang wisata pantai dengan snorkeling atau surfing sekitar tanggal [tanggal], untuk [jumlah] orang.',
       seo: {
-        title: 'Sewa Jet Ski Lombok | Yumna Tour and Travel',
+        title: 'Wisata Pantai Lombok — Snorkeling, Surfing & Olahraga Air | Yumna Tour and Travel',
         description:
-          'Sewa jet ski di Lombok dengan pengarahan dan perlengkapan keselamatan. Mudah digabung dengan hari pantai atau tur. Pesan lewat operator lokal.',
+          'Wisata pantai di Lombok: Pink Beach, Tanjung Aan, Selong Belanak dan gili-gili snorkeling yang tenang, plus surfing dan olahraga air. Ramah Muslim, dipesan lewat operator lokal.',
       },
     },
   },

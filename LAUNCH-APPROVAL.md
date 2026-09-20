@@ -28,16 +28,16 @@ That is deliberate and does not need approval.
       The about section now uses a photo of Muhajir laughing in a pool with four children, all clearly recognisable, in swimwear. This was a deliberate decision by the site owner to publish it without prior consent — a crop that removed the children was tried and did not work, since they are physically draped on Muhajir on both sides. Publishing an identifiable minor on a commercial website needs their guardian's consent. Get that in writing from all four children's parents, or replace the photo with one of Muhajir alone or with adults only, before this page is treated as final. This is the single highest-priority item on this list.
 
 - [ ] **Confirm the remaining photographs may be published**
-      Rinjani Trekking (village at sunrise below the mountain), Daily Tours (waterfall, two people visible but not close up), Islamic Heritage Tour (Islamic Center Mataram), Multi-Day Packages and Tailor-Made Itinerary (Sembalun valley and fields), Airport & Harbour Transfer (coast road), Ferry & Fast Boat (rocky shore with boats), Villa & Hotel Booking (view from a balcony), Scooter & Car Rental (rental scooter with a surfboard rack, licence plate pixelated). All still need to be images Yumna is allowed to use commercially.
+      Rinjani Trekking (village at sunrise below the mountain), Daily Tours (waterfall, two people visible but not close up), Islamic Heritage Tour (Islamic Center Mataram), Multi-Day Packages and Tailor-Made Itinerary (Sembalun valley and fields), Airport & Harbour Transfer (coast road), Ferry & Fast Boat (rocky shore with boats), Villa & Hotel Booking (view from a balcony), Scooter & Car Rental (rental scooter with a surfboard rack, licence plate pixelated), Beaches & Water Sports (a wide empty bay on the south coast). All still need to be images Yumna is allowed to use commercially.
 
-- [ ] **Do not strip the credit under the Gili boats photo**
-      One image is not Yumna's own: the Gili boats photo on Jet Ski Rental, from Unsplash (fransisca-zagita). The Unsplash licence permits commercial use without attribution, so it carries no credit line. Every other photo on the site is Muhajir's own, which is why no caption appears anywhere else. If a stock image is ever added back under a CC BY or Wikimedia Attribution licence, its credit block has to travel with it.
+- [ ] **Every published photo is now Muhajir's own**
+      No stock image is used anywhere on the site, so no credit line appears anywhere. The one Unsplash file still in the repository (public/img/gili-boats.jpg, fransisca-zagita) is unused. If a stock image is ever added under a CC BY or Wikimedia Attribution licence, its credit block has to travel with it.
 
 - [ ] **Replace the remaining placeholder artwork**
-      Every service page now has a photo, and all but one are Muhajir's own. The Jet Ski Rental photo is the weakest fit — it shows Gili boats (Unsplash, no attribution required), not a jet ski at all, because no such photo exists yet. Replace it first when Muhajir has one. Airport & Harbour Transfer now shows the coast road rather than a terminal building; a photo of the actual arrivals pick-up would be better still.
+      Every service page now has one of Muhajir's own photos. Airport & Harbour Transfer shows the coast road rather than a terminal building; a photo of the actual arrivals pick-up would be better. Beaches & Water Sports shows a south-coast bay; a photo of guests snorkelling or on a board would sell it harder.
 
 - [ ] **Confirm the "For Muslim guests" note on every service page**
-      Each service page ends with a specific promise rather than a generic one — that the driver waits at the airport musholla, that Friday midday traffic is planned around, that a sailing overlapping a prayer time is flagged before booking, that the kiblat marking and pool-bar situation are checked before recommending a hotel, that a quieter beach and a quieter hour can be arranged, that Friday and fasting days shape a multi-day route. Each is a commitment Muhajir has to be willing to keep.
+      Each service page ends with a specific promise rather than a generic one — that the driver waits at the airport musholla, that Friday midday traffic is planned around, that a sailing overlapping a prayer time is flagged before booking, that the kiblat marking and pool-bar situation are checked before recommending a hotel, that a quieter beach and a quieter hour can be arranged on a beach day, that Friday and fasting days shape a multi-day route. Each is a commitment Muhajir has to be willing to keep.
 
 - [ ] **Confirm the contact channel**
       The site offers WhatsApp only, on +62 819-1721-6873. No email address appears anywhere. Confirm that is intended and that the number is correct.
@@ -130,15 +130,18 @@ That is deliberate and does not need approval.
 - [ ] Does Yumna book and pay the accommodation, or does the guest?
 - [ ] Is there a minimum group size?
 
-### Jet Ski Rental
+### Beaches & Water Sports
 
-`src/data/services.js` → `jet-ski-rental`
+`src/data/services.js` → `beach-hopping-water-sports`
 
-- [ ] Where is the jet ski available — which beach or operator?
-- [ ] Rental by the session, or by the hour?
-- [ ] Is an instructor or safety briefing included? Life jacket?
-- [ ] Minimum age or licence requirement?
-- [ ] Is it available year round, or weather dependent?
+- [ ] Which beaches does Muhajir actually run this on — Pink Beach, Tanjung Aan, Selong Belanak, Sekotong, Senggigi?
+- [ ] Is Pink Beach reached by road or by boat, and how long is the drive from the usual hotels?
+- [ ] Which snorkelling spots and which boat operator? Gili Nanggu / Sudak / Kedis, or the three Gilis?
+- [ ] Is snorkelling gear (mask, fins, life jacket) included, and are child sizes available?
+- [ ] Which surf beach and which instructor or surf school does Yumna work with? Board hire included?
+- [ ] Can jet ski, banana boat or paddleboard still be added on request, and where?
+- [ ] Is lunch on a beach day arranged, and is it halal by default?
+- [ ] Which months suit which coast — is this year round?
 
 ### Tailor-Made Itinerary
 
@@ -150,4 +153,4 @@ That is deliberate and does not need approval.
 
 ---
 
-63 items in total.
+66 items in total.

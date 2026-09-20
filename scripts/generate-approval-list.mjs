@@ -34,19 +34,19 @@ const blocking = [
   },
   {
     title: 'Confirm the remaining photographs may be published',
-    body: 'Rinjani Trekking (village at sunrise below the mountain), Daily Tours (waterfall, two people visible but not close up), Islamic Heritage Tour (Islamic Center Mataram), Multi-Day Packages and Tailor-Made Itinerary (Sembalun valley and fields), Airport & Harbour Transfer (coast road), Ferry & Fast Boat (rocky shore with boats), Villa & Hotel Booking (view from a balcony), Scooter & Car Rental (rental scooter with a surfboard rack, licence plate pixelated). All still need to be images Yumna is allowed to use commercially.',
+    body: 'Rinjani Trekking (village at sunrise below the mountain), Daily Tours (waterfall, two people visible but not close up), Islamic Heritage Tour (Islamic Center Mataram), Multi-Day Packages and Tailor-Made Itinerary (Sembalun valley and fields), Airport & Harbour Transfer (coast road), Ferry & Fast Boat (rocky shore with boats), Villa & Hotel Booking (view from a balcony), Scooter & Car Rental (rental scooter with a surfboard rack, licence plate pixelated), Beaches & Water Sports (a wide empty bay on the south coast). All still need to be images Yumna is allowed to use commercially.',
   },
   {
-    title: 'Do not strip the credit under the Gili boats photo',
-    body: 'One image is not Yumna\'s own: the Gili boats photo on Jet Ski Rental, from Unsplash (fransisca-zagita). The Unsplash licence permits commercial use without attribution, so it carries no credit line. Every other photo on the site is Muhajir\'s own, which is why no caption appears anywhere else. If a stock image is ever added back under a CC BY or Wikimedia Attribution licence, its credit block has to travel with it.',
+    title: 'Every published photo is now Muhajir\'s own',
+    body: 'No stock image is used anywhere on the site, so no credit line appears anywhere. The one Unsplash file still in the repository (public/img/gili-boats.jpg, fransisca-zagita) is unused. If a stock image is ever added under a CC BY or Wikimedia Attribution licence, its credit block has to travel with it.',
   },
   {
     title: 'Replace the remaining placeholder artwork',
-    body: 'Every service page now has a photo, and all but one are Muhajir\'s own. The Jet Ski Rental photo is the weakest fit — it shows Gili boats (Unsplash, no attribution required), not a jet ski at all, because no such photo exists yet. Replace it first when Muhajir has one. Airport & Harbour Transfer now shows the coast road rather than a terminal building; a photo of the actual arrivals pick-up would be better still.',
+    body: 'Every service page now has one of Muhajir\'s own photos. Airport & Harbour Transfer shows the coast road rather than a terminal building; a photo of the actual arrivals pick-up would be better. Beaches & Water Sports shows a south-coast bay; a photo of guests snorkelling or on a board would sell it harder.',
   },
   {
     title: 'Confirm the "For Muslim guests" note on every service page',
-    body: 'Each service page ends with a specific promise rather than a generic one — that the driver waits at the airport musholla, that Friday midday traffic is planned around, that a sailing overlapping a prayer time is flagged before booking, that the kiblat marking and pool-bar situation are checked before recommending a hotel, that a quieter beach and a quieter hour can be arranged, that Friday and fasting days shape a multi-day route. Each is a commitment Muhajir has to be willing to keep.',
+    body: 'Each service page ends with a specific promise rather than a generic one — that the driver waits at the airport musholla, that Friday midday traffic is planned around, that a sailing overlapping a prayer time is flagged before booking, that the kiblat marking and pool-bar situation are checked before recommending a hotel, that a quieter beach and a quieter hour can be arranged on a beach day, that Friday and fasting days shape a multi-day route. Each is a commitment Muhajir has to be willing to keep.',
   },
   {
     title: 'Confirm the contact channel',

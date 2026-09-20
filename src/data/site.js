@@ -99,9 +99,9 @@ export const images = {
         id: 'Islamic Center di Mataram, Lombok: kubah bermotif dan menaranya dilihat dari halaman depan.',
       },
     },
-    // gili-boats.jpg is Unsplash (fransisca-zagita) — free for commercial use,
-    // attribution not required, which is why it carries no `credit` block. The
-    // Sembalun photos below are Yumna's own.
+    // Every photo below is Muhajir's own, which is why no `credit` block
+    // appears anywhere. public/img/gili-boats.jpg is Unsplash
+    // (fransisca-zagita) and is currently unused.
     'multi-day-packages': {
       src: '/img/sembalun-clouds.jpg',
       position: '50% 40%',
@@ -117,12 +117,11 @@ export const images = {
         id: 'Pemandangan udara petak-petak ladang sayur Sembalun, dengan desa dan lereng gunung di belakangnya.',
       },
     },
-    'jet-ski-rental': {
-      // Placeholder, not a literal jet ski — see LAUNCH-APPROVAL.md.
-      src: '/img/gili-boats.jpg',
+    'beach-hopping-water-sports': {
+      src: '/img/south-coast-bay.jpg',
       alt: {
-        en: 'Small wooden boats anchored in the clear turquoise water off the Gili islands, Lombok\'s coastline in the distance.',
-        id: 'Perahu-perahu kayu kecil berlabuh di air jernih kehijauan lepas pantai Gili, dengan garis pantai Lombok di kejauhan.',
+        en: 'A wide, near-empty bay on the south coast of Lombok, pale sand curving into clear shallow water.',
+        id: 'Teluk luas nyaris kosong di pesisir selatan Lombok, pasir pucat melengkung ke air dangkal yang jernih.',
       },
     },
     'villa-hotel-booking': {
