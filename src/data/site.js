@@ -73,17 +73,17 @@ export const images = {
       },
     },
     'rinjani-trekking': {
-      src: '/img/lombok-village-sunrise.jpg',
+      src: '/img/mountain-pass-road.jpg',
       alt: {
-        en: 'A Lombok village at sunrise, mosque domes among the rooftops and Mount Rinjani rising through the cloud behind it.',
-        id: 'Sebuah desa di Lombok saat matahari terbit, kubah masjid di antara atap rumah dan Gunung Rinjani menjulang di balik awan.',
+        en: 'The mountain pass road curving along a ridge on the way to Sembalun, Rinjani\'s slopes rising into the cloud.',
+        id: 'Jalan tanjakan berkelok di punggungan menuju Sembalun, dengan lereng Rinjani menjulang ke dalam awan.',
       },
     },
     'daily-tours': {
-      src: '/img/south-coast-bay.jpg',
+      src: '/img/rinjani-waterfall.jpg',
       alt: {
-        en: 'A bay on the south coast of Lombok seen from a headland, reef visible through clear water and green hills beyond.',
-        id: 'Teluk di pesisir selatan Lombok dilihat dari tanjung, terumbu tampak melalui air jernih dengan perbukitan hijau di kejauhan.',
+        en: 'Two visitors standing arms out under a tall jungle waterfall in northern Lombok.',
+        id: 'Dua pengunjung berdiri merentangkan tangan di bawah air terjun tinggi di hutan Lombok utara.',
       },
     },
     'ferry-fast-boat-tickets': {
@@ -122,25 +122,21 @@ export const images = {
         modified: 'resized',
       },
     },
-    // Unsplash License — free for commercial use, attribution not required
-    // (unlike the two Wikimedia photos above, which is why these carry no
-    // `credit` block). Photographers, for the record: filipe-freitas
-    // (sembalun-valley), anca (rinjani-valley-view), fransisca-zagita
-    // (gili-boats).
+    // gili-boats.jpg is Unsplash (fransisca-zagita) — free for commercial use,
+    // attribution not required, which is why it carries no `credit` block. The
+    // Sembalun photos below are Yumna's own.
     'multi-day-packages': {
-      src: '/img/sembalun-valley.jpg',
-      position: '50% 78%',
+      src: '/img/sembalun-clouds.jpg',
       alt: {
-        en: 'Steep green volcanic ridges falling to a patchwork of rice and vegetable fields near Rinjani, Lombok.',
-        id: 'Punggungan vulkanik hijau yang curam menurun ke petak-petak sawah dan ladang sayur dekat Rinjani, Lombok.',
+        en: 'Cloud pouring over the volcanic ridges above the Sembalun valley, vegetable fields stretching out below.',
+        id: 'Awan mengalir di atas punggungan vulkanik lembah Sembalun, dengan hamparan ladang sayur di bawahnya.',
       },
     },
     'tailor-made-itinerary': {
-      src: '/img/rinjani-valley-view.jpg',
-      position: '50% 32%',
+      src: '/img/sembalun-fields-aerial.jpg',
       alt: {
-        en: 'A grass-covered volcanic peak above a valley of rice terraces on Lombok, a small field shelter in the foreground.',
-        id: 'Puncak vulkanik berumput di atas lembah sawah berundak di Lombok, dengan gubuk ladang kecil di latar depan.',
+        en: 'An aerial view of the patchwork vegetable fields of Sembalun, the village and mountain slopes behind them.',
+        id: 'Pemandangan udara petak-petak ladang sayur Sembalun, dengan desa dan lereng gunung di belakangnya.',
       },
     },
     'jet-ski-rental': {
