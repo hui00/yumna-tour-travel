@@ -10,90 +10,9 @@
 
 export const services = [
   {
-    slug: 'airport-harbour-transfer',
+    slug: 'daily-tours',
     order: 1,
     pattern: 1,
-    approval: [
-      'Which airports and harbours are covered? (Lombok International Airport / Praya, Lembar, Bangsal, Kayangan)',
-      'Which vehicle types and seat counts are available for transfers?',
-      'Are child seats available on request?',
-      'Does the driver track delayed flights, and how long does he wait?',
-      'Is a 24-hour pick-up (very early / very late flights) actually possible?',
-    ],
-    en: {
-      name: 'Airport & Harbour Transfer',
-      tagline: 'Someone waiting for you when you land.',
-      summary:
-        'Private pick-up and drop-off from the airport and the harbours, at a price agreed before you travel.',
-      intro:
-        'Arrival is when a trip is most likely to go wrong. A delayed flight, an unfamiliar language, a driver who quoted one price at the kerb and wants another one at the hotel. Yumna meets you inside arrivals with your name on a sign, in a vehicle booked in advance, at a price agreed in advance.',
-      highlights: [
-        'Meet and greet at arrivals — no hunting for your driver in the car park',
-        'Fixed price agreed before you travel, never renegotiated on the day',
-        'Lombok International Airport, Lembar harbour and Bangsal harbour',
-        'Bottled water, air conditioning and space for real luggage',
-        'Onward drop-off anywhere on the island, including Kuta, Senggigi and Mataram',
-      ],
-      details: [
-        {
-          title: 'Where we pick up',
-          body: 'The airport sits in Praya, in the south of the island, and most hotels are an hour or more from it — long enough that the drive matters. Lembar in the west is the ferry port for Bali; Bangsal in the north-west is where the fast boats to the Gili islands leave. We cover all three, in both directions.',
-        },
-        {
-          title: 'Travelling as a family',
-          body: 'Tell us how many of you there are and how much luggage you have, and we send a vehicle that actually fits. Families arriving with small children and a lot of bags are the most common reason a transfer goes badly, and the easiest thing to plan for.',
-        },
-      ],
-      muslimNote:
-        'If you land at prayer time, pray — the musholla is inside the terminal and the driver waits without being asked. And after a long flight, say the word and the first stop is a proper halal meal instead of a hotel minibar.',
-      whatsapp:
-        "Hi Yumna, I'd like to arrange an airport transfer. My flight arrives on [date] at [time], we are [number] people.",
-      seo: {
-        title: 'Lombok Airport Transfer — Private Pick-Up & Drop-Off | Yumna Tour and Travel',
-        description:
-          'Private airport and harbour transfers on Lombok. Meet and greet at arrivals, fixed price agreed in advance, Muslim-friendly service. Message Yumna on WhatsApp.',
-      },
-    },
-    id: {
-      name: 'Transfer Bandara & Pelabuhan',
-      tagline: 'Ada yang menunggu Anda saat mendarat.',
-      summary:
-        'Antar-jemput pribadi dari bandara dan pelabuhan, dengan harga yang disepakati sebelum berangkat.',
-      intro:
-        'Kedatangan adalah saat perjalanan paling mudah berantakan. Pesawat terlambat, bahasa yang asing, sopir yang menyebut satu harga di pinggir jalan lalu meminta harga lain di hotel. Yumna menjemput Anda di area kedatangan dengan papan nama, memakai kendaraan yang sudah dipesan, dengan harga yang sudah disepakati.',
-      highlights: [
-        'Penjemputan langsung di area kedatangan — tidak perlu mencari sopir di parkiran',
-        'Harga pasti disepakati sebelum berangkat, tidak berubah di hari H',
-        'Bandara Internasional Lombok, Pelabuhan Lembar dan Pelabuhan Bangsal',
-        'Air minum, AC, dan ruang muat untuk koper sungguhan',
-        'Pengantaran ke seluruh Lombok, termasuk Kuta, Senggigi dan Mataram',
-      ],
-      details: [
-        {
-          title: 'Titik penjemputan',
-          body: 'Bandara berada di Praya, di selatan pulau, dan sebagian besar hotel berjarak satu jam atau lebih — cukup jauh sehingga perjalanan itu sendiri penting. Lembar di barat adalah pelabuhan feri ke Bali; Bangsal di barat laut adalah titik keberangkatan fast boat ke Gili. Kami melayani ketiganya, pulang dan pergi.',
-        },
-        {
-          title: 'Bepergian bersama keluarga',
-          body: 'Beri tahu jumlah orang dan banyaknya bagasi, dan kami kirim kendaraan yang benar-benar muat. Keluarga yang datang dengan anak kecil dan banyak koper adalah penyebab paling umum transfer berjalan buruk — sekaligus yang paling mudah diantisipasi.',
-        },
-      ],
-      muslimNote:
-        'Bila Anda mendarat saat waktu salat, salatlah — musala ada di dalam terminal dan sopir menunggu tanpa perlu diminta. Dan setelah penerbangan panjang, bilang saja: pemberhentian pertama bisa berupa makanan halal yang layak, bukan minibar hotel.',
-      whatsapp:
-        'Halo Yumna, saya ingin memesan transfer bandara. Penerbangan saya tiba tanggal [tanggal] pukul [jam], kami [jumlah] orang.',
-      seo: {
-        title: 'Transfer Bandara Lombok — Antar Jemput Pribadi | Yumna Tour and Travel',
-        description:
-          'Antar-jemput bandara dan pelabuhan di Lombok. Penjemputan di area kedatangan, harga pasti di muka, layanan ramah Muslim. Hubungi Yumna via WhatsApp.',
-      },
-    },
-  },
-
-  {
-    slug: 'daily-tours',
-    order: 2,
-    pattern: 2,
     approval: [
       'Confirm the four daily tours offered: Sasak cultural, waterfall, city, Gili islands.',
       'Confirm the villages and sites visited on the Sasak cultural tour (Sade? Ende? Sukarara? Banyumulek?).',
@@ -188,509 +107,11 @@ export const services = [
     },
   },
 
-  {
-    slug: 'islamic-heritage-tour',
-    order: 3,
-    pattern: 3,
-    approval: [
-      'NEW SERVICE — confirm Muhajir wants to offer this at all before anything else.',
-      'Which mosques and sites would the route actually cover? (Islamic Center NTB in Mataram, Masjid Kuno Bayan Beleq, village mosques)',
-      'Is the historic Bayan mosque reachable and open to visitors as a day trip from Mataram?',
-      'Full day or half day?',
-      'Is a guide who can explain the history available, or is this driver-only?',
-    ],
-    en: {
-      name: 'Islamic Heritage Tour',
-      tagline: 'Lombok is called the island of a thousand mosques. Here is why.',
-      summary:
-        'A route built around Lombok’s mosques and Islamic history — the modern landmark and the very old ones.',
-      intro:
-        'Lombok is known across Indonesia as the island of a thousand mosques, and the count is not far off. Islam arrived here centuries ago and layered itself over Sasak tradition rather than replacing it, which is why the island\'s religious architecture ranges from a vast modern landmark in the city to small wooden mosques in the north older than almost anything else standing. No other operator on Lombok offers this as a route. We think it is overdue.',
-      highlights: [
-        'The Islamic Center in Mataram — the island\'s modern landmark',
-        'Historic village mosques in the north, centuries old and still in use',
-        'Context on how Islam and Sasak tradition grew together here',
-        'Timed so that you pray in the mosques you visit, not just look at them',
-        'Suitable for families and for older travellers — little walking',
-      ],
-      details: [
-        {
-          title: 'Why this route exists',
-          body: 'Most tours treat mosques as a photo stop on the way somewhere else. For a lot of our guests, they are the reason to come. This route takes them seriously: enough time at each, at the right time of day, with someone who can tell you what you are looking at.',
-        },
-        {
-          title: 'What to wear',
-          body: 'Modest dress for everyone, and a headscarf for women — bring your own or we can arrange one. Some mosques ask visitors to remove shoes well before the entrance, so slip-on shoes make the day easier.',
-        },
-      ],
-      muslimNote:
-        'This is the one tour where the prayer times are the schedule rather than something planned around it. We build the day so that you are at a mosque when the adhan is called.',
-      whatsapp:
-        "Hi Yumna, I'd like to ask about the Islamic heritage tour for [date]. We are [number] people.",
-      seo: {
-        title: 'Islamic Heritage Tour Lombok — Mosques & History | Yumna Tour and Travel',
-        description:
-          'A Muslim-friendly heritage tour of Lombok’s mosques, from the Islamic Center in Mataram to centuries-old village mosques. Timed around prayer, guided by a local.',
-      },
-    },
-    id: {
-      name: 'Tur Wisata Religi',
-      tagline: 'Lombok disebut pulau seribu masjid. Inilah alasannya.',
-      summary:
-        'Rute yang disusun mengelilingi masjid dan sejarah Islam di Lombok — yang modern maupun yang tertua.',
-      intro:
-        'Lombok dikenal di seluruh Indonesia sebagai pulau seribu masjid, dan sebutan itu tidak berlebihan. Islam datang berabad-abad lalu dan berpadu dengan tradisi Sasak alih-alih menggantikannya. Karena itu arsitektur religinya membentang dari landmark modern yang megah di kota sampai masjid kayu kecil di utara yang lebih tua dari hampir semua bangunan lain di pulau ini. Belum ada operator lain di Lombok yang menawarkan ini sebagai satu rute. Menurut kami sudah waktunya.',
-      highlights: [
-        'Islamic Center di Mataram — landmark modern kebanggaan pulau ini',
-        'Masjid kuno di utara, berusia ratusan tahun dan masih dipakai',
-        'Penjelasan bagaimana Islam dan tradisi Sasak tumbuh bersama di sini',
-        'Waktunya diatur agar Anda salat di masjid yang dikunjungi, bukan sekadar melihat',
-        'Cocok untuk keluarga dan tamu lanjut usia — tidak banyak berjalan kaki',
-      ],
-      details: [
-        {
-          title: 'Kenapa rute ini ada',
-          body: 'Kebanyakan tur menjadikan masjid sekadar tempat berfoto dalam perjalanan ke tempat lain. Bagi banyak tamu kami, justru masjid itulah tujuannya. Rute ini memperlakukannya dengan serius: waktu yang cukup di tiap tempat, pada jam yang tepat, ditemani orang yang bisa menjelaskan.',
-        },
-        {
-          title: 'Pakaian',
-          body: 'Pakaian sopan untuk semua, dan kerudung untuk perempuan — bawa sendiri atau kami bantu siapkan. Beberapa masjid meminta pengunjung melepas alas kaki jauh sebelum pintu masuk, jadi sandal atau sepatu yang mudah dilepas sangat membantu.',
-        },
-      ],
-      muslimNote:
-        'Inilah satu-satunya tur yang jadwalnya justru mengikuti waktu salat, bukan disusun mengelilinginya. Kami atur harinya agar Anda berada di masjid ketika azan berkumandang.',
-      whatsapp:
-        'Halo Yumna, saya ingin bertanya tentang tur wisata religi tanggal [tanggal]. Kami [jumlah] orang.',
-      seo: {
-        title: 'Tur Wisata Religi Lombok — Masjid & Sejarah | Yumna Tour and Travel',
-        description:
-          'Tur wisata religi di Lombok: Islamic Center Mataram hingga masjid kuno berusia ratusan tahun. Jadwal mengikuti waktu salat, dipandu orang lokal.',
-      },
-    },
-  },
-
-  {
-    slug: 'scooter-car-rental',
-    order: 4,
-    pattern: 4,
-    approval: [
-      'Confirm scooter sizes offered (small / medium / large — which cc?).',
-      'Confirm car options: 4-seat, 6–7 seat, minibus. With and without driver?',
-      'Is a helmet included with every scooter?',
-      'What documents does the renter need — international driving permit, passport as deposit?',
-      'Is delivery to the guest’s accommodation possible?',
-      'Is there insurance, and what happens in case of damage?',
-    ],
-    en: {
-      name: 'Scooter & Car Rental',
-      tagline: 'Your own wheels, or someone else’s hands on the wheel.',
-      summary:
-        'Scooters in three sizes, and cars from four seats to a minibus — with or without a driver.',
-      intro:
-        'Lombok rewards having your own transport. The good beaches are down side roads, the good food is not near the hotels, and the distances are longer than the map suggests. Rent a scooter if you are confident on one, a car if you are not, and a car with a driver if you would rather look out of the window than at the traffic.',
-      highlights: [
-        'Scooters in small, medium and large — matched to how confident you are',
-        'Cars from four seats up to a minibus for a group',
-        'With or without a driver, your choice',
-        'Delivered to where you are staying',
-        'Helmets provided; ask for extras like phone mounts or child seats',
-      ],
-      details: [
-        {
-          title: 'With a driver, or without',
-          body: 'Driving yourself is cheaper and gives you complete freedom. A driver costs more and gives you something else: he knows which road is closed, where it is safe to leave the car, and what a fair price is at the other end. For a first visit, most guests are happier with a driver.',
-        },
-        {
-          title: 'Before you ride',
-          body: 'Traffic here follows its own rhythm and the roads outside the towns are unlit at night. If you have not ridden a scooter before, a Lombok holiday is not the place to learn — take the car. We would rather talk you out of a rental than visit you in hospital.',
-        },
-      ],
-      muslimNote:
-        'One thing worth knowing if you are driving yourself: on Friday around midday the roads near any larger mosque fill up and then empty again. Nothing to worry about — just do not plan a tight schedule through a town at that hour.',
-      whatsapp:
-        "Hi Yumna, I'd like to rent a [scooter / car] from [date] to [date]. [With / without] a driver.",
-      seo: {
-        title: 'Scooter & Car Rental Lombok — With or Without Driver | Yumna Tour and Travel',
-        description:
-          'Rent a scooter or car on Lombok: three scooter sizes, cars from 4 seats to minibus, with or without driver. Delivered to your accommodation.',
-      },
-    },
-    id: {
-      name: 'Sewa Motor & Mobil',
-      tagline: 'Kendaraan sendiri, atau ada yang menyetir untuk Anda.',
-      summary:
-        'Motor tiga ukuran, dan mobil dari empat kursi sampai minibus — dengan atau tanpa sopir.',
-      intro:
-        'Lombok jauh lebih menyenangkan bila Anda punya kendaraan sendiri. Pantai terbaik ada di jalan-jalan kecil, makanan terbaik jauh dari hotel, dan jaraknya lebih panjang daripada yang terlihat di peta. Sewa motor bila Anda percaya diri, mobil bila tidak, dan mobil dengan sopir bila Anda lebih suka menikmati pemandangan daripada memperhatikan lalu lintas.',
-      highlights: [
-        'Motor ukuran kecil, sedang dan besar — sesuai tingkat kepercayaan diri Anda',
-        'Mobil dari empat kursi sampai minibus untuk rombongan',
-        'Dengan atau tanpa sopir, sesuai pilihan Anda',
-        'Diantar ke tempat Anda menginap',
-        'Helm disediakan; minta tambahan seperti dudukan HP atau kursi anak',
-      ],
-      details: [
-        {
-          title: 'Dengan sopir atau tanpa sopir',
-          body: 'Menyetir sendiri lebih murah dan memberi kebebasan penuh. Sopir lebih mahal tetapi memberi hal lain: dia tahu jalan mana yang ditutup, di mana mobil aman diparkir, dan berapa harga yang wajar di tempat tujuan. Untuk kunjungan pertama, kebanyakan tamu lebih nyaman dengan sopir.',
-        },
-        {
-          title: 'Sebelum berkendara',
-          body: 'Lalu lintas di sini punya iramanya sendiri dan jalan di luar kota gelap pada malam hari. Bila Anda belum pernah mengendarai motor, liburan di Lombok bukan tempat untuk belajar — ambil mobil saja. Kami lebih rela membatalkan sewa daripada menjenguk Anda di rumah sakit.',
-        },
-      ],
-      muslimNote:
-        'Satu hal yang perlu diketahui bila Anda menyetir sendiri: pada Jumat menjelang tengah hari, jalan di sekitar masjid besar akan padat lalu lengang kembali. Bukan masalah — hanya jangan menyusun jadwal yang mepet melewati kota pada jam itu.',
-      whatsapp:
-        'Halo Yumna, saya ingin menyewa [motor / mobil] dari tanggal [tanggal] sampai [tanggal]. [Dengan / tanpa] sopir.',
-      seo: {
-        title: 'Sewa Motor & Mobil Lombok — Dengan atau Tanpa Sopir | Yumna Tour and Travel',
-        description:
-          'Sewa motor atau mobil di Lombok: tiga ukuran motor, mobil 4 kursi sampai minibus, dengan atau tanpa sopir. Diantar ke penginapan Anda.',
-      },
-    },
-  },
-
-  {
-    slug: 'ferry-fast-boat-tickets',
-    order: 5,
-    pattern: 5,
-    approval: [
-      'Which fast boat operators does Yumna book with, Bali ⇄ Lombok?',
-      'Which routes exactly — Padang Bai, Serangan, Amed? To Bangsal, Teluk Nare or the Gilis directly?',
-      'Is the slow public ferry (Lembar ⇄ Padang Bai) also booked, or only fast boats?',
-      'Is hotel-to-harbour transport included in a ticket booking or quoted separately?',
-      'How far in advance should guests book in high season?',
-    ],
-    en: {
-      name: 'Ferry & Fast Boat Tickets',
-      tagline: 'Bali to Lombok, Lombok to the Gilis — booked and timed properly.',
-      summary:
-        'Crossings between Bali, Lombok and the Gili islands, with the transport at both ends arranged too.',
-      intro:
-        'Booking a boat is the easy part. Getting to the right harbour at the right time, with a driver who knows which of the several departure points your operator actually uses, is where people lose half a day. We book the crossing and arrange both ends of it, so the ticket is part of a plan rather than a loose piece of paper.',
-      highlights: [
-        'Bali ⇄ Lombok crossings, and Lombok ⇄ Gili islands',
-        'Transport to and from the harbour arranged with the ticket',
-        'We tell you honestly which crossings are rough and when',
-        'Help if a crossing is cancelled — we rebook, you do not queue',
-        'Luggage, surfboards and bulky bags accounted for in advance',
-      ],
-      details: [
-        {
-          title: 'Fast boat or ferry',
-          body: 'The fast boats are the quick way between Bali and Lombok and the only sensible way to the Gilis. The public ferry from Lembar is slow and much cheaper, and it takes vehicles. They are different products for different trips, and we will tell you which one your plan actually needs.',
-        },
-        {
-          title: 'Crossings and the weather',
-          body: 'The strait between Bali and Lombok can be genuinely rough, particularly outside the calm months, and boats are sometimes cancelled at short notice. If you have a flight to catch the same day, plan a night on the right side of the water. We will say so when we book.',
-        },
-      ],
-      muslimNote:
-        'Crossings are the one part of a trip you cannot pause. We will tell you before you book if a departure runs through a prayer time, so you can take the sailing before or after it instead of praying on a moving boat.',
-      whatsapp:
-        "Hi Yumna, I'd like to book a boat from [origin] to [destination] on [date], for [number] people.",
-      seo: {
-        title: 'Fast Boat & Ferry Tickets Lombok — Bali & Gili Crossings | Yumna Tour and Travel',
-        description:
-          'Fast boat and ferry tickets between Bali, Lombok and the Gili islands, with harbour transfers arranged at both ends. Booked by a local operator.',
-      },
-    },
-    id: {
-      name: 'Tiket Feri & Fast Boat',
-      tagline: 'Bali ke Lombok, Lombok ke Gili — dipesan dan dijadwalkan dengan benar.',
-      summary:
-        'Penyeberangan antara Bali, Lombok dan Gili, lengkap dengan transportasi di kedua ujungnya.',
-      intro:
-        'Memesan tiket kapal adalah bagian yang mudah. Yang membuat orang kehilangan setengah hari adalah sampai di pelabuhan yang tepat pada waktu yang tepat, dengan sopir yang tahu titik keberangkatan mana yang benar-benar dipakai operator Anda. Kami memesan penyeberangannya sekaligus mengatur kedua ujungnya, sehingga tiket menjadi bagian dari rencana, bukan sekadar selembar kertas.',
-      highlights: [
-        'Penyeberangan Bali ⇄ Lombok, dan Lombok ⇄ Gili',
-        'Transportasi ke dan dari pelabuhan diatur bersama tiket',
-        'Kami sampaikan terus terang penyeberangan mana yang bergelombang dan kapan',
-        'Bantuan bila penyeberangan dibatalkan — kami yang mengurus penjadwalan ulang',
-        'Bagasi, papan selancar dan barang besar diperhitungkan sejak awal',
-      ],
-      details: [
-        {
-          title: 'Fast boat atau feri',
-          body: 'Fast boat adalah cara cepat antara Bali dan Lombok, dan satu-satunya cara masuk akal ke Gili. Feri umum dari Lembar jauh lebih lambat dan lebih murah, serta bisa mengangkut kendaraan. Keduanya produk berbeda untuk perjalanan berbeda, dan kami akan memberi tahu mana yang sesuai rencana Anda.',
-        },
-        {
-          title: 'Penyeberangan dan cuaca',
-          body: 'Selat antara Bali dan Lombok bisa benar-benar bergelombang, terutama di luar bulan-bulan tenang, dan kapal kadang dibatalkan mendadak. Bila Anda harus mengejar penerbangan di hari yang sama, menginaplah lebih dulu di sisi yang benar. Kami akan mengingatkan saat memesan.',
-        },
-      ],
-      muslimNote:
-        'Penyeberangan adalah satu-satunya bagian perjalanan yang tidak bisa dijeda. Kami beri tahu sebelum Anda memesan bila jadwal keberangkatan melewati waktu salat, sehingga Anda bisa memilih jadwal sebelum atau sesudahnya daripada salat di atas kapal yang bergoyang.',
-      whatsapp:
-        'Halo Yumna, saya ingin memesan kapal dari [asal] ke [tujuan] tanggal [tanggal], untuk [jumlah] orang.',
-      seo: {
-        title: 'Tiket Fast Boat & Feri Lombok — Bali & Gili | Yumna Tour and Travel',
-        description:
-          'Tiket fast boat dan feri antara Bali, Lombok dan Gili, lengkap dengan antar-jemput pelabuhan. Dipesan lewat operator lokal.',
-      },
-    },
-  },
-
-  {
-    slug: 'villa-hotel-booking',
-    order: 6,
-    pattern: 6,
-    approval: [
-      'How does the booking actually work — does Yumna hold rooms, or negotiate with properties directly?',
-      'Is the claim of better-than-online prices something we can state? If so, on which kinds of property?',
-      'Which areas are covered — Senggigi, Kuta, Mataram, Gili, Sembalun?',
-      'What exactly is checked for Muslim-friendly accommodation, and can it be verified per property?',
-      'Is payment made to Yumna or directly to the property?',
-    ],
-    en: {
-      name: 'Villa & Hotel Booking',
-      tagline: 'A local asking on your behalf beats a search filter.',
-      summary:
-        'Help finding a villa or hotel that suits you — including whether it actually suits a Muslim family.',
-      intro:
-        'Booking sites show you photographs and a price. They do not tell you that the villa is beautiful but forty minutes from anything, that the "beachfront" hotel faces a working harbour, or that the resort with the great rate has a pool bar directly under the family rooms. We book on Lombok every week and we know which is which.',
-      highlights: [
-        'Villas, hotels and guest houses across the island',
-        'We check what listings do not tell you: noise, access, what is nearby',
-        'Muslim-friendly properties assessed on things that actually matter',
-        'Rooms held while you decide, rather than a countdown timer',
-        'One point of contact if something is wrong when you arrive',
-      ],
-      details: [
-        {
-          title: 'What we check for you',
-          body: 'How far it really is from where you want to be. Whether the road in is passable in the rain. Whether breakfast is included and what it actually is. Whether the quiet-looking place is next to a mosque loudspeaker, a construction site or a beach club — none of which appear in the photographs.',
-        },
-        {
-          title: 'Booking through us or directly',
-          body: 'If a property is cheaper for you to book yourself, we will say so. What we add is judgement about whether it is the right place, and someone on the island to call if it turns out not to be.',
-        },
-      ],
-      muslimNote:
-        'This is where the details actually decide whether a stay works: is the kiblat marked in the room, is breakfast halal or just egg and toast, how present is the pool bar, and can women swim without an audience. We report what we find, not what sells the booking.',
-      whatsapp:
-        "Hi Yumna, I'm looking for accommodation on Lombok from [date] to [date], for [number] people, near [area].",
-      seo: {
-        title: 'Villa & Hotel Booking Lombok — Muslim-Friendly Stays | Yumna Tour and Travel',
-        description:
-          'Help finding villas and hotels on Lombok, checked by a local operator — including what makes a property genuinely Muslim-friendly.',
-      },
-    },
-    id: {
-      name: 'Pemesanan Vila & Hotel',
-      tagline: 'Orang lokal yang menanyakan langsung lebih andal daripada filter pencarian.',
-      summary:
-        'Bantuan mencari vila atau hotel yang cocok — termasuk apakah benar-benar cocok untuk keluarga Muslim.',
-      intro:
-        'Situs pemesanan hanya menampilkan foto dan harga. Mereka tidak memberi tahu bahwa vilanya indah tetapi empat puluh menit dari mana-mana, bahwa hotel "tepi pantai" itu menghadap pelabuhan kerja, atau bahwa resor dengan tarif menarik itu punya bar kolam persis di bawah kamar keluarga. Kami memesan di Lombok setiap minggu dan kami tahu bedanya.',
-      highlights: [
-        'Vila, hotel dan guest house di seluruh pulau',
-        'Kami periksa yang tidak tertulis di iklan: kebisingan, akses, apa yang ada di sekitar',
-        'Penginapan ramah Muslim dinilai dari hal yang benar-benar penting',
-        'Kamar ditahan selama Anda mempertimbangkan, bukan dikejar hitungan mundur',
-        'Satu kontak bila ada yang tidak beres saat Anda tiba',
-      ],
-      details: [
-        {
-          title: 'Yang kami periksa untuk Anda',
-          body: 'Seberapa jauh sebenarnya dari tempat yang Anda tuju. Apakah jalan masuknya bisa dilalui saat hujan. Apakah sarapan termasuk dan seperti apa isinya. Apakah tempat yang terlihat tenang itu bersebelahan dengan pengeras suara masjid, proyek bangunan atau beach club — hal yang tidak pernah muncul di foto.',
-        },
-        {
-          title: 'Lewat kami atau langsung',
-          body: 'Bila lebih murah Anda pesan sendiri, kami akan bilang begitu. Yang kami tambahkan adalah pertimbangan apakah tempat itu memang tepat, dan adanya orang di pulau ini yang bisa dihubungi bila ternyata tidak.',
-        },
-      ],
-      muslimNote:
-        'Di sinilah detail benar-benar menentukan nyaman atau tidaknya menginap: apakah arah kiblat ditandai di kamar, apakah sarapannya halal atau sekadar telur dan roti, seberapa menonjol bar kolam, dan apakah perempuan bisa berenang tanpa jadi tontonan. Kami laporkan apa adanya, bukan yang membuat pesanan cepat laku.',
-      whatsapp:
-        'Halo Yumna, saya mencari penginapan di Lombok dari tanggal [tanggal] sampai [tanggal], untuk [jumlah] orang, di daerah [daerah].',
-      seo: {
-        title: 'Pemesanan Vila & Hotel Lombok — Penginapan Ramah Muslim | Yumna Tour and Travel',
-        description:
-          'Bantuan mencari vila dan hotel di Lombok, diperiksa langsung oleh operator lokal — termasuk yang membuat sebuah properti benar-benar ramah Muslim.',
-      },
-    },
-  },
-
-  {
-    slug: 'rinjani-trekking',
-    order: 7,
-    pattern: 7,
-    approval: [
-      'SAFETY-CRITICAL — nothing on this page goes live unconfirmed.',
-      'Confirm the packages: 2 days / 1 night and 3 days / 2 nights. Which routes — Sembalun, Senaru, Torean?',
-      'Which summit or crater rim does each package actually reach?',
-      'Are national park permits included in the quote?',
-      'What equipment is provided (tent, sleeping bag, mat, meals) and what must the guest bring?',
-      'Guide and porter ratio per group?',
-      'What is the minimum fitness level, and is there an age limit?',
-      'Confirm the closed season — the park normally closes for part of the rainy season.',
-      'Is there insurance, and what is the procedure if a trekker cannot continue?',
-    ],
-    en: {
-      name: 'Rinjani Trekking',
-      tagline: 'The hardest thing you will do on Lombok, and the one you will talk about.',
-      summary:
-        'Guided treks on Gunung Rinjani in two- and three-day packages, with experienced local guides.',
-      intro:
-        'Rinjani is an active volcano and the second-highest in Indonesia. The trek is genuinely demanding: long days, thin air, loose ground on the ascent, and nights cold enough to surprise people who came for a beach holiday. Done with the right guide and the right preparation it is the thing most guests remember about Lombok. Done casually it is how people get hurt.',
-      highlights: [
-        'Two-day / one-night and three-day / two-night packages',
-        'Experienced local guides who climb this mountain for a living',
-        'Porters, camp and meals on the mountain arranged',
-        'Small groups — you are not following a flag up the ridge',
-        'Honest advice on whether the trek is right for you before you book',
-      ],
-      details: [
-        {
-          title: 'How hard is it, really',
-          body: 'Harder than most people expect. You are walking for eight hours or more a day with altitude gain, and the summit push starts in the dark on loose volcanic scree that gives back part of every step. You do not need to be an athlete, but you do need to be able to walk uphill for a full day without it ruining you.',
-        },
-        {
-          title: 'Season and closures',
-          body: 'The mountain is not open year round. The national park closes for part of the rainy season, and the route can shut at short notice for weather or volcanic activity. Build a spare day into your trip, and do not book a flight for the evening you come down.',
-        },
-        {
-          title: 'What the mountain is like at night',
-          body: 'Cold. Genuinely cold, in a way that catches out people who packed for the tropics. Camp is on exposed ground and the wind does not stop. Warm layers are not optional and we will tell you exactly what to bring before you commit.',
-        },
-      ],
-      muslimNote:
-        'Guides pray on the mountain themselves, so prayer on the trek is normal rather than something you have to ask for. Food carried up is halal. Tell us about fasting or any dietary needs when you book, because that changes how the days are planned.',
-      whatsapp:
-        "Hi Yumna, I'd like to ask about Rinjani trekking. We are [number] people, around [date], interested in the [2D1N / 3D2N] package.",
-      seo: {
-        title: 'Rinjani Trekking — 2D1N & 3D2N Guided Packages | Yumna Tour and Travel',
-        description:
-          'Guided Rinjani treks from Lombok: two-day and three-day packages with experienced local guides, porters and camp arranged. Halal meals, honest advice.',
-      },
-    },
-    id: {
-      name: 'Pendakian Rinjani',
-      tagline: 'Hal tersulit yang akan Anda lakukan di Lombok — dan yang paling Anda ceritakan.',
-      summary:
-        'Pendakian Gunung Rinjani berpemandu, paket dua dan tiga hari, bersama pemandu lokal berpengalaman.',
-      intro:
-        'Rinjani adalah gunung berapi aktif dan tertinggi kedua di Indonesia. Pendakiannya benar-benar berat: hari yang panjang, udara tipis, medan berpasir yang labil saat menanjak, dan malam yang jauh lebih dingin daripada dugaan orang yang datang untuk liburan pantai. Dengan pemandu yang tepat dan persiapan yang benar, inilah yang paling diingat tamu kami tentang Lombok. Bila disepelekan, di sinilah orang celaka.',
-      highlights: [
-        'Paket 2 hari 1 malam dan 3 hari 2 malam',
-        'Pemandu lokal berpengalaman yang mendaki gunung ini setiap minggu',
-        'Porter, perkemahan dan konsumsi di gunung diatur',
-        'Rombongan kecil — bukan barisan yang mengikuti bendera',
-        'Saran jujur apakah pendakian ini cocok untuk Anda sebelum memesan',
-      ],
-      details: [
-        {
-          title: 'Seberapa berat sebenarnya',
-          body: 'Lebih berat daripada dugaan kebanyakan orang. Anda berjalan delapan jam atau lebih per hari sambil terus menanjak, dan pendakian puncak dimulai dalam gelap di atas pasir vulkanik labil yang membuat setiap langkah melorot kembali. Anda tidak harus atlet, tetapi harus sanggup mendaki seharian penuh tanpa tumbang.',
-        },
-        {
-          title: 'Musim dan penutupan',
-          body: 'Gunung ini tidak buka sepanjang tahun. Taman nasional ditutup pada sebagian musim hujan, dan jalur bisa ditutup mendadak karena cuaca atau aktivitas vulkanik. Sediakan satu hari cadangan dalam rencana Anda, dan jangan memesan penerbangan di malam Anda turun.',
-        },
-        {
-          title: 'Malam di gunung',
-          body: 'Dingin. Benar-benar dingin, dan ini mengejutkan orang yang berkemas untuk daerah tropis. Perkemahan berada di lahan terbuka dan anginnya tidak berhenti. Pakaian hangat bukan pilihan tambahan — kami akan merinci apa yang harus dibawa sebelum Anda memutuskan.',
-        },
-      ],
-      muslimNote:
-        'Pemandu kami juga salat di gunung, jadi salat selama pendakian adalah hal biasa, bukan sesuatu yang harus Anda minta. Makanan yang dibawa naik halal. Beri tahu kami bila Anda berpuasa atau punya pantangan makanan saat memesan, karena itu mengubah cara harinya disusun.',
-      whatsapp:
-        'Halo Yumna, saya ingin bertanya tentang pendakian Rinjani. Kami [jumlah] orang, sekitar tanggal [tanggal], tertarik paket [2H1M / 3H2M].',
-      seo: {
-        title: 'Pendakian Rinjani — Paket 2H1M & 3H2M Berpemandu | Yumna Tour and Travel',
-        description:
-          'Pendakian Rinjani berpemandu dari Lombok: paket dua dan tiga hari dengan pemandu lokal berpengalaman, porter dan perkemahan. Konsumsi halal, saran jujur.',
-      },
-    },
-  },
-
-  {
-    slug: 'multi-day-packages',
-    order: 8,
-    pattern: 8,
-    approval: [
-      'NEW SERVICE — confirm Muhajir wants to sell bundled multi-day packages.',
-      'Which durations? 3D2N and 4D3N assumed here — correct?',
-      'What is bundled: transport, tours, accommodation, meals, tickets?',
-      'Does Yumna book and pay the accommodation, or does the guest?',
-      'Is there a minimum group size?',
-    ],
-    en: {
-      name: 'Multi-Day Packages',
-      tagline: 'Hand us the whole trip, not just one day of it.',
-      summary:
-        'Several days planned as one: transport, tours, accommodation and tickets in a single arrangement.',
-      intro:
-        'Booking each day separately means negotiating five times, coordinating five pick-ups and hoping the pieces fit. A package is the same island, planned once. You tell us how many days you have and what matters to you; we come back with a route that works — including the travelling time between places, which is the part people underestimate on Lombok.',
-      highlights: [
-        'Three days, four days or longer — built around your dates',
-        'Transport, tours, accommodation and boat tickets in one plan',
-        'Realistic travel times, with the driving spread sensibly',
-        'One price agreed up front for the whole trip',
-        'Rest days and prayer times planned in, not squeezed around',
-      ],
-      details: [
-        {
-          title: 'How planning works',
-          body: 'Send your dates, how many of you there are, and two or three things you definitely want to do. We send back a day-by-day outline. You change what you do not like, we adjust, and we agree a price once the plan is right — not before.',
-        },
-        {
-          title: 'Why distance matters here',
-          body: 'Lombok looks small and drives large. The road between the north coast and the south takes most of a morning, and a plan that ignores that turns a holiday into a series of car journeys. We build the route so you sleep in the right places.',
-        },
-      ],
-        muslimNote:
-        'Over several days the pattern matters more than any single stop. We keep Friday light enough for Jumu\'ah, avoid putting a long drive across the middle of a fasting day, and place the overnight stops where your family is comfortable — decided in the first draft, not patched in afterwards.',
-      whatsapp:
-        "Hi Yumna, I'd like a multi-day package. We arrive on [date] for [number] days, [number] people. We'd really like to see [ ... ].",
-      seo: {
-        title: 'Lombok Multi-Day Tour Packages — 3 & 4 Day Trips | Yumna Tour and Travel',
-        description:
-          'Multi-day Lombok packages combining transport, tours, accommodation and boat tickets in one plan. Muslim-friendly, planned by a local operator.',
-      },
-    },
-    id: {
-      name: 'Paket Beberapa Hari',
-      tagline: 'Serahkan seluruh perjalanan, bukan cuma satu harinya.',
-      summary:
-        'Beberapa hari disusun sebagai satu rencana: transportasi, tur, penginapan dan tiket dalam satu paket.',
-      intro:
-        'Memesan hari demi hari berarti bernegosiasi lima kali, mengatur lima penjemputan, dan berharap semuanya nyambung. Paket adalah pulau yang sama, direncanakan sekali. Anda sampaikan berapa hari waktu Anda dan apa yang penting bagi Anda; kami kembali dengan rute yang masuk akal — termasuk waktu tempuh antar lokasi, bagian yang paling sering diremehkan orang di Lombok.',
-      highlights: [
-        'Tiga hari, empat hari atau lebih — disusun sesuai tanggal Anda',
-        'Transportasi, tur, penginapan dan tiket kapal dalam satu rencana',
-        'Waktu tempuh yang realistis, dengan pembagian perjalanan yang wajar',
-        'Satu harga disepakati di muka untuk seluruh perjalanan',
-        'Hari istirahat dan waktu salat direncanakan, bukan diselipkan',
-      ],
-      details: [
-        {
-          title: 'Cara penyusunannya',
-          body: 'Kirim tanggal Anda, jumlah orang, dan dua tiga hal yang pasti ingin Anda lakukan. Kami balas dengan rencana harian. Anda ubah bagian yang kurang cocok, kami sesuaikan, dan harga disepakati setelah rencananya pas — bukan sebelumnya.',
-        },
-        {
-          title: 'Kenapa jarak penting di sini',
-          body: 'Lombok terlihat kecil tetapi terasa luas saat dikendarai. Perjalanan dari pesisir utara ke selatan menghabiskan hampir satu pagi, dan rencana yang mengabaikan itu mengubah liburan menjadi rangkaian perjalanan mobil. Kami susun rutenya agar Anda menginap di tempat yang tepat.',
-        },
-      ],
-      muslimNote:
-        'Dalam perjalanan beberapa hari, polanya lebih penting daripada satu titik pemberhentian. Kami menjaga hari Jumat tetap longgar untuk salat Jumat, menghindari perjalanan jauh di tengah hari saat berpuasa, dan menempatkan lokasi menginap di tempat yang nyaman bagi keluarga Anda — ditentukan sejak rancangan pertama, bukan ditambal belakangan.',
-      whatsapp:
-        'Halo Yumna, saya ingin paket beberapa hari. Kami tiba tanggal [tanggal] selama [jumlah] hari, [jumlah] orang. Kami ingin sekali mengunjungi [ ... ].',
-      seo: {
-        title: 'Paket Wisata Lombok Beberapa Hari — 3 & 4 Hari | Yumna Tour and Travel',
-        description:
-          'Paket wisata Lombok beberapa hari: transportasi, tur, penginapan dan tiket kapal dalam satu rencana. Ramah Muslim, disusun operator lokal.',
-      },
-    },
-  },
 
   {
     slug: 'beach-hopping-water-sports',
-    order: 9,
-    pattern: 9,
+    order: 2,
+    pattern: 2,
     approval: [
       'Which beaches does Muhajir actually run this on — Pink Beach, Tanjung Aan, Selong Belanak, Sekotong, Senggigi?',
       'Is Pink Beach reached by road or by boat, and how long is the drive from the usual hotels?',
@@ -788,6 +209,594 @@ export const services = [
       },
     },
   },
+
+
+  {
+    slug: 'rinjani-trekking',
+    order: 3,
+    pattern: 3,
+    approval: [
+      'SAFETY-CRITICAL — nothing on this page goes live unconfirmed.',
+      'Confirm the packages: 2 days / 1 night and 3 days / 2 nights. Which routes — Sembalun, Senaru, Torean?',
+      'Which summit or crater rim does each package actually reach?',
+      'Are national park permits included in the quote?',
+      'What equipment is provided (tent, sleeping bag, mat, meals) and what must the guest bring?',
+      'Guide and porter ratio per group?',
+      'What is the minimum fitness level, and is there an age limit?',
+      'Confirm the closed season — the park normally closes for part of the rainy season.',
+      'Is there insurance, and what is the procedure if a trekker cannot continue?',
+    ],
+    en: {
+      name: 'Rinjani Trekking',
+      tagline: 'The hardest thing you will do on Lombok, and the one you will talk about.',
+      summary:
+        'Guided treks on Gunung Rinjani in two- and three-day packages, with experienced local guides.',
+      intro:
+        'Rinjani is an active volcano and the second-highest in Indonesia. The trek is genuinely demanding: long days, thin air, loose ground on the ascent, and nights cold enough to surprise people who came for a beach holiday. Done with the right guide and the right preparation it is the thing most guests remember about Lombok. Done casually it is how people get hurt.',
+      highlights: [
+        'Two-day / one-night and three-day / two-night packages',
+        'Experienced local guides who climb this mountain for a living',
+        'Porters, camp and meals on the mountain arranged',
+        'Small groups — you are not following a flag up the ridge',
+        'Honest advice on whether the trek is right for you before you book',
+      ],
+      details: [
+        {
+          title: 'How hard is it, really',
+          body: 'Harder than most people expect. You are walking for eight hours or more a day with altitude gain, and the summit push starts in the dark on loose volcanic scree that gives back part of every step. You do not need to be an athlete, but you do need to be able to walk uphill for a full day without it ruining you.',
+        },
+        {
+          title: 'Season and closures',
+          body: 'The mountain is not open year round. The national park closes for part of the rainy season, and the route can shut at short notice for weather or volcanic activity. Build a spare day into your trip, and do not book a flight for the evening you come down.',
+        },
+        {
+          title: 'What the mountain is like at night',
+          body: 'Cold. Genuinely cold, in a way that catches out people who packed for the tropics. Camp is on exposed ground and the wind does not stop. Warm layers are not optional and we will tell you exactly what to bring before you commit.',
+        },
+      ],
+      muslimNote:
+        'Guides pray on the mountain themselves, so prayer on the trek is normal rather than something you have to ask for. Food carried up is halal. Tell us about fasting or any dietary needs when you book, because that changes how the days are planned.',
+      whatsapp:
+        "Hi Yumna, I'd like to ask about Rinjani trekking. We are [number] people, around [date], interested in the [2D1N / 3D2N] package.",
+      seo: {
+        title: 'Rinjani Trekking — 2D1N & 3D2N Guided Packages | Yumna Tour and Travel',
+        description:
+          'Guided Rinjani treks from Lombok: two-day and three-day packages with experienced local guides, porters and camp arranged. Halal meals, honest advice.',
+      },
+    },
+    id: {
+      name: 'Pendakian Rinjani',
+      tagline: 'Hal tersulit yang akan Anda lakukan di Lombok — dan yang paling Anda ceritakan.',
+      summary:
+        'Pendakian Gunung Rinjani berpemandu, paket dua dan tiga hari, bersama pemandu lokal berpengalaman.',
+      intro:
+        'Rinjani adalah gunung berapi aktif dan tertinggi kedua di Indonesia. Pendakiannya benar-benar berat: hari yang panjang, udara tipis, medan berpasir yang labil saat menanjak, dan malam yang jauh lebih dingin daripada dugaan orang yang datang untuk liburan pantai. Dengan pemandu yang tepat dan persiapan yang benar, inilah yang paling diingat tamu kami tentang Lombok. Bila disepelekan, di sinilah orang celaka.',
+      highlights: [
+        'Paket 2 hari 1 malam dan 3 hari 2 malam',
+        'Pemandu lokal berpengalaman yang mendaki gunung ini setiap minggu',
+        'Porter, perkemahan dan konsumsi di gunung diatur',
+        'Rombongan kecil — bukan barisan yang mengikuti bendera',
+        'Saran jujur apakah pendakian ini cocok untuk Anda sebelum memesan',
+      ],
+      details: [
+        {
+          title: 'Seberapa berat sebenarnya',
+          body: 'Lebih berat daripada dugaan kebanyakan orang. Anda berjalan delapan jam atau lebih per hari sambil terus menanjak, dan pendakian puncak dimulai dalam gelap di atas pasir vulkanik labil yang membuat setiap langkah melorot kembali. Anda tidak harus atlet, tetapi harus sanggup mendaki seharian penuh tanpa tumbang.',
+        },
+        {
+          title: 'Musim dan penutupan',
+          body: 'Gunung ini tidak buka sepanjang tahun. Taman nasional ditutup pada sebagian musim hujan, dan jalur bisa ditutup mendadak karena cuaca atau aktivitas vulkanik. Sediakan satu hari cadangan dalam rencana Anda, dan jangan memesan penerbangan di malam Anda turun.',
+        },
+        {
+          title: 'Malam di gunung',
+          body: 'Dingin. Benar-benar dingin, dan ini mengejutkan orang yang berkemas untuk daerah tropis. Perkemahan berada di lahan terbuka dan anginnya tidak berhenti. Pakaian hangat bukan pilihan tambahan — kami akan merinci apa yang harus dibawa sebelum Anda memutuskan.',
+        },
+      ],
+      muslimNote:
+        'Pemandu kami juga salat di gunung, jadi salat selama pendakian adalah hal biasa, bukan sesuatu yang harus Anda minta. Makanan yang dibawa naik halal. Beri tahu kami bila Anda berpuasa atau punya pantangan makanan saat memesan, karena itu mengubah cara harinya disusun.',
+      whatsapp:
+        'Halo Yumna, saya ingin bertanya tentang pendakian Rinjani. Kami [jumlah] orang, sekitar tanggal [tanggal], tertarik paket [2H1M / 3H2M].',
+      seo: {
+        title: 'Pendakian Rinjani — Paket 2H1M & 3H2M Berpemandu | Yumna Tour and Travel',
+        description:
+          'Pendakian Rinjani berpemandu dari Lombok: paket dua dan tiga hari dengan pemandu lokal berpengalaman, porter dan perkemahan. Konsumsi halal, saran jujur.',
+      },
+    },
+  },
+
+
+  {
+    slug: 'islamic-heritage-tour',
+    order: 4,
+    pattern: 4,
+    approval: [
+      'NEW SERVICE — confirm Muhajir wants to offer this at all before anything else.',
+      'Which mosques and sites would the route actually cover? (Islamic Center NTB in Mataram, Masjid Kuno Bayan Beleq, village mosques)',
+      'Is the historic Bayan mosque reachable and open to visitors as a day trip from Mataram?',
+      'Full day or half day?',
+      'Is a guide who can explain the history available, or is this driver-only?',
+    ],
+    en: {
+      name: 'Islamic Heritage Tour',
+      tagline: 'Lombok is called the island of a thousand mosques. Here is why.',
+      summary:
+        'A route built around Lombok’s mosques and Islamic history — the modern landmark and the very old ones.',
+      intro:
+        'Lombok is known across Indonesia as the island of a thousand mosques, and the count is not far off. Islam arrived here centuries ago and layered itself over Sasak tradition rather than replacing it, which is why the island\'s religious architecture ranges from a vast modern landmark in the city to small wooden mosques in the north older than almost anything else standing. No other operator on Lombok offers this as a route. We think it is overdue.',
+      highlights: [
+        'The Islamic Center in Mataram — the island\'s modern landmark',
+        'Historic village mosques in the north, centuries old and still in use',
+        'Context on how Islam and Sasak tradition grew together here',
+        'Timed so that you pray in the mosques you visit, not just look at them',
+        'Suitable for families and for older travellers — little walking',
+      ],
+      details: [
+        {
+          title: 'Why this route exists',
+          body: 'Most tours treat mosques as a photo stop on the way somewhere else. For a lot of our guests, they are the reason to come. This route takes them seriously: enough time at each, at the right time of day, with someone who can tell you what you are looking at.',
+        },
+        {
+          title: 'What to wear',
+          body: 'Modest dress for everyone, and a headscarf for women — bring your own or we can arrange one. Some mosques ask visitors to remove shoes well before the entrance, so slip-on shoes make the day easier.',
+        },
+      ],
+      muslimNote:
+        'This is the one tour where the prayer times are the schedule rather than something planned around it. We build the day so that you are at a mosque when the adhan is called.',
+      whatsapp:
+        "Hi Yumna, I'd like to ask about the Islamic heritage tour for [date]. We are [number] people.",
+      seo: {
+        title: 'Islamic Heritage Tour Lombok — Mosques & History | Yumna Tour and Travel',
+        description:
+          'A Muslim-friendly heritage tour of Lombok’s mosques, from the Islamic Center in Mataram to centuries-old village mosques. Timed around prayer, guided by a local.',
+      },
+    },
+    id: {
+      name: 'Tur Wisata Religi',
+      tagline: 'Lombok disebut pulau seribu masjid. Inilah alasannya.',
+      summary:
+        'Rute yang disusun mengelilingi masjid dan sejarah Islam di Lombok — yang modern maupun yang tertua.',
+      intro:
+        'Lombok dikenal di seluruh Indonesia sebagai pulau seribu masjid, dan sebutan itu tidak berlebihan. Islam datang berabad-abad lalu dan berpadu dengan tradisi Sasak alih-alih menggantikannya. Karena itu arsitektur religinya membentang dari landmark modern yang megah di kota sampai masjid kayu kecil di utara yang lebih tua dari hampir semua bangunan lain di pulau ini. Belum ada operator lain di Lombok yang menawarkan ini sebagai satu rute. Menurut kami sudah waktunya.',
+      highlights: [
+        'Islamic Center di Mataram — landmark modern kebanggaan pulau ini',
+        'Masjid kuno di utara, berusia ratusan tahun dan masih dipakai',
+        'Penjelasan bagaimana Islam dan tradisi Sasak tumbuh bersama di sini',
+        'Waktunya diatur agar Anda salat di masjid yang dikunjungi, bukan sekadar melihat',
+        'Cocok untuk keluarga dan tamu lanjut usia — tidak banyak berjalan kaki',
+      ],
+      details: [
+        {
+          title: 'Kenapa rute ini ada',
+          body: 'Kebanyakan tur menjadikan masjid sekadar tempat berfoto dalam perjalanan ke tempat lain. Bagi banyak tamu kami, justru masjid itulah tujuannya. Rute ini memperlakukannya dengan serius: waktu yang cukup di tiap tempat, pada jam yang tepat, ditemani orang yang bisa menjelaskan.',
+        },
+        {
+          title: 'Pakaian',
+          body: 'Pakaian sopan untuk semua, dan kerudung untuk perempuan — bawa sendiri atau kami bantu siapkan. Beberapa masjid meminta pengunjung melepas alas kaki jauh sebelum pintu masuk, jadi sandal atau sepatu yang mudah dilepas sangat membantu.',
+        },
+      ],
+      muslimNote:
+        'Inilah satu-satunya tur yang jadwalnya justru mengikuti waktu salat, bukan disusun mengelilinginya. Kami atur harinya agar Anda berada di masjid ketika azan berkumandang.',
+      whatsapp:
+        'Halo Yumna, saya ingin bertanya tentang tur wisata religi tanggal [tanggal]. Kami [jumlah] orang.',
+      seo: {
+        title: 'Tur Wisata Religi Lombok — Masjid & Sejarah | Yumna Tour and Travel',
+        description:
+          'Tur wisata religi di Lombok: Islamic Center Mataram hingga masjid kuno berusia ratusan tahun. Jadwal mengikuti waktu salat, dipandu orang lokal.',
+      },
+    },
+  },
+
+
+  {
+    slug: 'multi-day-packages',
+    order: 5,
+    pattern: 5,
+    approval: [
+      'NEW SERVICE — confirm Muhajir wants to sell bundled multi-day packages.',
+      'Which durations? 3D2N and 4D3N assumed here — correct?',
+      'What is bundled: transport, tours, accommodation, meals, tickets?',
+      'Does Yumna book and pay the accommodation, or does the guest?',
+      'Is there a minimum group size?',
+    ],
+    en: {
+      name: 'Multi-Day Packages',
+      tagline: 'Hand us the whole trip, not just one day of it.',
+      summary:
+        'Several days planned as one: transport, tours, accommodation and tickets in a single arrangement.',
+      intro:
+        'Booking each day separately means negotiating five times, coordinating five pick-ups and hoping the pieces fit. A package is the same island, planned once. You tell us how many days you have and what matters to you; we come back with a route that works — including the travelling time between places, which is the part people underestimate on Lombok.',
+      highlights: [
+        'Three days, four days or longer — built around your dates',
+        'Transport, tours, accommodation and boat tickets in one plan',
+        'Realistic travel times, with the driving spread sensibly',
+        'One price agreed up front for the whole trip',
+        'Rest days and prayer times planned in, not squeezed around',
+      ],
+      details: [
+        {
+          title: 'How planning works',
+          body: 'Send your dates, how many of you there are, and two or three things you definitely want to do. We send back a day-by-day outline. You change what you do not like, we adjust, and we agree a price once the plan is right — not before.',
+        },
+        {
+          title: 'Why distance matters here',
+          body: 'Lombok looks small and drives large. The road between the north coast and the south takes most of a morning, and a plan that ignores that turns a holiday into a series of car journeys. We build the route so you sleep in the right places.',
+        },
+      ],
+        muslimNote:
+        'Over several days the pattern matters more than any single stop. We keep Friday light enough for Jumu\'ah, avoid putting a long drive across the middle of a fasting day, and place the overnight stops where your family is comfortable — decided in the first draft, not patched in afterwards.',
+      whatsapp:
+        "Hi Yumna, I'd like a multi-day package. We arrive on [date] for [number] days, [number] people. We'd really like to see [ ... ].",
+      seo: {
+        title: 'Lombok Multi-Day Tour Packages — 3 & 4 Day Trips | Yumna Tour and Travel',
+        description:
+          'Multi-day Lombok packages combining transport, tours, accommodation and boat tickets in one plan. Muslim-friendly, planned by a local operator.',
+      },
+    },
+    id: {
+      name: 'Paket Beberapa Hari',
+      tagline: 'Serahkan seluruh perjalanan, bukan cuma satu harinya.',
+      summary:
+        'Beberapa hari disusun sebagai satu rencana: transportasi, tur, penginapan dan tiket dalam satu paket.',
+      intro:
+        'Memesan hari demi hari berarti bernegosiasi lima kali, mengatur lima penjemputan, dan berharap semuanya nyambung. Paket adalah pulau yang sama, direncanakan sekali. Anda sampaikan berapa hari waktu Anda dan apa yang penting bagi Anda; kami kembali dengan rute yang masuk akal — termasuk waktu tempuh antar lokasi, bagian yang paling sering diremehkan orang di Lombok.',
+      highlights: [
+        'Tiga hari, empat hari atau lebih — disusun sesuai tanggal Anda',
+        'Transportasi, tur, penginapan dan tiket kapal dalam satu rencana',
+        'Waktu tempuh yang realistis, dengan pembagian perjalanan yang wajar',
+        'Satu harga disepakati di muka untuk seluruh perjalanan',
+        'Hari istirahat dan waktu salat direncanakan, bukan diselipkan',
+      ],
+      details: [
+        {
+          title: 'Cara penyusunannya',
+          body: 'Kirim tanggal Anda, jumlah orang, dan dua tiga hal yang pasti ingin Anda lakukan. Kami balas dengan rencana harian. Anda ubah bagian yang kurang cocok, kami sesuaikan, dan harga disepakati setelah rencananya pas — bukan sebelumnya.',
+        },
+        {
+          title: 'Kenapa jarak penting di sini',
+          body: 'Lombok terlihat kecil tetapi terasa luas saat dikendarai. Perjalanan dari pesisir utara ke selatan menghabiskan hampir satu pagi, dan rencana yang mengabaikan itu mengubah liburan menjadi rangkaian perjalanan mobil. Kami susun rutenya agar Anda menginap di tempat yang tepat.',
+        },
+      ],
+      muslimNote:
+        'Dalam perjalanan beberapa hari, polanya lebih penting daripada satu titik pemberhentian. Kami menjaga hari Jumat tetap longgar untuk salat Jumat, menghindari perjalanan jauh di tengah hari saat berpuasa, dan menempatkan lokasi menginap di tempat yang nyaman bagi keluarga Anda — ditentukan sejak rancangan pertama, bukan ditambal belakangan.',
+      whatsapp:
+        'Halo Yumna, saya ingin paket beberapa hari. Kami tiba tanggal [tanggal] selama [jumlah] hari, [jumlah] orang. Kami ingin sekali mengunjungi [ ... ].',
+      seo: {
+        title: 'Paket Wisata Lombok Beberapa Hari — 3 & 4 Hari | Yumna Tour and Travel',
+        description:
+          'Paket wisata Lombok beberapa hari: transportasi, tur, penginapan dan tiket kapal dalam satu rencana. Ramah Muslim, disusun operator lokal.',
+      },
+    },
+  },
+
+
+  {
+    slug: 'airport-harbour-transfer',
+    order: 6,
+    pattern: 6,
+    approval: [
+      'Which airports and harbours are covered? (Lombok International Airport / Praya, Lembar, Bangsal, Kayangan)',
+      'Which vehicle types and seat counts are available for transfers?',
+      'Are child seats available on request?',
+      'Does the driver track delayed flights, and how long does he wait?',
+      'Is a 24-hour pick-up (very early / very late flights) actually possible?',
+    ],
+    en: {
+      name: 'Airport & Harbour Transfer',
+      tagline: 'Someone waiting for you when you land.',
+      summary:
+        'Private pick-up and drop-off from the airport and the harbours, at a price agreed before you travel.',
+      intro:
+        'Arrival is when a trip is most likely to go wrong. A delayed flight, an unfamiliar language, a driver who quoted one price at the kerb and wants another one at the hotel. Yumna meets you inside arrivals with your name on a sign, in a vehicle booked in advance, at a price agreed in advance.',
+      highlights: [
+        'Meet and greet at arrivals — no hunting for your driver in the car park',
+        'Fixed price agreed before you travel, never renegotiated on the day',
+        'Lombok International Airport, Lembar harbour and Bangsal harbour',
+        'Bottled water, air conditioning and space for real luggage',
+        'Onward drop-off anywhere on the island, including Kuta, Senggigi and Mataram',
+      ],
+      details: [
+        {
+          title: 'Where we pick up',
+          body: 'The airport sits in Praya, in the south of the island, and most hotels are an hour or more from it — long enough that the drive matters. Lembar in the west is the ferry port for Bali; Bangsal in the north-west is where the fast boats to the Gili islands leave. We cover all three, in both directions.',
+        },
+        {
+          title: 'Travelling as a family',
+          body: 'Tell us how many of you there are and how much luggage you have, and we send a vehicle that actually fits. Families arriving with small children and a lot of bags are the most common reason a transfer goes badly, and the easiest thing to plan for.',
+        },
+      ],
+      muslimNote:
+        'If you land at prayer time, pray — the musholla is inside the terminal and the driver waits without being asked. And after a long flight, say the word and the first stop is a proper halal meal instead of a hotel minibar.',
+      whatsapp:
+        "Hi Yumna, I'd like to arrange an airport transfer. My flight arrives on [date] at [time], we are [number] people.",
+      seo: {
+        title: 'Lombok Airport Transfer — Private Pick-Up & Drop-Off | Yumna Tour and Travel',
+        description:
+          'Private airport and harbour transfers on Lombok. Meet and greet at arrivals, fixed price agreed in advance, Muslim-friendly service. Message Yumna on WhatsApp.',
+      },
+    },
+    id: {
+      name: 'Transfer Bandara & Pelabuhan',
+      tagline: 'Ada yang menunggu Anda saat mendarat.',
+      summary:
+        'Antar-jemput pribadi dari bandara dan pelabuhan, dengan harga yang disepakati sebelum berangkat.',
+      intro:
+        'Kedatangan adalah saat perjalanan paling mudah berantakan. Pesawat terlambat, bahasa yang asing, sopir yang menyebut satu harga di pinggir jalan lalu meminta harga lain di hotel. Yumna menjemput Anda di area kedatangan dengan papan nama, memakai kendaraan yang sudah dipesan, dengan harga yang sudah disepakati.',
+      highlights: [
+        'Penjemputan langsung di area kedatangan — tidak perlu mencari sopir di parkiran',
+        'Harga pasti disepakati sebelum berangkat, tidak berubah di hari H',
+        'Bandara Internasional Lombok, Pelabuhan Lembar dan Pelabuhan Bangsal',
+        'Air minum, AC, dan ruang muat untuk koper sungguhan',
+        'Pengantaran ke seluruh Lombok, termasuk Kuta, Senggigi dan Mataram',
+      ],
+      details: [
+        {
+          title: 'Titik penjemputan',
+          body: 'Bandara berada di Praya, di selatan pulau, dan sebagian besar hotel berjarak satu jam atau lebih — cukup jauh sehingga perjalanan itu sendiri penting. Lembar di barat adalah pelabuhan feri ke Bali; Bangsal di barat laut adalah titik keberangkatan fast boat ke Gili. Kami melayani ketiganya, pulang dan pergi.',
+        },
+        {
+          title: 'Bepergian bersama keluarga',
+          body: 'Beri tahu jumlah orang dan banyaknya bagasi, dan kami kirim kendaraan yang benar-benar muat. Keluarga yang datang dengan anak kecil dan banyak koper adalah penyebab paling umum transfer berjalan buruk — sekaligus yang paling mudah diantisipasi.',
+        },
+      ],
+      muslimNote:
+        'Bila Anda mendarat saat waktu salat, salatlah — musala ada di dalam terminal dan sopir menunggu tanpa perlu diminta. Dan setelah penerbangan panjang, bilang saja: pemberhentian pertama bisa berupa makanan halal yang layak, bukan minibar hotel.',
+      whatsapp:
+        'Halo Yumna, saya ingin memesan transfer bandara. Penerbangan saya tiba tanggal [tanggal] pukul [jam], kami [jumlah] orang.',
+      seo: {
+        title: 'Transfer Bandara Lombok — Antar Jemput Pribadi | Yumna Tour and Travel',
+        description:
+          'Antar-jemput bandara dan pelabuhan di Lombok. Penjemputan di area kedatangan, harga pasti di muka, layanan ramah Muslim. Hubungi Yumna via WhatsApp.',
+      },
+    },
+  },
+
+
+  {
+    slug: 'ferry-fast-boat-tickets',
+    order: 7,
+    pattern: 7,
+    approval: [
+      'Which fast boat operators does Yumna book with, Bali ⇄ Lombok?',
+      'Which routes exactly — Padang Bai, Serangan, Amed? To Bangsal, Teluk Nare or the Gilis directly?',
+      'Is the slow public ferry (Lembar ⇄ Padang Bai) also booked, or only fast boats?',
+      'Is hotel-to-harbour transport included in a ticket booking or quoted separately?',
+      'How far in advance should guests book in high season?',
+    ],
+    en: {
+      name: 'Ferry & Fast Boat Tickets',
+      tagline: 'Bali to Lombok, Lombok to the Gilis — booked and timed properly.',
+      summary:
+        'Crossings between Bali, Lombok and the Gili islands, with the transport at both ends arranged too.',
+      intro:
+        'Booking a boat is the easy part. Getting to the right harbour at the right time, with a driver who knows which of the several departure points your operator actually uses, is where people lose half a day. We book the crossing and arrange both ends of it, so the ticket is part of a plan rather than a loose piece of paper.',
+      highlights: [
+        'Bali ⇄ Lombok crossings, and Lombok ⇄ Gili islands',
+        'Transport to and from the harbour arranged with the ticket',
+        'We tell you honestly which crossings are rough and when',
+        'Help if a crossing is cancelled — we rebook, you do not queue',
+        'Luggage, surfboards and bulky bags accounted for in advance',
+      ],
+      details: [
+        {
+          title: 'Fast boat or ferry',
+          body: 'The fast boats are the quick way between Bali and Lombok and the only sensible way to the Gilis. The public ferry from Lembar is slow and much cheaper, and it takes vehicles. They are different products for different trips, and we will tell you which one your plan actually needs.',
+        },
+        {
+          title: 'Crossings and the weather',
+          body: 'The strait between Bali and Lombok can be genuinely rough, particularly outside the calm months, and boats are sometimes cancelled at short notice. If you have a flight to catch the same day, plan a night on the right side of the water. We will say so when we book.',
+        },
+      ],
+      muslimNote:
+        'Crossings are the one part of a trip you cannot pause. We will tell you before you book if a departure runs through a prayer time, so you can take the sailing before or after it instead of praying on a moving boat.',
+      whatsapp:
+        "Hi Yumna, I'd like to book a boat from [origin] to [destination] on [date], for [number] people.",
+      seo: {
+        title: 'Fast Boat & Ferry Tickets Lombok — Bali & Gili Crossings | Yumna Tour and Travel',
+        description:
+          'Fast boat and ferry tickets between Bali, Lombok and the Gili islands, with harbour transfers arranged at both ends. Booked by a local operator.',
+      },
+    },
+    id: {
+      name: 'Tiket Feri & Fast Boat',
+      tagline: 'Bali ke Lombok, Lombok ke Gili — dipesan dan dijadwalkan dengan benar.',
+      summary:
+        'Penyeberangan antara Bali, Lombok dan Gili, lengkap dengan transportasi di kedua ujungnya.',
+      intro:
+        'Memesan tiket kapal adalah bagian yang mudah. Yang membuat orang kehilangan setengah hari adalah sampai di pelabuhan yang tepat pada waktu yang tepat, dengan sopir yang tahu titik keberangkatan mana yang benar-benar dipakai operator Anda. Kami memesan penyeberangannya sekaligus mengatur kedua ujungnya, sehingga tiket menjadi bagian dari rencana, bukan sekadar selembar kertas.',
+      highlights: [
+        'Penyeberangan Bali ⇄ Lombok, dan Lombok ⇄ Gili',
+        'Transportasi ke dan dari pelabuhan diatur bersama tiket',
+        'Kami sampaikan terus terang penyeberangan mana yang bergelombang dan kapan',
+        'Bantuan bila penyeberangan dibatalkan — kami yang mengurus penjadwalan ulang',
+        'Bagasi, papan selancar dan barang besar diperhitungkan sejak awal',
+      ],
+      details: [
+        {
+          title: 'Fast boat atau feri',
+          body: 'Fast boat adalah cara cepat antara Bali dan Lombok, dan satu-satunya cara masuk akal ke Gili. Feri umum dari Lembar jauh lebih lambat dan lebih murah, serta bisa mengangkut kendaraan. Keduanya produk berbeda untuk perjalanan berbeda, dan kami akan memberi tahu mana yang sesuai rencana Anda.',
+        },
+        {
+          title: 'Penyeberangan dan cuaca',
+          body: 'Selat antara Bali dan Lombok bisa benar-benar bergelombang, terutama di luar bulan-bulan tenang, dan kapal kadang dibatalkan mendadak. Bila Anda harus mengejar penerbangan di hari yang sama, menginaplah lebih dulu di sisi yang benar. Kami akan mengingatkan saat memesan.',
+        },
+      ],
+      muslimNote:
+        'Penyeberangan adalah satu-satunya bagian perjalanan yang tidak bisa dijeda. Kami beri tahu sebelum Anda memesan bila jadwal keberangkatan melewati waktu salat, sehingga Anda bisa memilih jadwal sebelum atau sesudahnya daripada salat di atas kapal yang bergoyang.',
+      whatsapp:
+        'Halo Yumna, saya ingin memesan kapal dari [asal] ke [tujuan] tanggal [tanggal], untuk [jumlah] orang.',
+      seo: {
+        title: 'Tiket Fast Boat & Feri Lombok — Bali & Gili | Yumna Tour and Travel',
+        description:
+          'Tiket fast boat dan feri antara Bali, Lombok dan Gili, lengkap dengan antar-jemput pelabuhan. Dipesan lewat operator lokal.',
+      },
+    },
+  },
+
+
+  {
+    slug: 'scooter-car-rental',
+    order: 8,
+    pattern: 8,
+    approval: [
+      'Confirm scooter sizes offered (small / medium / large — which cc?).',
+      'Confirm car options: 4-seat, 6–7 seat, minibus. With and without driver?',
+      'Is a helmet included with every scooter?',
+      'What documents does the renter need — international driving permit, passport as deposit?',
+      'Is delivery to the guest’s accommodation possible?',
+      'Is there insurance, and what happens in case of damage?',
+    ],
+    en: {
+      name: 'Scooter & Car Rental',
+      tagline: 'Your own wheels, or someone else’s hands on the wheel.',
+      summary:
+        'Scooters in three sizes, and cars from four seats to a minibus — with or without a driver.',
+      intro:
+        'Lombok rewards having your own transport. The good beaches are down side roads, the good food is not near the hotels, and the distances are longer than the map suggests. Rent a scooter if you are confident on one, a car if you are not, and a car with a driver if you would rather look out of the window than at the traffic.',
+      highlights: [
+        'Scooters in small, medium and large — matched to how confident you are',
+        'Cars from four seats up to a minibus for a group',
+        'With or without a driver, your choice',
+        'Delivered to where you are staying',
+        'Helmets provided; ask for extras like phone mounts or child seats',
+      ],
+      details: [
+        {
+          title: 'With a driver, or without',
+          body: 'Driving yourself is cheaper and gives you complete freedom. A driver costs more and gives you something else: he knows which road is closed, where it is safe to leave the car, and what a fair price is at the other end. For a first visit, most guests are happier with a driver.',
+        },
+        {
+          title: 'Before you ride',
+          body: 'Traffic here follows its own rhythm and the roads outside the towns are unlit at night. If you have not ridden a scooter before, a Lombok holiday is not the place to learn — take the car. We would rather talk you out of a rental than visit you in hospital.',
+        },
+      ],
+      muslimNote:
+        'One thing worth knowing if you are driving yourself: on Friday around midday the roads near any larger mosque fill up and then empty again. Nothing to worry about — just do not plan a tight schedule through a town at that hour.',
+      whatsapp:
+        "Hi Yumna, I'd like to rent a [scooter / car] from [date] to [date]. [With / without] a driver.",
+      seo: {
+        title: 'Scooter & Car Rental Lombok — With or Without Driver | Yumna Tour and Travel',
+        description:
+          'Rent a scooter or car on Lombok: three scooter sizes, cars from 4 seats to minibus, with or without driver. Delivered to your accommodation.',
+      },
+    },
+    id: {
+      name: 'Sewa Motor & Mobil',
+      tagline: 'Kendaraan sendiri, atau ada yang menyetir untuk Anda.',
+      summary:
+        'Motor tiga ukuran, dan mobil dari empat kursi sampai minibus — dengan atau tanpa sopir.',
+      intro:
+        'Lombok jauh lebih menyenangkan bila Anda punya kendaraan sendiri. Pantai terbaik ada di jalan-jalan kecil, makanan terbaik jauh dari hotel, dan jaraknya lebih panjang daripada yang terlihat di peta. Sewa motor bila Anda percaya diri, mobil bila tidak, dan mobil dengan sopir bila Anda lebih suka menikmati pemandangan daripada memperhatikan lalu lintas.',
+      highlights: [
+        'Motor ukuran kecil, sedang dan besar — sesuai tingkat kepercayaan diri Anda',
+        'Mobil dari empat kursi sampai minibus untuk rombongan',
+        'Dengan atau tanpa sopir, sesuai pilihan Anda',
+        'Diantar ke tempat Anda menginap',
+        'Helm disediakan; minta tambahan seperti dudukan HP atau kursi anak',
+      ],
+      details: [
+        {
+          title: 'Dengan sopir atau tanpa sopir',
+          body: 'Menyetir sendiri lebih murah dan memberi kebebasan penuh. Sopir lebih mahal tetapi memberi hal lain: dia tahu jalan mana yang ditutup, di mana mobil aman diparkir, dan berapa harga yang wajar di tempat tujuan. Untuk kunjungan pertama, kebanyakan tamu lebih nyaman dengan sopir.',
+        },
+        {
+          title: 'Sebelum berkendara',
+          body: 'Lalu lintas di sini punya iramanya sendiri dan jalan di luar kota gelap pada malam hari. Bila Anda belum pernah mengendarai motor, liburan di Lombok bukan tempat untuk belajar — ambil mobil saja. Kami lebih rela membatalkan sewa daripada menjenguk Anda di rumah sakit.',
+        },
+      ],
+      muslimNote:
+        'Satu hal yang perlu diketahui bila Anda menyetir sendiri: pada Jumat menjelang tengah hari, jalan di sekitar masjid besar akan padat lalu lengang kembali. Bukan masalah — hanya jangan menyusun jadwal yang mepet melewati kota pada jam itu.',
+      whatsapp:
+        'Halo Yumna, saya ingin menyewa [motor / mobil] dari tanggal [tanggal] sampai [tanggal]. [Dengan / tanpa] sopir.',
+      seo: {
+        title: 'Sewa Motor & Mobil Lombok — Dengan atau Tanpa Sopir | Yumna Tour and Travel',
+        description:
+          'Sewa motor atau mobil di Lombok: tiga ukuran motor, mobil 4 kursi sampai minibus, dengan atau tanpa sopir. Diantar ke penginapan Anda.',
+      },
+    },
+  },
+
+
+  {
+    slug: 'villa-hotel-booking',
+    order: 9,
+    pattern: 9,
+    approval: [
+      'How does the booking actually work — does Yumna hold rooms, or negotiate with properties directly?',
+      'Is the claim of better-than-online prices something we can state? If so, on which kinds of property?',
+      'Which areas are covered — Senggigi, Kuta, Mataram, Gili, Sembalun?',
+      'What exactly is checked for Muslim-friendly accommodation, and can it be verified per property?',
+      'Is payment made to Yumna or directly to the property?',
+    ],
+    en: {
+      name: 'Villa & Hotel Booking',
+      tagline: 'A local asking on your behalf beats a search filter.',
+      summary:
+        'Help finding a villa or hotel that suits you — including whether it actually suits a Muslim family.',
+      intro:
+        'Booking sites show you photographs and a price. They do not tell you that the villa is beautiful but forty minutes from anything, that the "beachfront" hotel faces a working harbour, or that the resort with the great rate has a pool bar directly under the family rooms. We book on Lombok every week and we know which is which.',
+      highlights: [
+        'Villas, hotels and guest houses across the island',
+        'We check what listings do not tell you: noise, access, what is nearby',
+        'Muslim-friendly properties assessed on things that actually matter',
+        'Rooms held while you decide, rather than a countdown timer',
+        'One point of contact if something is wrong when you arrive',
+      ],
+      details: [
+        {
+          title: 'What we check for you',
+          body: 'How far it really is from where you want to be. Whether the road in is passable in the rain. Whether breakfast is included and what it actually is. Whether the quiet-looking place is next to a mosque loudspeaker, a construction site or a beach club — none of which appear in the photographs.',
+        },
+        {
+          title: 'Booking through us or directly',
+          body: 'If a property is cheaper for you to book yourself, we will say so. What we add is judgement about whether it is the right place, and someone on the island to call if it turns out not to be.',
+        },
+      ],
+      muslimNote:
+        'This is where the details actually decide whether a stay works: is the kiblat marked in the room, is breakfast halal or just egg and toast, how present is the pool bar, and can women swim without an audience. We report what we find, not what sells the booking.',
+      whatsapp:
+        "Hi Yumna, I'm looking for accommodation on Lombok from [date] to [date], for [number] people, near [area].",
+      seo: {
+        title: 'Villa & Hotel Booking Lombok — Muslim-Friendly Stays | Yumna Tour and Travel',
+        description:
+          'Help finding villas and hotels on Lombok, checked by a local operator — including what makes a property genuinely Muslim-friendly.',
+      },
+    },
+    id: {
+      name: 'Pemesanan Vila & Hotel',
+      tagline: 'Orang lokal yang menanyakan langsung lebih andal daripada filter pencarian.',
+      summary:
+        'Bantuan mencari vila atau hotel yang cocok — termasuk apakah benar-benar cocok untuk keluarga Muslim.',
+      intro:
+        'Situs pemesanan hanya menampilkan foto dan harga. Mereka tidak memberi tahu bahwa vilanya indah tetapi empat puluh menit dari mana-mana, bahwa hotel "tepi pantai" itu menghadap pelabuhan kerja, atau bahwa resor dengan tarif menarik itu punya bar kolam persis di bawah kamar keluarga. Kami memesan di Lombok setiap minggu dan kami tahu bedanya.',
+      highlights: [
+        'Vila, hotel dan guest house di seluruh pulau',
+        'Kami periksa yang tidak tertulis di iklan: kebisingan, akses, apa yang ada di sekitar',
+        'Penginapan ramah Muslim dinilai dari hal yang benar-benar penting',
+        'Kamar ditahan selama Anda mempertimbangkan, bukan dikejar hitungan mundur',
+        'Satu kontak bila ada yang tidak beres saat Anda tiba',
+      ],
+      details: [
+        {
+          title: 'Yang kami periksa untuk Anda',
+          body: 'Seberapa jauh sebenarnya dari tempat yang Anda tuju. Apakah jalan masuknya bisa dilalui saat hujan. Apakah sarapan termasuk dan seperti apa isinya. Apakah tempat yang terlihat tenang itu bersebelahan dengan pengeras suara masjid, proyek bangunan atau beach club — hal yang tidak pernah muncul di foto.',
+        },
+        {
+          title: 'Lewat kami atau langsung',
+          body: 'Bila lebih murah Anda pesan sendiri, kami akan bilang begitu. Yang kami tambahkan adalah pertimbangan apakah tempat itu memang tepat, dan adanya orang di pulau ini yang bisa dihubungi bila ternyata tidak.',
+        },
+      ],
+      muslimNote:
+        'Di sinilah detail benar-benar menentukan nyaman atau tidaknya menginap: apakah arah kiblat ditandai di kamar, apakah sarapannya halal atau sekadar telur dan roti, seberapa menonjol bar kolam, dan apakah perempuan bisa berenang tanpa jadi tontonan. Kami laporkan apa adanya, bukan yang membuat pesanan cepat laku.',
+      whatsapp:
+        'Halo Yumna, saya mencari penginapan di Lombok dari tanggal [tanggal] sampai [tanggal], untuk [jumlah] orang, di daerah [daerah].',
+      seo: {
+        title: 'Pemesanan Vila & Hotel Lombok — Penginapan Ramah Muslim | Yumna Tour and Travel',
+        description:
+          'Bantuan mencari vila dan hotel di Lombok, diperiksa langsung oleh operator lokal — termasuk yang membuat sebuah properti benar-benar ramah Muslim.',
+      },
+    },
+  },
+
 
   {
     slug: 'tailor-made-itinerary',

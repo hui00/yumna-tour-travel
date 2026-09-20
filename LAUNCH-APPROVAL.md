@@ -44,16 +44,6 @@ That is deliberate and does not need approval.
 
 ## Per service
 
-### Airport & Harbour Transfer
-
-`src/data/services.js` → `airport-harbour-transfer`
-
-- [ ] Which airports and harbours are covered? (Lombok International Airport / Praya, Lembar, Bangsal, Kayangan)
-- [ ] Which vehicle types and seat counts are available for transfers?
-- [ ] Are child seats available on request?
-- [ ] Does the driver track delayed flights, and how long does he wait?
-- [ ] Is a 24-hour pick-up (very early / very late flights) actually possible?
-
 ### Daily Tours
 
 `src/data/services.js` → `daily-tours`
@@ -65,46 +55,18 @@ That is deliberate and does not need approval.
 - [ ] Are these full-day or half-day tours, and what are typical start and finish times?
 - [ ] Are entrance fees and lunch included in the quote, or paid separately?
 
-### Islamic Heritage Tour
+### Beaches & Water Sports
 
-`src/data/services.js` → `islamic-heritage-tour`
+`src/data/services.js` → `beach-hopping-water-sports`
 
-- [ ] NEW SERVICE — confirm Muhajir wants to offer this at all before anything else.
-- [ ] Which mosques and sites would the route actually cover? (Islamic Center NTB in Mataram, Masjid Kuno Bayan Beleq, village mosques)
-- [ ] Is the historic Bayan mosque reachable and open to visitors as a day trip from Mataram?
-- [ ] Full day or half day?
-- [ ] Is a guide who can explain the history available, or is this driver-only?
-
-### Scooter & Car Rental
-
-`src/data/services.js` → `scooter-car-rental`
-
-- [ ] Confirm scooter sizes offered (small / medium / large — which cc?).
-- [ ] Confirm car options: 4-seat, 6–7 seat, minibus. With and without driver?
-- [ ] Is a helmet included with every scooter?
-- [ ] What documents does the renter need — international driving permit, passport as deposit?
-- [ ] Is delivery to the guest’s accommodation possible?
-- [ ] Is there insurance, and what happens in case of damage?
-
-### Ferry & Fast Boat Tickets
-
-`src/data/services.js` → `ferry-fast-boat-tickets`
-
-- [ ] Which fast boat operators does Yumna book with, Bali ⇄ Lombok?
-- [ ] Which routes exactly — Padang Bai, Serangan, Amed? To Bangsal, Teluk Nare or the Gilis directly?
-- [ ] Is the slow public ferry (Lembar ⇄ Padang Bai) also booked, or only fast boats?
-- [ ] Is hotel-to-harbour transport included in a ticket booking or quoted separately?
-- [ ] How far in advance should guests book in high season?
-
-### Villa & Hotel Booking
-
-`src/data/services.js` → `villa-hotel-booking`
-
-- [ ] How does the booking actually work — does Yumna hold rooms, or negotiate with properties directly?
-- [ ] Is the claim of better-than-online prices something we can state? If so, on which kinds of property?
-- [ ] Which areas are covered — Senggigi, Kuta, Mataram, Gili, Sembalun?
-- [ ] What exactly is checked for Muslim-friendly accommodation, and can it be verified per property?
-- [ ] Is payment made to Yumna or directly to the property?
+- [ ] Which beaches does Muhajir actually run this on — Pink Beach, Tanjung Aan, Selong Belanak, Sekotong, Senggigi?
+- [ ] Is Pink Beach reached by road or by boat, and how long is the drive from the usual hotels?
+- [ ] Which snorkelling spots and which boat operator? Gili Nanggu / Sudak / Kedis, or the three Gilis?
+- [ ] Is snorkelling gear (mask, fins, life jacket) included, and are child sizes available?
+- [ ] Which surf beach and which instructor or surf school does Yumna work with? Board hire included?
+- [ ] Can jet ski, banana boat or paddleboard still be added on request, and where?
+- [ ] Is lunch on a beach day arranged, and is it halal by default?
+- [ ] Which months suit which coast — is this year round?
 
 ### Rinjani Trekking
 
@@ -120,6 +82,16 @@ That is deliberate and does not need approval.
 - [ ] Confirm the closed season — the park normally closes for part of the rainy season.
 - [ ] Is there insurance, and what is the procedure if a trekker cannot continue?
 
+### Islamic Heritage Tour
+
+`src/data/services.js` → `islamic-heritage-tour`
+
+- [ ] NEW SERVICE — confirm Muhajir wants to offer this at all before anything else.
+- [ ] Which mosques and sites would the route actually cover? (Islamic Center NTB in Mataram, Masjid Kuno Bayan Beleq, village mosques)
+- [ ] Is the historic Bayan mosque reachable and open to visitors as a day trip from Mataram?
+- [ ] Full day or half day?
+- [ ] Is a guide who can explain the history available, or is this driver-only?
+
 ### Multi-Day Packages
 
 `src/data/services.js` → `multi-day-packages`
@@ -130,18 +102,46 @@ That is deliberate and does not need approval.
 - [ ] Does Yumna book and pay the accommodation, or does the guest?
 - [ ] Is there a minimum group size?
 
-### Beaches & Water Sports
+### Airport & Harbour Transfer
 
-`src/data/services.js` → `beach-hopping-water-sports`
+`src/data/services.js` → `airport-harbour-transfer`
 
-- [ ] Which beaches does Muhajir actually run this on — Pink Beach, Tanjung Aan, Selong Belanak, Sekotong, Senggigi?
-- [ ] Is Pink Beach reached by road or by boat, and how long is the drive from the usual hotels?
-- [ ] Which snorkelling spots and which boat operator? Gili Nanggu / Sudak / Kedis, or the three Gilis?
-- [ ] Is snorkelling gear (mask, fins, life jacket) included, and are child sizes available?
-- [ ] Which surf beach and which instructor or surf school does Yumna work with? Board hire included?
-- [ ] Can jet ski, banana boat or paddleboard still be added on request, and where?
-- [ ] Is lunch on a beach day arranged, and is it halal by default?
-- [ ] Which months suit which coast — is this year round?
+- [ ] Which airports and harbours are covered? (Lombok International Airport / Praya, Lembar, Bangsal, Kayangan)
+- [ ] Which vehicle types and seat counts are available for transfers?
+- [ ] Are child seats available on request?
+- [ ] Does the driver track delayed flights, and how long does he wait?
+- [ ] Is a 24-hour pick-up (very early / very late flights) actually possible?
+
+### Ferry & Fast Boat Tickets
+
+`src/data/services.js` → `ferry-fast-boat-tickets`
+
+- [ ] Which fast boat operators does Yumna book with, Bali ⇄ Lombok?
+- [ ] Which routes exactly — Padang Bai, Serangan, Amed? To Bangsal, Teluk Nare or the Gilis directly?
+- [ ] Is the slow public ferry (Lembar ⇄ Padang Bai) also booked, or only fast boats?
+- [ ] Is hotel-to-harbour transport included in a ticket booking or quoted separately?
+- [ ] How far in advance should guests book in high season?
+
+### Scooter & Car Rental
+
+`src/data/services.js` → `scooter-car-rental`
+
+- [ ] Confirm scooter sizes offered (small / medium / large — which cc?).
+- [ ] Confirm car options: 4-seat, 6–7 seat, minibus. With and without driver?
+- [ ] Is a helmet included with every scooter?
+- [ ] What documents does the renter need — international driving permit, passport as deposit?
+- [ ] Is delivery to the guest’s accommodation possible?
+- [ ] Is there insurance, and what happens in case of damage?
+
+### Villa & Hotel Booking
+
+`src/data/services.js` → `villa-hotel-booking`
+
+- [ ] How does the booking actually work — does Yumna hold rooms, or negotiate with properties directly?
+- [ ] Is the claim of better-than-online prices something we can state? If so, on which kinds of property?
+- [ ] Which areas are covered — Senggigi, Kuta, Mataram, Gili, Sembalun?
+- [ ] What exactly is checked for Muslim-friendly accommodation, and can it be verified per property?
+- [ ] Is payment made to Yumna or directly to the property?
 
 ### Tailor-Made Itinerary
 
