@@ -136,7 +136,7 @@ function Services({ lang }) {
                     image={images.services[service.slug]}
                     lang={lang}
                     insideLink
-                    className="h-32 w-full"
+                    className="h-40 w-full"
                     patternClass={service.order % 2 ? 'pattern-field' : 'pattern-field-3'}
                   />
                   <div className="flex flex-1 flex-col p-6">

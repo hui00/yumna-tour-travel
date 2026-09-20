@@ -69,6 +69,7 @@ export const images = {
     },
     'daily-tours': {
       src: '/img/rinjani-waterfall.jpg',
+      position: '50% 85%',
       alt: {
         en: 'Two visitors standing arms out under a tall jungle waterfall in northern Lombok.',
         id: 'Dua pengunjung berdiri merentangkan tangan di bawah air terjun tinggi di hutan Lombok utara.',
@@ -92,6 +93,7 @@ export const images = {
     },
     'islamic-heritage-tour': {
       src: '/img/islamic-center-yumna.jpg',
+      position: '50% 48%',
       alt: {
         en: 'The Islamic Center in Mataram, Lombok: its patterned dome and minaret seen from the forecourt.',
         id: 'Islamic Center di Mataram, Lombok: kubah bermotif dan menaranya dilihat dari halaman depan.',
@@ -102,6 +104,7 @@ export const images = {
     // Sembalun photos below are Yumna's own.
     'multi-day-packages': {
       src: '/img/sembalun-clouds.jpg',
+      position: '50% 40%',
       alt: {
         en: 'Cloud pouring over the volcanic ridges above the Sembalun valley, vegetable fields stretching out below.',
         id: 'Awan mengalir di atas punggungan vulkanik lembah Sembalun, dengan hamparan ladang sayur di bawahnya.',
