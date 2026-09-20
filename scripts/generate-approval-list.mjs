@@ -34,15 +34,15 @@ const blocking = [
   },
   {
     title: 'Confirm the remaining photographs may be published',
-    body: 'Rinjani Trekking (village at sunrise below the mountain), Daily Tours (south coast bay), Ferry & Fast Boat (rocky shore with boats), Villa & Hotel Booking (view from a balcony), Scooter & Car Rental (rental scooter with a surfboard rack, licence plate pixelated). No individual is identifiable in any of these. All still need to be images Yumna is allowed to use commercially.',
+    body: 'Rinjani Trekking (village at sunrise below the mountain), Daily Tours (waterfall, two people visible but not close up), Islamic Heritage Tour (Islamic Center Mataram), Multi-Day Packages and Tailor-Made Itinerary (Sembalun valley and fields), Airport & Harbour Transfer (coast road), Ferry & Fast Boat (rocky shore with boats), Villa & Hotel Booking (view from a balcony), Scooter & Car Rental (rental scooter with a surfboard rack, licence plate pixelated). All still need to be images Yumna is allowed to use commercially.',
   },
   {
-    title: 'Do not strip the credit under the Islamic Heritage Tour or Airport Transfer photos',
-    body: 'Two images are not Yumna\'s own: "Islamic Center Mataram, Lombok" by Si Gam (CC BY 4.0) and "Lombok International Airport" by Ezagren (Wikimedia\'s Attribution licence). Both licences permit commercial use and cost nothing, but only as long as the credit line stays visible next to each image: title, author, licence, and the note that it was resized. Removing either caption turns a legal use into an infringement. Replacing either with a photo of Muhajir\'s own would remove the obligation entirely — the airport photo is also a decade old (2012) and shows dated ground equipment, so a current photo of the actual arrivals area would be a real improvement, not just a licensing nicety.',
+    title: 'Do not strip the credit under the Gili boats photo',
+    body: 'One image is not Yumna\'s own: the Gili boats photo on Jet Ski Rental, from Unsplash (fransisca-zagita). The Unsplash licence permits commercial use without attribution, so it carries no credit line. Every other photo on the site is Muhajir\'s own, which is why no caption appears anywhere else. If a stock image is ever added back under a CC BY or Wikimedia Attribution licence, its credit block has to travel with it.',
   },
   {
     title: 'Replace the remaining placeholder artwork',
-    body: 'Every service page now has a photo. Two of the last three are landscape stock (Unsplash, no attribution required) standing in for a place rather than the actual service: Multi-Day Packages and Tailor-Made Itinerary show Rinjani-area valley views because those pages are about the whole island, not one fixed spot. The Jet Ski Rental photo is the weakest fit — it shows Gili boats, not a jet ski at all, because no such photo exists yet. Replace it first when Muhajir has one.',
+    body: 'Every service page now has a photo, and all but one are Muhajir\'s own. The Jet Ski Rental photo is the weakest fit — it shows Gili boats (Unsplash, no attribution required), not a jet ski at all, because no such photo exists yet. Replace it first when Muhajir has one. Airport & Harbour Transfer now shows the coast road rather than a terminal building; a photo of the actual arrivals pick-up would be better still.',
   },
   {
     title: 'Confirm the "For Muslim guests" note on every service page',

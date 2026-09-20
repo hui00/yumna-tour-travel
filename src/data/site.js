@@ -53,30 +53,18 @@ export const images = {
   // Keyed by service slug. Services without an entry fall back to the
   // geometric placeholder, so adding a photo is a single entry here.
   services: {
-    // The second image on the site that is not Yumna's own — see the credit
-    // block below and the note on islamic-heritage-tour for why the caption
-    // matters legally, not just stylistically.
     'airport-harbour-transfer': {
-      src: '/img/lombok-airport-terminal.jpg',
+      src: '/img/mountain-pass-road.jpg',
       alt: {
-        en: 'The terminal building of Lombok International Airport, its name lettered across the glass facade.',
-        id: 'Gedung terminal Bandara Internasional Lombok, dengan nama bandara terpampang di fasad kaca.',
-      },
-      credit: {
-        title: 'Lombok International Airport',
-        sourceUrl: 'https://commons.wikimedia.org/wiki/File:Lombok_International_Airport.jpg',
-        author: 'Ezagren',
-        authorUrl: 'https://commons.wikimedia.org/wiki/User:Ezagren',
-        license: 'Wikimedia Attribution license',
-        licenseUrl: 'https://commons.wikimedia.org/wiki/Template:Attribution',
-        modified: 'resized',
+        en: 'A car on the winding coast road through the Lombok hills, the kind of drive a transfer covers.',
+        id: 'Mobil di jalan pesisir berkelok melintasi perbukitan Lombok, perjalanan seperti inilah yang dilayani transfer kami.',
       },
     },
     'rinjani-trekking': {
-      src: '/img/mountain-pass-road.jpg',
+      src: '/img/lombok-village-sunrise.jpg',
       alt: {
-        en: 'The mountain pass road curving along a ridge on the way to Sembalun, Rinjani\'s slopes rising into the cloud.',
-        id: 'Jalan tanjakan berkelok di punggungan menuju Sembalun, dengan lereng Rinjani menjulang ke dalam awan.',
+        en: 'A Lombok village at sunrise, mosque domes among the rooftops and Mount Rinjani rising through the cloud behind it.',
+        id: 'Sebuah desa di Lombok saat matahari terbit, kubah masjid di antara atap rumah dan Gunung Rinjani menjulang di balik awan.',
       },
     },
     'daily-tours': {
@@ -102,24 +90,11 @@ export const images = {
         id: 'Motor sewaan dengan papan selancar terpasang di rak samping, parkir di jalan berpaving di Lombok.',
       },
     },
-    // The only image on the site that is not Yumna's own. CC BY 4.0 requires
-    // creator, title, source, licence and a note that it was changed — all of
-    // which the `credit` block renders next to the image. Do not drop it.
     'islamic-heritage-tour': {
-      src: '/img/islamic-center-mataram.jpg',
+      src: '/img/islamic-center-yumna.jpg',
       alt: {
-        en: 'The Islamic Center in Mataram, Lombok: a patterned dome flanked by tall minarets against a cloudy sky.',
-        id: 'Islamic Center di Mataram, Lombok: kubah bermotif diapit menara tinggi dengan langit berawan.',
-      },
-      credit: {
-        title: 'Islamic Center Mataram, Lombok',
-        sourceUrl:
-          'https://commons.wikimedia.org/wiki/File:Islamic_Center_Mataram,_Lombok.jpg',
-        author: 'Si Gam',
-        authorUrl: 'https://commons.wikimedia.org/wiki/User:Si_Gam',
-        license: 'CC BY 4.0',
-        licenseUrl: 'https://creativecommons.org/licenses/by/4.0/',
-        modified: 'resized',
+        en: 'The Islamic Center in Mataram, Lombok: its patterned dome and minaret seen from the forecourt.',
+        id: 'Islamic Center di Mataram, Lombok: kubah bermotif dan menaranya dilihat dari halaman depan.',
       },
     },
     // gili-boats.jpg is Unsplash (fransisca-zagita) — free for commercial use,
