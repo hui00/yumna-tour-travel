@@ -5,7 +5,66 @@ import reviewData from '../data/google-reviews.json';
 import { services } from '../data/services.js';
 import Figure from '../components/Figure.jsx';
 import { images, site, ui, waLink } from '../data/site.js';
-import { serviceUrl } from '../lib/urls.js';
+import { BASE, serviceUrl } from '../lib/urls.js';
+
+function UnderwaterVideos({ lang }) {
+  const t = lang === 'id' ? {
+    eyebrow: 'Di bawah permukaan',
+    title: 'Intip kehidupan bawah laut.',
+    lead: 'Ikan tropis, terumbu karang, dan penyu laut. Putar video untuk melihat momen snorkeling dari dekat.',
+    titles: ['Di antara ikan tropis', 'Berenang bersama penyu', 'Penyu dari dekat'],
+    play: 'Putar video',
+    fallback: 'Unduh video',
+    cta: 'Jelajahi pantai & aktivitas air',
+  } : {
+    eyebrow: 'Beneath the surface',
+    title: 'A glimpse of life underwater.',
+    lead: 'Tropical fish, coral reefs, and sea turtles. Press play for a closer look at these snorkeling moments.',
+    titles: ['Among tropical fish', 'Swimming with a sea turtle', 'A turtle up close'],
+    play: 'Play video',
+    fallback: 'Download video',
+    cta: 'Explore beaches & water activities',
+  };
+  const clips = ['reef-fish', 'turtle-swim', 'turtle-close-up'];
+
+  return (
+    <section className="section bg-forest-50" id="underwater" aria-labelledby="underwater-title">
+      <div className="wrap">
+        <span className="eyebrow">{t.eyebrow}</span>
+        <h2 id="underwater-title" className="font-display text-3xl font-semibold text-forest-900 sm:text-4xl">
+          {t.title}
+        </h2>
+        <p className="mt-4 max-w-prose text-forest-800/80">{t.lead}</p>
+        <div className="mt-10 grid gap-6 sm:grid-cols-3">
+          {clips.map((clip, index) => (
+            <figure key={clip} className="overflow-hidden rounded-3xl border border-forest-900/10 bg-white">
+              <video
+                controls
+                playsInline
+                preload="none"
+                width="540"
+                height="960"
+                poster={`${BASE}videos/${clip}.jpg`}
+                aria-label={`${t.play}: ${t.titles[index]}`}
+                className="aspect-[9/16] w-full bg-forest-900 object-contain"
+              >
+                <source src={`${BASE}videos/${clip}.mp4`} type="video/mp4" />
+                <a href={`${BASE}videos/${clip}.mp4`}>{t.fallback}: {t.titles[index]}</a>
+              </video>
+              <figcaption className="px-5 py-4 font-display text-lg font-semibold text-forest-900">
+                {t.titles[index]}
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+        <a href={serviceUrl(lang, 'beach-hopping-water-sports')} className="btn-secondary mt-8">
+          {t.cta}
+          <ArrowIcon />
+        </a>
+      </div>
+    </section>
+  );
+}
 
 function Hero({ lang }) {
   const t = ui[lang];
@@ -289,6 +348,7 @@ export default function Home({ lang }) {
     <Layout lang={lang} page={{ type: 'home' }}>
       <Hero lang={lang} />
       <TrustBar lang={lang} />
+      <UnderwaterVideos lang={lang} />
       <Services lang={lang} />
       <MuslimFriendly lang={lang} />
       <About lang={lang} />
