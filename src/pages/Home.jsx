@@ -4,52 +4,9 @@ import { ArrowIcon, CheckIcon, StarIcon, WhatsAppIcon } from '../components/Icon
 import reviewData from '../data/google-reviews.json';
 import { services } from '../data/services.js';
 import Figure from '../components/Figure.jsx';
+import { UnderwaterPreview } from '../components/UnderwaterVideos.jsx';
 import { images, site, ui, waLink } from '../data/site.js';
-import { BASE, serviceUrl } from '../lib/urls.js';
-
-function UnderwaterPreview({ lang }) {
-  const t = lang === 'id' ? {
-    videoTitle: 'Penyu dari dekat',
-    play: 'Putar video',
-    fallback: 'Unduh video',
-    close: 'Tutup video',
-  } : {
-    videoTitle: 'A turtle up close',
-    play: 'Play video',
-    fallback: 'Download video',
-    close: 'Close video',
-  };
-  const clip = 'turtle-close-up';
-
-  return (
-    <div id="underwater">
-        <a
-          href={`${BASE}videos/${clip}.mp4`}
-          data-video-open="underwater-dialog"
-          aria-label={`${t.play}: ${t.videoTitle}`}
-          className="group relative block h-40 w-full overflow-hidden bg-forest-800"
-        >
-          <img src={`${BASE}videos/${clip}.jpg`} alt="" loading="lazy" width="540" height="960" className="h-full w-full object-cover object-[50%_55%]" />
-          <span className="absolute inset-0 flex items-center justify-center bg-black/15 transition-colors group-hover:bg-black/25">
-            <span className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-forest-900 shadow-sm">
-              <svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" /></svg>
-              {t.play}
-            </span>
-          </span>
-        </a>
-        <dialog id="underwater-dialog" className="video-dialog" aria-label={t.videoTitle}>
-          <form method="dialog" className="flex justify-end p-3">
-            <button className="rounded-full px-4 py-2 text-sm font-semibold text-white hover:bg-white/10" autoFocus>{t.close} ×</button>
-          </form>
-          <video controls playsInline preload="none" width="540" height="960" poster={`${BASE}videos/${clip}.jpg`} aria-label={t.videoTitle} className="block max-h-[75vh] w-full object-contain">
-            <source src={`${BASE}videos/${clip}.mp4`} type="video/mp4" />
-            <a href={`${BASE}videos/${clip}.mp4`}>{t.fallback}</a>
-          </video>
-        </dialog>
-        <script type="module" src={`${BASE}js/video-dialog.js`} />
-    </div>
-  );
-}
+import { serviceUrl } from '../lib/urls.js';
 
 function Hero({ lang }) {
   const t = ui[lang];

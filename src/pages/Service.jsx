@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout, { CtaBand } from '../components/Layout.jsx';
 import Figure from '../components/Figure.jsx';
+import UnderwaterGallery from '../components/UnderwaterVideos.jsx';
 import { ArrowIcon, CheckIcon, WhatsAppIcon } from '../components/Icons.jsx';
 import { services } from '../data/services.js';
 import { images, ui, waLink } from '../data/site.js';
@@ -101,6 +102,8 @@ export default function Service({ lang, slug }) {
             </div>
           </div>
         </section>
+
+        {slug === 'beach-hopping-water-sports' && <UnderwaterGallery lang={lang} />}
 
         <section className="border-t border-forest-900/10 bg-sand-100 py-16">
           <div className="wrap">
