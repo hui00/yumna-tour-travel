@@ -7,42 +7,20 @@ import Figure from '../components/Figure.jsx';
 import { images, site, ui, waLink } from '../data/site.js';
 import { BASE, serviceUrl } from '../lib/urls.js';
 
-function UnderwaterVideos({ lang }) {
+function HeroVideo({ lang }) {
   const t = lang === 'id' ? {
-    eyebrow: 'Di bawah permukaan',
-    title: 'Temui dunia di bawah ombak.',
-    lead: 'Luangkan waktu untuk melihat lebih dekat. Putar video dan nikmati momen bersama penyu di bawah permukaan laut.',
     videoTitle: 'Penyu dari dekat',
     play: 'Putar video',
     fallback: 'Unduh video',
-    cta: 'Jelajahi pantai & aktivitas air',
   } : {
-    eyebrow: 'Beneath the surface',
-    title: 'A quiet moment beneath the waves.',
-    lead: 'Slow down and look a little closer. Press play for a face-to-face glimpse of a sea turtle in its underwater world.',
     videoTitle: 'A turtle up close',
     play: 'Play video',
     fallback: 'Download video',
-    cta: 'Explore beaches & water activities',
   };
   const clip = 'turtle-close-up';
 
   return (
-    <section className="section" id="underwater" aria-labelledby="underwater-title">
-      <div className="wrap">
-        <div className="grid items-center overflow-hidden rounded-4xl bg-forest-900 text-sand-50 md:grid-cols-[1.2fr_0.8fr]">
-          <div className="px-7 py-10 sm:p-12 lg:p-16">
-            <span className="mb-4 inline-block text-xs font-semibold uppercase tracking-[0.18em] text-sand-200">{t.eyebrow}</span>
-            <h2 id="underwater-title" className="max-w-md font-display text-4xl font-semibold leading-tight sm:text-5xl">
-              {t.title}
-            </h2>
-            <p className="mt-6 max-w-sm leading-relaxed text-sand-100/80">{t.lead}</p>
-            <a href={serviceUrl(lang, 'beach-hopping-water-sports')} className="btn mt-8 bg-sand-100 text-forest-900 hover:bg-white">
-              {t.cta}
-              <ArrowIcon />
-            </a>
-          </div>
-            <figure className="mx-auto w-full max-w-sm md:max-w-none">
+    <div id="underwater" className="mx-auto w-full max-w-sm overflow-hidden rounded-4xl border border-forest-900/10 bg-forest-900 shadow-xl shadow-forest-900/10">
               <video
                 controls
                 playsInline
@@ -56,13 +34,7 @@ function UnderwaterVideos({ lang }) {
                 <source src={`${BASE}videos/${clip}.mp4`} type="video/mp4" />
                 <a href={`${BASE}videos/${clip}.mp4`}>{t.fallback}: {t.videoTitle}</a>
               </video>
-              <figcaption className="px-5 py-3 text-sm text-sand-100/80">
-                {t.videoTitle}
-              </figcaption>
-            </figure>
-        </div>
-      </div>
-    </section>
+    </div>
   );
 }
 
@@ -104,13 +76,7 @@ function Hero({ lang }) {
           </div>
         </div>
 
-        <Figure
-          image={images.hero}
-          lang={lang}
-          priority
-          className="aspect-[4/3] w-full rounded-4xl border border-forest-900/10 lg:aspect-square"
-          patternClass="pattern-field-2"
-        />
+        <HeroVideo lang={lang} />
       </div>
     </section>
   );
@@ -348,7 +314,6 @@ export default function Home({ lang }) {
     <Layout lang={lang} page={{ type: 'home' }}>
       <Hero lang={lang} />
       <TrustBar lang={lang} />
-      <UnderwaterVideos lang={lang} />
       <Services lang={lang} />
       <MuslimFriendly lang={lang} />
       <About lang={lang} />
