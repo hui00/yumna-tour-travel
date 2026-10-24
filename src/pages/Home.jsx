@@ -7,48 +7,39 @@ import Figure from '../components/Figure.jsx';
 import { images, site, ui, waLink } from '../data/site.js';
 import { BASE, serviceUrl } from '../lib/urls.js';
 
-function UnderwaterSection({ lang }) {
+function UnderwaterPreview({ lang }) {
   const t = lang === 'id' ? {
     videoTitle: 'Penyu dari dekat',
     play: 'Putar video',
     fallback: 'Unduh video',
-    heading: 'Jelajahi dunia bawah laut',
-    lead: 'Momen bersama penyu, dari dekat.',
     close: 'Tutup video',
   } : {
     videoTitle: 'A turtle up close',
     play: 'Play video',
     fallback: 'Download video',
-    heading: 'Discover life beneath the waves',
-    lead: 'A close-up moment with a sea turtle.',
     close: 'Close video',
   };
   const clip = 'turtle-close-up';
 
   return (
-    <section id="underwater" className="bg-sand-100 py-8 sm:py-10" aria-labelledby="underwater-heading">
-      <div className="wrap">
-        <div className="mx-auto max-w-xl">
-        <div className="mb-4">
-          <h2 id="underwater-heading" className="font-display text-xl font-semibold text-forest-900 sm:text-2xl">{t.heading}</h2>
-          <p className="mt-1 text-sm text-forest-800/70">{t.lead}</p>
-        </div>
+    <div id="underwater" className="border-t border-forest-900/10 bg-forest-50 p-4">
         <a
           href={`${BASE}videos/${clip}.mp4`}
           data-video-open="underwater-dialog"
           aria-label={`${t.play}: ${t.videoTitle}`}
-          className="group relative block h-44 overflow-hidden rounded-2xl bg-forest-800 sm:h-52"
+          className="group flex items-center gap-3 rounded-xl text-forest-900"
         >
-          <img src={`${BASE}videos/${clip}.jpg`} alt="" loading="lazy" width="540" height="960" className="h-full w-full object-cover object-[50%_55%]" />
-          <span className="absolute inset-0 bg-black/15 transition-colors group-hover:bg-black/25" />
-          <span className="absolute inset-0 flex items-center justify-center">
-            <span className="flex items-center gap-2 rounded-full bg-white px-4 py-3 text-sm font-semibold text-forest-900 shadow-lg transition-transform group-hover:scale-105 motion-reduce:transform-none">
-              <svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" /></svg>
-              {t.play}
+          <span className="relative h-14 w-20 shrink-0 overflow-hidden rounded-lg">
+            <img src={`${BASE}videos/${clip}.jpg`} alt="" loading="lazy" width="540" height="960" className="h-full w-full object-cover object-[50%_55%]" />
+            <span className="absolute inset-0 flex items-center justify-center bg-black/15">
+              <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7 rounded-full bg-white p-1 text-forest-900" aria-hidden="true"><path d="M8 5v14l11-7z" /></svg>
             </span>
           </span>
+          <span>
+            <span className="block text-sm font-semibold group-hover:underline">{t.play}</span>
+            <span className="block text-xs text-forest-800/70">{t.videoTitle}</span>
+          </span>
         </a>
-        </div>
         <dialog id="underwater-dialog" className="video-dialog" aria-label={t.videoTitle}>
           <form method="dialog" className="flex justify-end p-3">
             <button className="rounded-full px-4 py-2 text-sm font-semibold text-white hover:bg-white/10" autoFocus>{t.close} ×</button>
@@ -59,8 +50,7 @@ function UnderwaterSection({ lang }) {
           </video>
         </dialog>
         <script type="module" src={`${BASE}js/video-dialog.js`} />
-      </div>
-    </section>
+    </div>
   );
 }
 
@@ -187,8 +177,8 @@ function Services({ lang }) {
           {services.map((service) => {
             const c = service[lang];
             return (
-              <li key={service.slug}>
-                <a href={serviceUrl(lang, service.slug)} className="card group">
+              <li key={service.slug} className="card">
+                <a href={serviceUrl(lang, service.slug)} className="group flex flex-1 flex-col">
                   <Figure
                     image={images.services[service.slug]}
                     lang={lang}
@@ -209,6 +199,7 @@ function Services({ lang }) {
                     </span>
                   </div>
                 </a>
+                {service.slug === 'beach-hopping-water-sports' && <UnderwaterPreview lang={lang} />}
               </li>
             );
           })}
@@ -347,7 +338,6 @@ export default function Home({ lang }) {
       <Hero lang={lang} />
       <TrustBar lang={lang} />
       <Services lang={lang} />
-      <UnderwaterSection lang={lang} />
       <MuslimFriendly lang={lang} />
       <About lang={lang} />
       <Reviews lang={lang} />
