@@ -22,22 +22,19 @@ function UnderwaterPreview({ lang }) {
   const clip = 'turtle-close-up';
 
   return (
-    <div id="underwater" className="border-t border-forest-900/10 bg-forest-50 p-4">
+    <div id="underwater">
         <a
           href={`${BASE}videos/${clip}.mp4`}
           data-video-open="underwater-dialog"
           aria-label={`${t.play}: ${t.videoTitle}`}
-          className="group flex items-center gap-3 rounded-xl text-forest-900"
+          className="group relative block h-40 w-full overflow-hidden bg-forest-800"
         >
-          <span className="relative h-14 w-20 shrink-0 overflow-hidden rounded-lg">
-            <img src={`${BASE}videos/${clip}.jpg`} alt="" loading="lazy" width="540" height="960" className="h-full w-full object-cover object-[50%_55%]" />
-            <span className="absolute inset-0 flex items-center justify-center bg-black/15">
-              <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7 rounded-full bg-white p-1 text-forest-900" aria-hidden="true"><path d="M8 5v14l11-7z" /></svg>
+          <img src={`${BASE}videos/${clip}.jpg`} alt="" loading="lazy" width="540" height="960" className="h-full w-full object-cover object-[50%_55%]" />
+          <span className="absolute inset-0 flex items-center justify-center bg-black/15 transition-colors group-hover:bg-black/25">
+            <span className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-forest-900 shadow-sm">
+              <svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" /></svg>
+              {t.play}
             </span>
-          </span>
-          <span>
-            <span className="block text-sm font-semibold group-hover:underline">{t.play}</span>
-            <span className="block text-xs text-forest-800/70">{t.videoTitle}</span>
           </span>
         </a>
         <dialog id="underwater-dialog" className="video-dialog" aria-label={t.videoTitle}>
@@ -176,16 +173,18 @@ function Services({ lang }) {
         <ul className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => {
             const c = service[lang];
+            const hasVideo = service.slug === 'beach-hopping-water-sports';
             return (
               <li key={service.slug} className="card">
+                {hasVideo && <UnderwaterPreview lang={lang} />}
                 <a href={serviceUrl(lang, service.slug)} className="group flex flex-1 flex-col">
-                  <Figure
+                  {!hasVideo && <Figure
                     image={images.services[service.slug]}
                     lang={lang}
                     insideLink
                     className="h-40 w-full"
                     patternClass={service.order % 2 ? 'pattern-field' : 'pattern-field-3'}
-                  />
+                  />}
                   <div className="flex flex-1 flex-col p-6">
                     <h3 className="font-display text-lg font-semibold text-forest-900">
                       {c.name}
@@ -199,7 +198,6 @@ function Services({ lang }) {
                     </span>
                   </div>
                 </a>
-                {service.slug === 'beach-hopping-water-sports' && <UnderwaterPreview lang={lang} />}
               </li>
             );
           })}

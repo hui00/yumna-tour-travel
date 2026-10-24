@@ -2,8 +2,9 @@
  * Renders every page to a complete HTML file before Vite runs.
  *
  * React is used as a build-time template engine only: pages are rendered with
- * renderToStaticMarkup and shipped as static HTML with no client bundle. The
- * mobile menu is a <details> element, so the site needs no JavaScript at all.
+ * renderToStaticMarkup and shipped as static HTML without client-side React.
+ * The mobile menu uses <details>. Video dialogs are progressively enhanced
+ * by a small standalone script and fall back to direct MP4 links without JS.
  *
  * Output lands in `pages/`, which is Vite's root. Vite then processes the CSS
  * link in each file, hashes the asset and emits the same directory structure

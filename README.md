@@ -12,9 +12,11 @@ React is used as a build-time template engine only. `scripts/generate-html.mjs`
 renders every page with `renderToStaticMarkup` into `pages/`, and Vite then
 processes the CSS and emits the same directory structure into `dist/`.
 
-The result is plain static HTML with **no client-side JavaScript at all** — the
-mobile menu is a `<details>` element. Every page is a real file returning HTTP
-200 with its own title, meta description and `hreflang` links.
+The result is plain static HTML with no client-side React. The mobile menu is a
+`<details>` element. A small progressive-enhancement script opens the water-sports
+video in a native dialog, with a direct MP4 link as the no-JavaScript fallback.
+Every page is a real file returning HTTP 200 with its own title, meta description
+and `hreflang` links.
 
 - `src/data/services.js` — the ten services, English and Indonesian. One page
   per service per language.
