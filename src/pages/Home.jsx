@@ -10,34 +10,39 @@ import { BASE, serviceUrl } from '../lib/urls.js';
 function UnderwaterVideos({ lang }) {
   const t = lang === 'id' ? {
     eyebrow: 'Di bawah permukaan',
-    title: 'Intip kehidupan bawah laut.',
-    lead: 'Ikan tropis, terumbu karang, dan penyu laut. Putar video untuk melihat momen snorkeling dari dekat.',
-    titles: ['Di antara ikan tropis', 'Berenang bersama penyu', 'Penyu dari dekat'],
+    title: 'Temui dunia di bawah ombak.',
+    lead: 'Luangkan waktu untuk melihat lebih dekat. Putar video dan nikmati momen bersama penyu di bawah permukaan laut.',
+    videoTitle: 'Penyu dari dekat',
     play: 'Putar video',
     fallback: 'Unduh video',
     cta: 'Jelajahi pantai & aktivitas air',
   } : {
     eyebrow: 'Beneath the surface',
-    title: 'A glimpse of life underwater.',
-    lead: 'Tropical fish, coral reefs, and sea turtles. Press play for a closer look at these snorkeling moments.',
-    titles: ['Among tropical fish', 'Swimming with a sea turtle', 'A turtle up close'],
+    title: 'A quiet moment beneath the waves.',
+    lead: 'Slow down and look a little closer. Press play for a face-to-face glimpse of a sea turtle in its underwater world.',
+    videoTitle: 'A turtle up close',
     play: 'Play video',
     fallback: 'Download video',
     cta: 'Explore beaches & water activities',
   };
-  const clips = ['reef-fish', 'turtle-swim', 'turtle-close-up'];
+  const clip = 'turtle-close-up';
 
   return (
-    <section className="section bg-forest-50" id="underwater" aria-labelledby="underwater-title">
+    <section className="section" id="underwater" aria-labelledby="underwater-title">
       <div className="wrap">
-        <span className="eyebrow">{t.eyebrow}</span>
-        <h2 id="underwater-title" className="font-display text-3xl font-semibold text-forest-900 sm:text-4xl">
-          {t.title}
-        </h2>
-        <p className="mt-4 max-w-prose text-forest-800/80">{t.lead}</p>
-        <div className="mt-10 grid gap-6 sm:grid-cols-3">
-          {clips.map((clip, index) => (
-            <figure key={clip} className="overflow-hidden rounded-3xl border border-forest-900/10 bg-white">
+        <div className="grid items-center overflow-hidden rounded-4xl bg-forest-900 text-sand-50 md:grid-cols-[1.2fr_0.8fr]">
+          <div className="px-7 py-10 sm:p-12 lg:p-16">
+            <span className="mb-4 inline-block text-xs font-semibold uppercase tracking-[0.18em] text-sand-200">{t.eyebrow}</span>
+            <h2 id="underwater-title" className="max-w-md font-display text-4xl font-semibold leading-tight sm:text-5xl">
+              {t.title}
+            </h2>
+            <p className="mt-6 max-w-sm leading-relaxed text-sand-100/80">{t.lead}</p>
+            <a href={serviceUrl(lang, 'beach-hopping-water-sports')} className="btn mt-8 bg-sand-100 text-forest-900 hover:bg-white">
+              {t.cta}
+              <ArrowIcon />
+            </a>
+          </div>
+            <figure className="mx-auto w-full max-w-sm md:max-w-none">
               <video
                 controls
                 playsInline
@@ -45,22 +50,17 @@ function UnderwaterVideos({ lang }) {
                 width="540"
                 height="960"
                 poster={`${BASE}videos/${clip}.jpg`}
-                aria-label={`${t.play}: ${t.titles[index]}`}
+                aria-label={`${t.play}: ${t.videoTitle}`}
                 className="aspect-[9/16] w-full bg-forest-900 object-contain"
               >
                 <source src={`${BASE}videos/${clip}.mp4`} type="video/mp4" />
-                <a href={`${BASE}videos/${clip}.mp4`}>{t.fallback}: {t.titles[index]}</a>
+                <a href={`${BASE}videos/${clip}.mp4`}>{t.fallback}: {t.videoTitle}</a>
               </video>
-              <figcaption className="px-5 py-4 font-display text-lg font-semibold text-forest-900">
-                {t.titles[index]}
+              <figcaption className="px-5 py-3 text-sm text-sand-100/80">
+                {t.videoTitle}
               </figcaption>
             </figure>
-          ))}
         </div>
-        <a href={serviceUrl(lang, 'beach-hopping-water-sports')} className="btn-secondary mt-8">
-          {t.cta}
-          <ArrowIcon />
-        </a>
       </div>
     </section>
   );
