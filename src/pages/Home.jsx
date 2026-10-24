@@ -26,27 +26,29 @@ function UnderwaterSection({ lang }) {
   const clip = 'turtle-close-up';
 
   return (
-    <section id="underwater" className="section bg-sand-100" aria-labelledby="underwater-heading">
+    <section id="underwater" className="bg-sand-100 py-8 sm:py-10" aria-labelledby="underwater-heading">
       <div className="wrap">
-        <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
-          <h2 id="underwater-heading" className="max-w-xl font-display text-3xl font-semibold text-forest-900 sm:text-4xl">{t.heading}</h2>
-          <p className="text-sm text-forest-800/70">{t.lead}</p>
+        <div className="mx-auto max-w-xl">
+        <div className="mb-4">
+          <h2 id="underwater-heading" className="font-display text-xl font-semibold text-forest-900 sm:text-2xl">{t.heading}</h2>
+          <p className="mt-1 text-sm text-forest-800/70">{t.lead}</p>
         </div>
         <a
           href={`${BASE}videos/${clip}.mp4`}
           data-video-open="underwater-dialog"
           aria-label={`${t.play}: ${t.videoTitle}`}
-          className="group relative block aspect-[4/3] overflow-hidden rounded-3xl bg-forest-800 sm:aspect-[16/7]"
+          className="group relative block h-44 overflow-hidden rounded-2xl bg-forest-800 sm:h-52"
         >
           <img src={`${BASE}videos/${clip}.jpg`} alt="" loading="lazy" width="540" height="960" className="h-full w-full object-cover object-[50%_55%]" />
           <span className="absolute inset-0 bg-black/15 transition-colors group-hover:bg-black/25" />
           <span className="absolute inset-0 flex items-center justify-center">
-            <span className="flex items-center gap-3 rounded-full bg-white px-6 py-4 text-sm font-semibold text-forest-900 shadow-lg transition-transform group-hover:scale-105 motion-reduce:transform-none">
+            <span className="flex items-center gap-2 rounded-full bg-white px-4 py-3 text-sm font-semibold text-forest-900 shadow-lg transition-transform group-hover:scale-105 motion-reduce:transform-none">
               <svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5" aria-hidden="true"><path d="M8 5v14l11-7z" /></svg>
               {t.play}
             </span>
           </span>
         </a>
+        </div>
         <dialog id="underwater-dialog" className="video-dialog" aria-label={t.videoTitle}>
           <form method="dialog" className="flex justify-end p-3">
             <button className="rounded-full px-4 py-2 text-sm font-semibold text-white hover:bg-white/10" autoFocus>{t.close} ×</button>
