@@ -7,20 +7,32 @@ import Figure from '../components/Figure.jsx';
 import { images, site, ui, waLink } from '../data/site.js';
 import { BASE, serviceUrl } from '../lib/urls.js';
 
-function HeroVideo({ lang }) {
+function UnderwaterSection({ lang }) {
   const t = lang === 'id' ? {
     videoTitle: 'Penyu dari dekat',
     play: 'Putar video',
     fallback: 'Unduh video',
+    heading: 'Jelajahi dunia bawah laut',
+    lead: 'Momen bersama penyu, dari dekat.',
   } : {
     videoTitle: 'A turtle up close',
     play: 'Play video',
     fallback: 'Download video',
+    heading: 'Discover life beneath the waves',
+    lead: 'A close-up moment with a sea turtle.',
   };
   const clip = 'turtle-close-up';
 
   return (
-    <div id="underwater" className="mx-auto w-full max-w-sm overflow-hidden rounded-4xl border border-forest-900/10 bg-forest-900 shadow-xl shadow-forest-900/10">
+    <section id="underwater" className="section bg-forest-900 text-sand-50" aria-labelledby="underwater-heading">
+      <div className="wrap">
+        <div className="mx-auto max-w-2xl text-center">
+          <h2 id="underwater-heading" className="font-display text-3xl font-semibold sm:text-4xl">{t.heading}</h2>
+          <p className="mt-4 text-sand-100/75">{t.lead}</p>
+        </div>
+        <div className="relative mt-10 overflow-hidden rounded-3xl border border-white/10 bg-black/20">
+          <img src={`${BASE}videos/${clip}.jpg`} alt="" aria-hidden="true" loading="lazy" className="pointer-events-none absolute inset-0 h-full w-full scale-110 object-cover opacity-25 blur-2xl" />
+          <div className="relative mx-auto w-full max-w-xs sm:max-w-sm">
               <video
                 controls
                 playsInline
@@ -34,7 +46,10 @@ function HeroVideo({ lang }) {
                 <source src={`${BASE}videos/${clip}.mp4`} type="video/mp4" />
                 <a href={`${BASE}videos/${clip}.mp4`}>{t.fallback}: {t.videoTitle}</a>
               </video>
-    </div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
 
@@ -76,7 +91,13 @@ function Hero({ lang }) {
           </div>
         </div>
 
-        <HeroVideo lang={lang} />
+        <Figure
+          image={images.hero}
+          lang={lang}
+          priority
+          className="aspect-[4/3] w-full rounded-4xl border border-forest-900/10 lg:aspect-square"
+          patternClass="pattern-field-2"
+        />
       </div>
     </section>
   );
@@ -315,6 +336,7 @@ export default function Home({ lang }) {
       <Hero lang={lang} />
       <TrustBar lang={lang} />
       <Services lang={lang} />
+      <UnderwaterSection lang={lang} />
       <MuslimFriendly lang={lang} />
       <About lang={lang} />
       <Reviews lang={lang} />
